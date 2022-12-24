@@ -27,7 +27,7 @@ So, is this it? Well this is a very naive model of the prediction, but a good st
 1. The model is already assuming there will be three children. The correct probability statement of the model above should be "Given there are three children, what is the probability that all three would be girls".
 2. We are missing a great deal of other various independent information that can influence the model of starting a family from scratch. As you can imagine, a mny biologicial/environmental/family events have to "go right" to have a baby.
 
-## Calculating the Probability of Three Daughters - Part 2 - Including Independent Environment Events
+## Calculating the Probability of Three Daughters - Part 2 - Improved Model with Many Independent Environment Events
 It turns out the model that we calculated above is quite simple, actually overly optimistic and frankly not quite correct. While it is "roughly true" the probability of a baby daughter is roughly 1/2 (50%), life is much more complex. There is much more information to be added. Going back to my mom's prediction of having a family of three daughters, we should consider the probability (chance) of:
 - What if my wife or myself couldn't have kids?
 - What if we had one baby, and had "enough" or couldn't handle more than one baby?
@@ -40,6 +40,12 @@ There are almost infinite scenarios to list! This is where the process of **craf
 - More importantly, which of these events are independent? Which ones can we use in our model applying the earlier introduced "the statistical multiplication rule"?
 
 Some of these events are more likely to happen on average (i.e, a divorce, infertility) versus an asteroid/comet impact. All of these events do have a non-zero (>0%) probability of happening even if the probability is super low. The good news is that many of these events have been studied, include many years of empirical data and can simply be looked up. For example, scientists claim an asteroid/comet hitting Earth causing catastrophic impact in a given year is 1 in 300,000 (or 0.0003%). Stating it another way: a 299,999 in 300,000 (or 99.9967%) chance of an asteroid/comet NOT having catastrophic impact in a given year. However, a lot of these event probably shouldn't be taken into consideration into our "statistical family model of three daughters". It is generally accepted to exclude inprobable events from models (i.e, large asteroid/comet hitting Earth) as they do not change the overall "spirit" of the model nor do they change the overall pobability meaningfully. Excluding these events does potentially leave our statistical model susceptible not able to predict "black swan" events. For example, how many business/sales/inventory supply chain/stock market forecasts predicted a global pandemic (black swan event) in 2020? As it turned out, not many at all.
+
+Adding many independent events adds complexity to our model. The main issue with adding a great deal of independent events is that in pragmatic reality almost no events are truly independent. There is inter-dependence and dependence on multiple events together. For example, the probability of divorce can be influenced if one partner in the relationship can't have children or if one partner can't keep a job. These events can't simply be looked up without proper due dilligence and understanding the studies associated context.
+
+What does our model architecture look like now? Well the picture below displays the structure. The foundation is still the calculation: of the probability of having three daughters (given a family of three kids) multiplied by our selected set of independent events. As you can see from the diagram below, the statistical model has now become a huge hodgepodge of subjectively selected independent events.
+
+
 
 ## Why my Mom didn't Predict Supernatural Existence
 If this had been set up a frequentist inference hypothesis experiment, then one could conclude something called **statistical significance**. This is because my mom's prediction was so unlikely, it was under a commonly used statistical threshold (5%). Basically, because my mom's Not going into detail, but statistical significance does not mean practical/environment significance. While this experiment could be looked at very highly unlikely to happen just by chance, we cannot claim anything about the environment, 
