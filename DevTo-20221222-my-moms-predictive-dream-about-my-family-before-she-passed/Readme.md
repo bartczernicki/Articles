@@ -1,12 +1,12 @@
 
 ![Calculate Probability - Header](https://raw.githubusercontent.com/bartczernicki/Articles/main/DevTo-20221222-my-moms-predictive-dream-about-my-family-before-she-passed/CalculatingProbability-Header.webp)
 
-In 2017, a few months before my mom passed away, my mom had a dream that in the near future my wife and I would have a family consisting of three daughters. I thought this dream prediction an interesting study on "predictive life events", so I decided to write about it and synthesize this with some math & statistical modeling.
+In 2017, a few months before my mom passed away, my mom had a dream that in the future my wife and I would have a family consisting of three daughters. I thought this dream prediction an interesting study on "predictive life events", so I decided to write about it and synthesize this with some math & statistical modeling.
 
 In this article, I will cover:
 - How to craft simple statistical models using basic statistical rules, to quantify (put math labels on) life events that you may think are hard to measure. You will see how easily these models can be crafted (even in your head!) and applied to forecasts, predictions and future decision making
 - You don't need Artificial Intelligence, Machine Learning, Neural Nets for everything; old-school statistical foundations still apply to a lot of use cases
-- Creating statistical models is an exercise in knowledge about the environment. Secondly, it is almost an "art" as much it is about the math and statistcis
+- Creating statistical models is an exercise in knowledge about the environment. Secondly, it is almost an "art" as much it is about the math and statistics
 - How "predictive" my mom's dream forecast actually was and what causal conclusions we can draw from these types of life events. For example, does the "supernatural" exist?
 
 ## Background Story
@@ -17,23 +17,23 @@ Going back several years to one day in early 2017; I received a call from my par
 
 Let's tackle the first question. How strange was my mom's predictive dream? Can we put a number on it and in effect measure the probability of my mom being correct? Therefore, what is the probability for having a family of three daughters? In order to calculate this, we can utilize one of the foundational rules of statistics: **"The Statistical Multiplication Rule"**. The statistical multiplication rule, also known as the "rule of product," is a principle in probability that helps to calculate the probability of several events occurring together. It states that the probability of several independent events occurring simultaneously is the product of the probabilities of each event occurring individually.
 
-For example, consider the probability of rolling a 4 on a six-sided die and flipping a coin that lands on heads. The probability of rolling a 4 is 1/6 (one of the six sides of the dice), and the probability of flipping a coin to show heads is 1/2. Using the statistical multiplication rule, the calculated probability of both of these events occurring together is 1/6 x 1/2 = 1/12 (8.3%). Simple, right? The statistical multiplication rule can be used to calculate the probability of complex events that are composed of multiple independent events. 
+For example, consider the probability of rolling a "4" on a six-sided die and flipping a coin that lands on heads. The probability of rolling a 4 is 1/6 (one of the six sides of the dice) and the probability of flipping a coin to show heads is 1/2 (50%). Using the statistical multiplication rule, the calculated probability of both of these events occurring together is 1/6 x 1/2 = 1/12 (8.3%). Simple, right? The statistical multiplication rule can be used to calculate the probability of complex events that are composed of multiple independent events. 
 ![Calculate Probability](https://raw.githubusercontent.com/bartczernicki/Articles/main/DevTo-20221222-my-moms-predictive-dream-about-my-family-before-she-passed/CalculateProbability-DiceCoin.png)
 
-Using this multiplication rule, we can apply this concept to my mom's dream predicting three daughters to calculate a numeric probability. To keep it simple, let's assume the probability of having a baby daughter [P(Baby Daughter)] is 1/2 or 50%. Furthermore, let's assume having each specific baby gender is an independent event, which means having a prior daughter has no impact on the gender of the future baby. This means that the total probability of having three daughters can simply be calculated by multiplying the probability of having a daughter three times. This equates to 1/2 * 1/2 * 1/2 = 1/8 (or 12.5%).
+Using this multiplication rule, we can apply this concept to my mom's dream predicting three daughters to calculate a numeric probability. To keep it simple, let's assume the probability of having a baby daughter [P(Baby Daughter)] is 1/2 (50%). Furthermore, let's assume having each specific baby gender is an independent event, which means having a prior daughter has no impact on the gender of the future baby. This means that the total probability of having three daughters can simply be calculated by multiplying the independent probability of having a daughter three times. This equates to 1/2 * 1/2 * 1/2 = 1/8 (or 12.5%).
 ![Calculate Probability Daughters](https://raw.githubusercontent.com/bartczernicki/Articles/main/DevTo-20221222-my-moms-predictive-dream-about-my-family-before-she-passed/CalculateProbability-Daughters.png)
 
 So, is this it? Well this is a very naive model of the prediction, but a good start. There are several key problems with this simple model, but to highlight a couple issues:
 1. The model is already assuming there will be three children. The correct probability statement of the model above should be "Given there are three children, what is the probability that all three would be girls".
-2. We are missing a great deal of other various independent information that can influence the model of starting a family from scratch. As you can imagine, a lot of things have to "go right" to have a baby.
+2. We are missing a great deal of other various independent information that can influence the model of starting a family from scratch. As you can imagine, a mny biologicial/environmental/family events have to "go right" to have a baby.
 
 ## Calculating the Probability of Three Daughters - Part 2
-It turns out the model that we calculated above is quite simple and actually overly optimistic and frankly not quite correct. While it is "roughly true" the probability of a baby daughter is roughly 1/2 (50%), life is much more complex. There is much more information to be added. Going back to my mom's prediction of having a family of three daughters, we consider the probability (chance) of:
+It turns out the model that we calculated above is quite simple, actually overly optimistic and frankly not quite correct. While it is "roughly true" the probability of a baby daughter is roughly 1/2 (50%), life is much more complex. There is much more information to be added. Going back to my mom's prediction of having a family of three daughters, we should consider the probability (chance) of:
 - What if my wife or myself couldn't have kids?
-- What if we had one baby, and said "stop" after one?
-- What if our marriage failed (before or during the family process)?
-- What if one of us lost our job and we decided that 1 or 2 kids was enough?
-- Going more out of the box..What if WW3 started, an asteroid was going to destroy the planet or the universe abruptly ends?
+- What if we had one baby, and had "enough" or couldn't handle more than one baby?
+- What if our marriage failed (before or during the family process) and ended in divorce?
+- What if one of us lost our job and we couldn't afford more children?
+- Going more out of the box...What if WW3 started, an asteroid was going to destroy the planet or the universe abruptly ends?
 
 There are almost infinite scenarios to list! Some of these are more likely to happen on average (i.e, a divorce) versus an asteroid/comet impact. All of these events do have a non-zero (>0%) probability of happening even if the probability is super low.  However, a lot of these event probably shouldn't be taken into consideration into our "family model of three daughters". It would leave our statistical model susceptible not able to predict "black swan" events, but this is relatively standard. For example, how many business/sales/inventory supply chain/stock market forecasts predicted a global pandemic (black swan event) in 2020...not very many!
 
