@@ -57,4 +57,5 @@ John Allen Paulos is a mathematician and author who has written about the role o
 
 <p align="center" width="100%">
     <img src="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71MB0lkirGL.jpg" width="200"/>
+    Highly recommended book, for understanding howto craft simple statistical models.<br>
 </p>
