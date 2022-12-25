@@ -59,3 +59,5 @@ John Allen Paulos is a mathematician and author who has written about the role o
     Highly recommended book, for understanding howto craft simple statistical models.<br>
     <img src="https://m.media-amazon.com/images/W/WEBP_402378-T2/images/I/71MB0lkirGL.jpg" width="200"/>
 </p>
+
+In his book _"Innumeracy"_, Paulos derives a simple statistical model for predictive dreams showing that they are potentially not as rare as people assume. He estimates that on a given night, the probability of a dream having some predictive nature just by random chance is 1/10,000 (0.01%). Highly unlikely, right? However, during the course of a year you have 365 chances to have a 0.01% of a dream (365 * 0.01%) = 3.65%. Therefore, Paulos claims that in a given year a random human has a 3.65% chance of having at least one predictive dream. Still a pretty low chance. Now consider this probability over multiple years, all the people you know or all the people in the USA and the probability of a predictive dream actually becomes quite likely. 
