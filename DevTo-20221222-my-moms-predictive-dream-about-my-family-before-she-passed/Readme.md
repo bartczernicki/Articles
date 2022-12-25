@@ -1,4 +1,14 @@
-
+<style>
+img
+{
+    display:block; 
+    float:none; 
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+}
+</style> 
+    
 ![Calculate Probability - Header](https://raw.githubusercontent.com/bartczernicki/Articles/main/DevTo-20221222-my-moms-predictive-dream-about-my-family-before-she-passed/CalculatingProbability-Header.webp)
 
 In 2017, a few months before my mom passed away, my mom had a dream that in the future my wife and I would have a family consisting of three daughters. I thought this dream prediction an interesting study on "predictive life events", so I decided to write about it and synthesize this with some math & statistical modeling.
