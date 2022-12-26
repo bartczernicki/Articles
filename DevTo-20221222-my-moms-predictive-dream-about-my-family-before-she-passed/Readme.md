@@ -42,7 +42,7 @@ Some of these events are more likely to happen on average (i.e, a divorce, infer
 
 What does our model architecture look like now? The picture below displays the overall structure. The foundation is still the calculation of the probability of having three daughters (given a family of three kids) multiplied by our selected set of independent events. As you can see from the diagram below, the statistical model has now become a huge hodgepodge of subjectively selected independent events. The simple statistical model now has become quite complex.
 
-[[[Insert Pic]]]
+![Calculate Probability Daughters & Events](https://raw.githubusercontent.com/bartczernicki/Articles/main/DevTo-20221222-my-moms-predictive-dream-about-my-family-before-she-passed/CalculateProbability-DaughtersAndSelectedIndependentEvents.png)
 
 ## Calculating the Family Probability of Three Daughters - Part 3 - Consolidate Information
 
