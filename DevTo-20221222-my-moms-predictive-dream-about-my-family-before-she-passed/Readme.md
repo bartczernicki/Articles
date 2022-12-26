@@ -52,7 +52,7 @@ As you can see, adding many independent events adds inherent complexity to our m
 
 These events can't simply be implemented without proper due dilligence and understanding the studies associated context.
 
-[[[[Insert pic]]]
+![Calculate Probability Daughters & Census Info](https://raw.githubusercontent.com/bartczernicki/Articles/main/DevTo-20221222-my-moms-predictive-dream-about-my-family-before-she-passed/CalculateProbability-DaughtersAndCensusInfo.png)
 
 ## Why my Mom didn't Predict Supernatural Existence - Or did She?
 If this had been set up as a proper frequentist inference hypothesis experiment, then one could conclude something called **statistical significance**. This is because my mom's predictive dream was so unlikely to happen by chance and it was under a commonly used statistical threshold (5%). The terrm **statistical significance** sounds impressive linguisistically, but in reality it does not allow us to claim anything about the environment nor does it prove things like the afterlife or supernatural exiteance. You also probably have heard the term "correlation does not imply causation". While, we did not perform a correlation exercise with this statitical model the same spirit applies. So, how does one interpret or use a statistical model? In this case, we can use our model we created to say "is this weird" and if so, we should investigate further. Based on the model probability, in my opinion we can claim that this predictive dream was highly unlikely due to chance and we should investiage further. Let's investigate further.
