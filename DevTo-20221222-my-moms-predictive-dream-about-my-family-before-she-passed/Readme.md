@@ -44,11 +44,13 @@ What does our model architecture look like now? The picture below displays the o
 
 ![Calculate Probability Daughters & Events](https://raw.githubusercontent.com/bartczernicki/Articles/main/DevTo-20221222-my-moms-predictive-dream-about-my-family-before-she-passed/CalculateProbability-DaughtersAndSelectedIndependentEvents.png)
 
-The model structure above is meant to be more instructive in nature. One could argue, we could have added various more probobalistic events that have high impact potential on having all three daughters such as: chance of getting a serious disease, chance of a serious accident, chance of having a special needs baby etc.
+The model structure above is meant to be more instructive in nature. An external observer could argue I could have added various more probobalistic events that have high impact potential on having all three daughters such as: chance of getting a serious disease, chance of a serious accident, chance of having a special needs baby etc. In the next section, we will see if we do "better".
 
 ## Calculating the Family Probability of Three Daughters - Part 3 - Consolidate Information
 
-As you can see, adding many independent events adds inherent complexity to our model. The main issue with adding a great deal of independent events is that in pragmatic reality almost no events are truly independent. There is inter-dependence and dependence on multiple events together. For example, the probability of divorce can be influenced if one partner in the relationship can't have children or if one partner can't keep a job. These events can't simply be implemented without proper due dilligence and understanding the studies associated context.
+As you can see, adding many independent events adds inherent complexity to our model. As mentioned in the previous section, which events are added to the model is directly influenced by the statistician in charge. This could greatly effect the predictive power of the statistical model. The second key issue with adding a great deal of independent events is that in pragmatic reality almost no events are truly independent. There is inter-dependence and dependence on multiple events together. For example, the probability of divorce can be potentially be influenced if one partner in the relationship can't have children or if one partner can't keep a job. Some partners simply won't stick around through tough times. Another example; what if someone falls seriously ill causing them to lose their job, lose their fertility or lose their partner. This is why a great deal of these events are called "naively" independent in the real world.
+
+These events can't simply be implemented without proper due dilligence and understanding the studies associated context.
 
 [[[[Insert pic]]]
 
