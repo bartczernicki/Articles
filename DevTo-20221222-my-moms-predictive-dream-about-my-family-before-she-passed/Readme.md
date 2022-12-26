@@ -26,7 +26,7 @@ So, is this it? Well this is a very naive model of the prediction, but a good st
 1. The model is already assuming there will be three children. The correct probability statement of the model above should be "Given there are three children, what is the probability that all three would be girls".
 2. We are missing a great deal of other various independent information that can influence the model of starting a family from scratch. As you can imagine, a mny biologicial/environmental/family events have to "go right" to have a baby.
 
-## Calculating the family Probability of Three Daughters - Part 2 - Improved Model with Many Independent Environment Events
+## Calculating the family Probability of Three Daughters - Part 2 - Improved Model with Selected Independent Events
 It turns out the model that we calculated above is quite simple, actually overly optimistic and frankly not quite correct. While it is "roughly true" the probability of a baby daughter is roughly 1/2 (50%), life is much more complex. There is much more information to be added. Going back to my mom's prediction of having a family of three daughters, we should consider the probability (chance) of:
 - What if my wife or myself couldn't have kids?
 - What if we had one baby, and had "enough" or couldn't handle more than one baby?
