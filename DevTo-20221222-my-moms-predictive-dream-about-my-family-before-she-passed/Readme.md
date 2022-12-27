@@ -3,10 +3,10 @@
 In 2017, a few months before my mom passed away, my mom had a dream that in the future my wife and I would have a family consisting of three daughters. I thought this dream prediction an interesting study on "predictive life events", so I decided to write about it and synthesize this with some math & statistical modeling.
 
 In this article, I will cover:
-- How to craft simple statistical models using basic statistical rules, to quantify (put math labels on) life events that you may think are hard to measure. You will see how easily these models can be crafted (even in your head!) and applied to forecasts, predictions and future decision making
-- You don't need Artificial Intelligence, Machine Learning, Neural Nets for everything; old-school statistical foundations still apply to a lot of use cases
-- Creating statistical models is an exercise in knowledge about the environment. Secondly, it is almost an "art" as much it is about the math and statistics
-- How "predictive" my mom's dream forecast actually was and what causal conclusions we can draw from these types of life events. For example, does the "supernatural" exist?
+- Most people think that measuring the environment is hard or don't know where to start. I plan to show the reader how to craft simple statistical models using basic statistical rules to quantify (put math labels on) life events. You will see how easily these models can be crafted (even in your head!) and applied to forecasts, predictions and future decision making
+- That one doesn't need sophisticated Artificial Intelligence, Machine Learning, Neural Nets for performing accurate forecasts; classic "old school" statistical foundations still apply to a lot of use cases
+- Creating statistical models is an exercise in extracting knowledge and information about the environment. Secondly, one will see that predictive modeling is almost an "art" as much it is about the math and statistics
+- How "predictive" my mom's dream forecast actually was and what causal conclusions we can draw from these types of life events. For example, does the "supernatural" exist? Did my mom predict the afterlife?
 
 ## Background Story
 
