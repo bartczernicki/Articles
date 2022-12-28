@@ -80,6 +80,6 @@ These predictive dream probabilities become highly un-impressive by the law of l
 - Finally, most predictive dreams have little substantiative detail and are loosely interpreted as predictive. A great example is Nostradamus, astrology or a fortune cookie where the details are quite squishy and could apply to many things in one's life
 
 ## Footnotes
-[^1] Birth rates for male to female are skewed to male across the world. On average 51%+ of new baby births are male: https://ourworldindata.org/sex-ratio-at-birth 
-[^2] Conditional Probability foundations: https://www.investopedia.com/terms/c/conditional_probability.asp  
-[^3] US Census America's Families and Living Arrangements: https://www.census.gov/data/tables/2022/demo/families/cps-2022.html  
+[^1]: Birth rates for male to female are skewed to male across the world. On average 51%+ of new baby births are male: https://ourworldindata.org/sex-ratio-at-birth 
+[^2]: Conditional Probability foundations: https://www.investopedia.com/terms/c/conditional_probability.asp  
+[^3]: US Census America's Families and Living Arrangements: https://www.census.gov/data/tables/2022/demo/families/cps-2022.html  
