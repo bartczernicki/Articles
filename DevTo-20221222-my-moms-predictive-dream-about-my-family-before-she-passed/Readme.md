@@ -83,5 +83,5 @@ These predictive dream probabilities become highly un-impressive by the law of l
 
 ## Footnotes
 [^1]: Birth rates for male to female are skewed to male across the world. On average 51%+ of new baby births are male: https://ourworldindata.org/sex-ratio-at-birth 
-[^2]: Conditional Probability foundations: <a href="https://www.investopedia.com/terms/c/conditional_probability.asp" target="_blank">https://www.investopedia.com/terms/c/conditional_probability.asp</a>   
+[^2]: Conditional Probability foundations: https://www.investopedia.com/terms/c/conditional_probability.asp
 [^3]: US Census America's Families and Living Arrangements: https://www.census.gov/data/tables/2022/demo/families/cps-2022.html  
