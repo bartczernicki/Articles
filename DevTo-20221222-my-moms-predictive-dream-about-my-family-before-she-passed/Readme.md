@@ -50,7 +50,7 @@ The model structure above is meant to be more instructive in nature. An external
 
 Clearly adding many independent events adds inherent complexity to the statistical model. As mentioned earlier, which actual events are added to the model is directly influenced by the statistician in charge. This could greatly effect the predictive power of the statistical model. The second key issue with adding a great deal of independent events is that in pragmatic reality almost no events are truly independent. There is inter-dependence and dependence on multiple events together. For example, the probability of divorce can be influenced if one partner in the relationship can't have children or if one partner can't keep a job. Basically, some partners simply won't stick around through tough times. Another example; what if someone falls seriously ill causing them to lose their job, lose their fertility or lose their partner thus not being able to ever achieve habing 3 children. This is why a great deal of these events are called "naively" independent in the real world.
 
-These events can't simply be implemented without proper due dilligence and understanding the studies associated context.
+These events can't simply be implemented without proper due dilligence and understanding the studies associated context.[^3]
 
 ![Calculate Probability Daughters & Census Info](https://raw.githubusercontent.com/bartczernicki/Articles/main/DevTo-20221222-my-moms-predictive-dream-about-my-family-before-she-passed/CalculateProbability-DaughtersAndCensusInfo.png)
 
