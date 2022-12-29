@@ -26,7 +26,7 @@ Using this multiplication rule, we can apply this concept to my mom's dream pred
 ![Calculate Probability Daughters](https://raw.githubusercontent.com/bartczernicki/Articles/main/DevTo-20221222-my-moms-predictive-dream-about-my-family-before-she-passed/CalculateProbability-Daughters.png)
 
 So, is this it? Well this is a very naive model of the prediction, but a good start. There are several key problems with this simple model, but to highlight a couple issues:
-1. The model is already assuming there will be three children. The correct probability statement of the model above should be "Given there are three children, what is the probability that all three would be girls". This is called a conditional probability [^4], as the probability is "conditioned" on the given event occuring.
+1. The model is already assuming there will be three children. The correct probability statement of the model above should be "Given there are three children, what is the probability that all three would be girls". This is called a conditional probability[^4], as the probability is "conditioned" on the given event occuring.
 2. We are missing a great deal of other various independent information that can influence the model of starting a family from scratch. As you can imagine, a mny biologicial/environmental/family events have to "go right" to have a baby.
 
 ## Calculating the family Probability of Three Daughters - Part 2 - Improved Model with Selected Independent Events
