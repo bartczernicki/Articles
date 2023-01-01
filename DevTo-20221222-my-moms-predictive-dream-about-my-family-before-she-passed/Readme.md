@@ -94,6 +94,6 @@ These predictive dream probabilities become highly un-impressive by the law of l
 [^3]: Birth rates for male to female are skewed to male across the world. On average 51%+ of new baby births are male: https://ourworldindata.org/sex-ratio-at-birth 
 [^4]: Conditional Probability foundations: https://www.investopedia.com/terms/c/conditional_probability.asp
 [^5]: Chance of catastrophic impact from asteroid or comet: https://stardate.org/astro-guide/faqs/what-chance-earth-being-hit-comet-or-asteroid 
-[^6]: Lucid fallacy information and examples: https://en.wikipedia.org/wiki/Ludic_fallacy 
+[^6]: Lucid fallacy (Explanation & Examples): https://en.wikipedia.org/wiki/Ludic_fallacy 
 [^7]: US Census America's Families and Living Arrangements: https://www.census.gov/data/tables/2022/demo/families/cps-2022.html  
 [^8]: Statistical Significance Overview: https://www.investopedia.com/terms/s/statistical-significance.asp  
