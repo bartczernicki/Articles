@@ -21,23 +21,23 @@ Let's tackle the first question. How strange was my mom's predictive dream? Can 
 For example, consider the probability of rolling a "4" on a six-sided die and flipping a coin that lands on heads. The probability of rolling a 4 is 1/6 (one of the six sides of the dice) and the probability of flipping a coin to show heads is 1/2 (50%). Using the statistical multiplication rule, the calculated probability of both events occurring together is 1/6 x 1/2 = 1/12 (8.3%). Simple, right? The statistical multiplication rule can be used to calculate the probability of complex events that are composed of multiple independent events. 
 ![Calculate Probability](https://raw.githubusercontent.com/bartczernicki/Articles/main/DevTo-20221222-my-moms-predictive-dream-about-my-family-before-she-passed/CalculateProbability-DiceCoin.png)
 
-The multiplication rule can be applied to my mom's predictive dream of three daughters and assign a numeric probability. Based on global birth data, the actual probability of having a baby daughter is less than 49%[^3]. To keep it simple, assume the probability of having a baby daughter [P(Baby Daughter)] is 1/2 (50%). Furthermore, assume having each specific baby gender is an independent event, which means having a prior daughter has no impact on the gender of the future baby. This means that the total probability of having three daughters can simply be calculated by multiplying the independent probability of having a daughter three times. This equates to 1/2 * 1/2 * 1/2 = 1/8 (or 12.5%).
+The multiplication rule can be applied to my mom's predictive dream of three daughters to assign a numeric probability. Based on global birth data, the actual probability of having a daughter is less than 49%[^3]. To keep it simple, assume the probability of having a daughter [P(Daughter)] is 1/2 (50%). Furthermore, assume having each specific baby gender is an independent event, which means having a prior daughter has no impact on the gender of the future baby. This means that the total probability of having three daughters can simply be calculated by multiplying the independent probability of having a daughter three times. This equates to 1/2 * 1/2 * 1/2 = 1/8 (12.5%).
 ![Calculate Probability Daughters](https://raw.githubusercontent.com/bartczernicki/Articles/main/DevTo-20221222-my-moms-predictive-dream-about-my-family-before-she-passed/CalculateProbability-Daughters.png)
 
-So, is this it? Well, this is a very naive model of the prediction, but a good start and only part of the solution. There are several key problems with this simple model, but to highlight a couple issues:
+So, is this it? Well, this is a very naive model of the prediction and only part of the solution, but a good start. There are several key problems with this simple model, to highlight a couple issues:
 1. The model is already assuming there will be three children born. The correct probability statement of the model above should be "Given there are three  children in a family, what is the probability that all three would be girls". This is called a conditional probability[^4], as the probability is "conditioned" on the given event occurring.
-2. The model is missing a great deal of other various independent information that can influence the model of starting a family with children. Many (biological/environmental/family/economic) events must "perfectly align" to have a baby; it clearly isn't just a simple as forecasting of the gender.
+2. The model is missing a great deal of other various independent information that can influence the model of starting a family with children. Many (biological/environmental/family/economic) events must "perfectly align" to have a baby; it clearly isn't just as simple as forecasting of the gender.
 
 ## Calculating the family Probability of Three Daughters - Part 2 - Improved Model with Selected Independent Events
-It turns out the model that was calculated above is quite simple, overly optimistic, and frankly not quite correct. While it is "roughly true" the probability of a baby daughter is roughly 1/2 (50%), life is much more complex. There is much more information to be added for the ability to maintain a family to birth three kids. To simplify, the statistical model has two key components:
+It turns out the model that was calculated above is quite naive, overly optimistic, and frankly not exactly correct. While it is "roughly true" the probability of a baby daughter is roughly 1/2 (50%), life is much more complex. There is much more information to be added for the ability to maintain a family to birth three kids. To simplify, the statistical model will have two key components:
 1. Calculated probability of three daughters, given a family of three children (calculated in Part 1)
-2. Calculated probability of having, maintaining a marriage and being able to have three children with a spouse
+2. Calculated probability of maintaining a marriage and being able to have three children with a spouse
 
-To calculate the probability of having a marriage and being able to have children, the following could be considered:
-- What if either my wife or myself couldn't have kids?
-- What if we had one baby, and had "enough" or couldn't handle more than one baby?
+To calculate the probability of maintaining a marriage and being able to have children, the following could be considered:
+- What if either my wife or I couldn't have kids?
+- What if we had one baby and decided to stop?
 - What if our marriage failed (before or during the family process) and ended in divorce?
-- What if one of us lost our job and we couldn't afford more children?
+- What if one of us lost our job and we couldn't afford to have more children?
 - Going more out of the box...What if WW3 started, an asteroid was going to destroy the planet, or the universe abruptly ends?
 
 There are almost infinite scenarios to list! This is where the process of **crafting statistical models becomes an exercise in understanding our environment and somewhat of an "art"**! Which events should be considered in the model to make proper inferences, claims or forecasts? Events such as WW3 happening or a black hole swallowing up earth will absolutely impact family planning, however, probably not enough to impact to the statistical model. More importantly, which of these events are independent? Which ones can be used in the model using the earlier introduced "the statistical multiplication rule"?
