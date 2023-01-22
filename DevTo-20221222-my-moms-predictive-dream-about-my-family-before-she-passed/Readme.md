@@ -101,8 +101,6 @@ My mom's unique dream prediction came true without her even knowing our family p
 - Demonstrated howto document personal biases and potentially include a devil's advocate position to try to a "middle ground" narrative
 - Exhibited that statistical models should be used as tools that can illuminate "rare" events. Good statistical models are basically indicators of "strange" and "is it weird". However, they should NOT be used as tools to draw causal conclusions. Usually much further thought and investigation should be done
 
-- Published on DEV: https://dev.to/bartczernicki/my-moms-predictive-dream-about-my-family-before-she-passed-how-does-statistics-interpret-these-events-55ll-temp-slug-1591033?preview=3594d90af766561b2bb5388bc6ec6e9a2892b6fe0d03b22919fbd28029a798930445f06e79e9a1423a0425748962e22967db6c38944ff5f4497ef717#fnref4 
-
 ## Footnotes
 [^1]: Stable Diffusion on Hugging Face: https://huggingface.co/spaces/stabilityai/stable-diffusion 
 [^2]: General Multiplication Rule (Explanation & Examples): https://www.statology.org/general-multiplication-rule/ 
@@ -113,3 +111,5 @@ My mom's unique dream prediction came true without her even knowing our family p
 [^7]: US Census America's Families and Living Arrangements: https://www.census.gov/data/tables/2022/demo/families/cps-2022.html  
 [^8]: Statistical Significance Overview: https://www.investopedia.com/terms/s/statistical-significance.asp  
 [^9]: Hindsight Bias (Explanation & Examples): https://en.wikipedia.org/wiki/Hindsight_bias  
+
+- Article Published on DEV: https://dev.to/bartczernicki/my-moms-predictive-dream-about-my-family-before-she-passed-how-does-statistics-interpret-these-events-55ll-temp-slug-1591033?preview=3594d90af766561b2bb5388bc6ec6e9a2892b6fe0d03b22919fbd28029a798930445f06e79e9a1423a0425748962e22967db6c38944ff5f4497ef717#fnref4 
