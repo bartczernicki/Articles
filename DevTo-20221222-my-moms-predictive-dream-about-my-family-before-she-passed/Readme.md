@@ -1,6 +1,6 @@
 ![Calculate Probability - Header](https://raw.githubusercontent.com/bartczernicki/Articles/main/DevTo-20221222-my-moms-predictive-dream-about-my-family-before-she-passed/CalculatingProbability-Header.webp)
 
-In 2017, a few months before my mother passed away, my mom had a dream that in the near future my wife and I would have a family consisting of three daughters. I thought this dream prediction is an interesting study on "predictive life events", so I decided to write about it and synthesize this with basic math & statistical modeling concepts. 
+In 2017, a few months before my mother passed away, my mom had a dream that in the near future my wife and I would have a family consisting of three daughters. I thought this dream prediction is an interesting study on "predictive life events", so I decided to write about it and synthesize this with basic math & statistical modeling concepts. Basically, after reading this article you will learn how to craft simple statistical models to assign probabilities of life events!  
 
 In this article, I will cover the following concepts:
 - Most people think that measuring the environment is impossible, hard or don't know where to start. This article will show the reader how to craft simple statistical models using basic statistical rules to quantify (put math labels on) life events. You will see how easily these models can be crafted (even in your head!) and applied to forecasts, predictions and future decision making
