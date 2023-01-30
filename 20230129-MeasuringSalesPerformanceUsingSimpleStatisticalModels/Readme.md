@@ -6,6 +6,6 @@ Measuring sales team performance can be challenging. However, it doesn't have to
 
 ![Sales - Regression to the Mean](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesRegressionToMean.png)
 
-![Sales - Law of Large Number](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-LawOfLargeNumbers.png)
+![Sales - Law of Large Numbers](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-LawofLargeNumbers.png)
 
 ![Sales - Call Center](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesCallCenter.png)
