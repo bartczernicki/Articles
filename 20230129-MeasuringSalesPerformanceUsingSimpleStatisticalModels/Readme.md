@@ -23,6 +23,13 @@ It is important to note that while **Price's Law** can provide useful insights i
 
 ![Sales - Regression to the Mean](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesRegressionToMean.png)
 
+Regression to the mean is a statistical phenomenon where the average of a population is calculated as the expected value of the population, and outliers (values that are much higher or lower than the average) tend to return towards the average in the long run.  
+
+In the context of hiring a new salesperson, regression to the mean can come into play when a new hire has a history of exceptional sales performance. If the new hire's sales quota is based solely on this past performance, it's possible that their future performance will not match their previous success. This is because their past performance was likely influenced by various factors such as luck, temporary market conditions, and other external circumstances.  
+
+For example, if a new salesperson has previously exceeded their sales quota by 100%, it's unlikely that they will consistently perform at this level going forward. Instead, their future performance is likely to return closer to the average of the sales team, and possibly even below the average. This is regression to the mean at work. To avoid this, it's important to consider multiple factors when assigning a quota to a new salesperson, such as the salesperson's skills, experience, and the market conditions that they will be operating in. Additionally, it's wise to set realistic and achievable quotas that take into account the possibility of regression to the mean. This can help to ensure that the new hire's sales performance is sustainable and in line with expectations.  
+
+
 ## Law of Large Numbers - Consistent Patterns & Trends will emerge with enough Sales Engagements
 
 ![Sales - Law of Large Numbers](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesLawOfLargeNumbers.png)
