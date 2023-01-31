@@ -23,7 +23,7 @@ It is important to note that while **Price's Law** can provide useful insights i
 
 ![Sales - Regression to the Mean](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesRegressionToMean.png)
 
-Regression to the mean is a statistical phenomenon where the average of a population is calculated as the expected value of the population, and outliers (values that are much higher or lower than the average) tend to return towards the average in the long run.  
+**Regression to the mean**[^4] is a statistical phenomenon where the average of a population is calculated as the expected value of the population, and outliers (values that are much higher or lower than the average) tend to return towards the average in the long run.  
 
 In the context of hiring a new salesperson, regression to the mean can come into play when a new hire has a history of exceptional sales performance. If the new hire's sales quota is based solely on this past performance, it's possible that their future performance will not match their previous success. This is because their past performance was likely influenced by various factors such as luck, temporary market conditions, and other external circumstances. For example, if a new salesperson has previously exceeded their sales quota by 100%, it's unlikely that they will always consistently perform at this level going forward. Instead, their future performance is likely to return closer to the average of the sales team, and possibly even below the average. This is regression to the mean at work.  
 
@@ -40,6 +40,12 @@ To avoid making an overly optimistic sales forecast for a new salesperson, it's 
 ## Law of Large Numbers - Consistent Patterns & Trends will emerge with enough Sales Engagements
 
 ![Sales - Law of Large Numbers](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesLawOfLargeNumbers.png)
+
+**The law of large numbers**[^5] is a statistical concept that states that as the sample size increases, the average of the sample approaches the population mean. In the context of sales processes, the law of large numbers can be used to find trends and make more accurate predictions about future sales performance or the "ground truth" performance of sales. For example, if a company wants to predict the average daily sales for a new product, it can collect data on the sales of that product over a period of time and use that data to calculate the average daily sales. The longer the period of time for which data is collected, the larger the sample size and the more reliable the average will be as an indicator of future sales performance. This allows for much better forecasting.
+
+In addition to predicting future sales performance, the law of large numbers can also be used to identify trends in sales processes. For example, if a company notices that sales are consistently higher on certain days of the week or during certain months of the year, it can use this information to make strategic decisions about product promotions, staffing levels, and other factors that affect sales.
+
+It's important to keep in mind that the law of large numbers only works if the things you're tracking don't change a lot from one time to the next. For example, if the number of sales changes a lot from month to month, it will be harder to see a clear trend. That's why it's important to keep track of your sales over a long time, and to be careful when interpreting the results.
 
 
 ## Statistical Distributions - How Negative Binomial Can be used to Measure Sales Goals
