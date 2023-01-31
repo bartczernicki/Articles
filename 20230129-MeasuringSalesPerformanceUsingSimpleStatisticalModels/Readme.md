@@ -47,7 +47,7 @@ To avoid making an overly optimistic sales forecast for a new salesperson, it's 
 
 In addition to predicting future sales performance, the **law of large numbers** can also be used to identify trends in sales processes. For example, if a company notices that sales are consistently higher on certain days of the week or during certain months of the year, it can use this information to make strategic decisions about product promotions, staffing levels, and other factors that affect sales.
 
-It's important to keep in mind that the **law of large numbers** only works if the metrics you're tracking don't change a lot from one time to the next. For example, if the number of sales changes a lot from month to month, it will be harder to see a clear trend. That's why it's important to keep track of your sales over a long time, and to be careful when interpreting the results.
+It's important to keep in mind that the **law of large numbers** only works if the metrics you're tracking don't change a lot from one time to the next. For example, if the number of sales changes a lot from month to month, it will be harder to see a clear trend. That's why it's important to keep track of your sales over a long time, and to be careful when interpreting the results. These trends can manifest themselves as consistent historical probabilities that then can be used as input into other forecast models.
 
 
 ## Statistical Distributions - How Negative Binomial Can be used to Measure Call Center Sales Goals
