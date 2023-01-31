@@ -32,8 +32,8 @@ There is a super simple statistical regression formula (illustrated below) that 
 
 In the job interview scenario shown above:  
 - A new "rockstar salesperson" interviews for a sales position. A sales leader estimates that they will produce triple than the current team
-- If an average sales performance is $1 million/year, doubling this "rockstar salesperson's" performance would be $3 million/year
-- The regression to the mean formula states that it is more likely this "rockstar salesperson" will be closer to the average and not optimistic outlier. Their sales performance should be estimated closer to the average: $1 million/year + $2 million/year * 30% = $1.6 million/year
+- Historically, an average sales person performs at $1 million/year, tripling this "rockstar salesperson's" performance would lead to a performance expectation of $3 million/year
+- The **regression to the mean** formula states that it is more likely this "rockstar salesperson" will be closer to the average and not optimistic outlier. Their sales performance should be estimated closer to the average: $1 million/year + $2 million/year * 30% = $1.6 million/year
 - The sales leader can still account for the salesperson to perform considerably better, but **regression to the mean** calibrates the estimate conservatively
 
 To avoid making an overly optimistic sales forecast for a new salesperson, it's important to consider multiple factors when assigning a performance quota, such as the salesperson's skills, experience, and the market conditions that they will be operating in. However, when considering one main factor (job interview/resume) it is best to calibrate the performance expecations closer to the average. This can help to ensure that the new hire's sales performance is sustainable and in line with expectations.  
