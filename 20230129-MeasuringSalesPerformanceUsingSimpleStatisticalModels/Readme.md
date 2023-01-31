@@ -19,15 +19,22 @@ Another quick way to operationalize **Price's Law**[^2] for sales performance is
 
 It is important to note that while **Price's Law** can provide useful insights into sales performance, it's a statistical principle and should not be used as a rigid rule or the sole measure of sales performance. Other factors, such as market conditions, customer behavior, and product features, can also impact sales results and should be considered in sales performance evaluations.
 
-## Regression to the Mean - That new Rockstar Salesperson will likely perform closer to the Sales Team's Average
+## Regression to the Mean - That new Rockstar Salesperson will likely perform closer to the Historical Sales Average
 
 ![Sales - Regression to the Mean](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesRegressionToMean.png)
 
 Regression to the mean is a statistical phenomenon where the average of a population is calculated as the expected value of the population, and outliers (values that are much higher or lower than the average) tend to return towards the average in the long run.  
 
-In the context of hiring a new salesperson, regression to the mean can come into play when a new hire has a history of exceptional sales performance. If the new hire's sales quota is based solely on this past performance, it's possible that their future performance will not match their previous success. This is because their past performance was likely influenced by various factors such as luck, temporary market conditions, and other external circumstances.  
+In the context of hiring a new salesperson, regression to the mean can come into play when a new hire has a history of exceptional sales performance. If the new hire's sales quota is based solely on this past performance, it's possible that their future performance will not match their previous success. This is because their past performance was likely influenced by various factors such as luck, temporary market conditions, and other external circumstances. For example, if a new salesperson has previously exceeded their sales quota by 100%, it's unlikely that they will always consistently perform at this level going forward. Instead, their future performance is likely to return closer to the average of the sales team, and possibly even below the average. This is regression to the mean at work.  
 
-For example, if a new salesperson has previously exceeded their sales quota by 100%, it's unlikely that they will consistently perform at this level going forward. Instead, their future performance is likely to return closer to the average of the sales team, and possibly even below the average. This is regression to the mean at work. To avoid this, it's important to consider multiple factors when assigning a quota to a new salesperson, such as the salesperson's skills, experience, and the market conditions that they will be operating in. Additionally, it's wise to set realistic and achievable quotas that take into account the possibility of regression to the mean. This can help to ensure that the new hire's sales performance is sustainable and in line with expectations.  
+There is actually a super simple statistical regression formula (illustrated below) that can be used. Many studies show that cognitive correlation regarding performance is usually less than 30% (0.3). This means that using a job interview as the key driver of future performance will likely explain 30% of future performance. In fact, numerous studies have shown that less than 3% of the time will there be a 50% correlation or more on future performance from a single cognitive driver like a job interview. You need more factors to judge future performance.
+
+In the scenario shown below:  
+- A new "rockstar salesperson" interviews. A sales leader estimates that they will produce double than the current team
+- If an average sales performance is $1 million/year, doubling this "rockstar salesperson's" performance would be $2 million/year
+- The regression to the mean formula states that it is more likely this "rockstar salesperson" will be closer to the average and not optimistic outlier. Their sales performance should be estimated as: $1 million/year + $1 million/year * 30% = $1.3 million/year.
+
+To avoid making an overly optimistic sales forecast for a new salesperson, it's important to consider multiple factors when assigning a quota, such as the salesperson's skills, experience, and the market conditions that they will be operating in. Additionally, it's wise to set realistic and achievable quotas that take into account the possibility of regression to the mean. This can help to ensure that the new hire's sales performance is sustainable and in line with expectations.  
 
 
 ## Law of Large Numbers - Consistent Patterns & Trends will emerge with enough Sales Engagements
