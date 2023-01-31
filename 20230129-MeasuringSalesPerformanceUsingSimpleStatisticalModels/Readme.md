@@ -19,6 +19,7 @@ Another quick way to operationalize **Price's Law**[^2] for sales performance is
 
 It is important to note that while **Price's Law** can provide useful insights into sales performance, it's a statistical principle and should not be used as a rigid rule or the sole measure of sales performance. Other factors, such as market conditions, customer behavior, and product features, can also impact sales results and should be considered in sales performance evaluations.
 
+## Regression to the Mean - That new Rockstar Salesperson will likely perform closer to the Sales Team's Average
 
 ![Sales - Regression to the Mean](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesRegressionToMean.png)
 
