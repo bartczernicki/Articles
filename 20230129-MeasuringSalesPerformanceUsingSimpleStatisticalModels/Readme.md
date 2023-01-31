@@ -28,7 +28,7 @@ It is important to note that while **Price's Law** can provide useful insights i
 
 In the context of hiring a new salesperson, **regression to the mean** can come into play when a new hire has a history of exceptional sales performance. If the new hire's sales quota is based solely on this past performance, it's possible that their future performance will not match their previous success. This is because their past performance was likely influenced by various factors such as luck, temporary market conditions, and other external circumstances. For example, if a new salesperson has previously exceeded their sales quota by 100%, it's unlikely that they will always consistently perform at this level going forward. Instead, their future performance is likely to return closer to the average of the sales team, and possibly even below the average. This is regression to the mean at work.  
 
-There is a super simple statistical regression formula (illustrated below) that can be used. Many social sciences studies show that cognitive correlation regarding performance is usually in the 20% (0.2) - 30% (0.3) range. This means that using a job interview performance as the key driver of future sales outcomes will only likely explain 20%-30% of future sales outcomes. In fact, only 3% of 708 cognitive studies showed corelations of 50% or more on future performance from a single cognitive driver (like a job interview)[^3].
+There is a super simple statistical regression formula (illustrated below) that can be used. Many social sciences studies show that cognitive correlation regarding performance is usually in the 20% (0.2) - 30% (0.3) range. This means that using a job interview performance as the key driver of future sales outcomes will only likely explain 20%-30% of future sales outcomes. In fact, only 3% of 708 cognitive studies showed corelations of 50% or more on future performance from a single cognitive driver (like a job interview)[^5].
 
 Basically, you need more factors to judge future performance.
 
@@ -38,27 +38,27 @@ In the job interview scenario shown above:
 - The **regression to the mean** formula states that it is more likely this "rockstar salesperson" will be closer to the average and not optimistic outlier. Their sales performance should be estimated closer to the average: $1 million/year + $2 million/year * 30% = $1.6 million/year
 - The sales leader can still account for the salesperson to perform considerably better, but **regression to the mean** calibrates the estimate conservatively
 
-To avoid making an overly optimistic sales forecast for a new salesperson, it's important to consider multiple factors when assigning a performance quota, such as the salesperson's skills, experience, and the market conditions that they will be operating in. However, when considering one main factor (job interview/resume) it is best to calibrate the performance expecations closer to the average. This can help to ensure that the new hire's sales performance is sustainable and in line with expectations.  
+To avoid making an overly optimistic sales forecast for a new salesperson, it's important to consider multiple factors when assigning a performance quota, such as the salesperson's skills, experience, and the market conditions that they will be operating in. However, when considering one main factor (job interview/resume) it is best to calibrate the performance expecations closer to the average. This can help to ensure that the new hire's sales performance is sustainable and in line with expectations.
 
 
 ## Law of Large Numbers - Consistent Patterns & Trends will emerge with enough Sales Engagements
 
 ![Sales - Law of Large Numbers](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesLawOfLargeNumbers.png)
 
-**The law of large numbers**[^5] is a statistical concept that states that as the sample size increases, the average of the sample approaches the population mean. In the context of sales processes, the law of large numbers can be used to find trends and make more accurate predictions about future sales performance or the "ground truth" performance of sales. For example, if a company wants to predict the average daily sales for a new product, it can collect data on the sales of that product over a period of time and use that data to calculate the average daily sales. The longer the period of time for which data is collected, the larger the sample size and the more reliable the average will be as an indicator of future sales performance. This allows for much better forecasting.
+**The law of large numbers**[^6] is a statistical concept that states that as the sample size increases, the average of the sample approaches the population mean. In the context of sales processes, the law of large numbers can be used to find trends and make more accurate predictions about future sales performance or the "ground truth" performance of sales. For example, if a company wants to predict the average daily sales for a new product, it can collect data on the sales of that product over a period of time and use that data to calculate the average daily sales. The longer the period of time for which data is collected, the larger the sample size and the more reliable the average will be as an indicator of future sales performance. This allows for much better forecasting.
 
 In addition to predicting future sales performance, the **law of large numbers** can also be used to identify trends in sales processes. For example, if a company notices that sales are consistently higher on certain days of the week or during certain months of the year, it can use this information to make strategic decisions about product promotions, staffing levels, and other factors that affect sales.
 
-It's important to keep in mind that the **law of large numbers** only works if the metrics you're tracking don't change a lot from one time to the next. For example, if the number of sales changes a lot from month to month, it will be harder to see a clear trend. That's why it's important to keep track of your sales over a long time, and to be careful when interpreting the results. These trends can manifest themselves as consistent historical probabilities that then can be used as input into other forecast models.
+It's important to keep in mind that the **law of large numbers**[^6] only works if the metrics you're tracking don't change a lot from one time to the next. For example, if the number of sales changes a lot from month to month, it will be harder to see a clear trend. That's why it's important to keep track of your sales over a long time, and to be careful when interpreting the results. These trends can manifest themselves as consistent historical probabilities that then can be used as input into other forecast models.
 
 
 ## Statistical Distributions - How Negative Binomial Can be used to Measure Call Center Sales Goals
 
 ![Sales - Call Center](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesCallCenter.png)
 
-There are various stastical distributions that have a small set of parameters that are very effective tools in estimating processes. One such distribution is the negative binomial distribution. A **negative binomial distribution**[^6] is a way to understand what happens when you're counting a certain number of events, but the number of events you need to observe is unknown (and you need to predict it). In the context of sales performance, you can use a negative binomial distribution to make predictions about the number of sales you'll make and given the amount of sales attempts it will take, given consistent performance number.  
+There are various stastical distributions that have a small set of parameters that are very effective tools in estimating processes. One such distribution is the negative binomial distribution. A **negative binomial distribution**[^7] is a way to understand what happens when you're counting a certain number of events, but the number of events you need to observe is unknown (and you need to predict it). In the context of sales performance, you can use a negative binomial distribution to make predictions about the number of sales you'll make and given the amount of sales attempts it will take, given consistent performance number.  
 
-To use a **negative binomial distribution** in a sales scenario, you need to know two key inputs: the number of desired successful sales and the consistent probability of making a sale. You can use past sales data to find the average number of successful sales (trends from law of large numbers), and use market research or other information to estimate the probability of making a sale.  With this information, you can make predictions about the number of sales you'll make. Assume the following call center sales scenario:
+To use a **negative binomial distribution**[^7] in a sales scenario, you need to know two key inputs: the number of desired successful sales and the consistent probability of making a sale. You can use past sales data to find the average number of successful sales (trends from law of large numbers), and use market research or other information to estimate the probability of making a sale.  With this information, you can make predictions about the number of sales you'll make. Assume the following call center sales scenario:
 - There is a sales bonus given out every month if a salesperson closes 20 deals in a month in a call center
 - The probability of closing a sales deal is consistently shows a 10% probability from a sales call; every sales call there is a 1 in 10 chance of closing business
 - How many sales calls does the salesperson need to make to earn the monthly sales bonus?
@@ -76,8 +76,9 @@ It is probably common sense that more sales calls (attempts) will help achieve t
 [^2]: Price's Law: https://salesmetry.com/blog/2021/01/22/prices-law-competence-is-linear-incompetence-is-exponential/  
 [^3]: Price's Law - Jordan Peterson Video: https://www.youtube.com/watch?v=8z3OZ7QuJE0  
 [^4]: Regression To the Mean: https://www.statisticshowto.com/regression-mean/  
-[^5]: Law of Large Numbers: https://www.investopedia.com/terms/l/lawoflargenumbers.asp  
-[^6]: Negative Binomial Distribution Details: https://dlsun.github.io/probability/negative-binomial.html  
-[^7]: Online Negative Binomial Calculator: https://homepage.divms.uiowa.edu/~mbognar/applets/nb1.html  
-[^8]: "Noise: A Flaw in Human Judgement" Daniel Kahneman (page 151): https://www.amazon.com/Noise-Human-Judgment-Daniel-Kahneman/dp/0316451401  
+[^5]: "Noise: A Flaw in Human Judgement" Daniel Kahneman (page 151): https://www.amazon.com/Noise-Human-Judgment-Daniel-Kahneman/dp/0316451401  
+[^6]: Law of Large Numbers: https://www.investopedia.com/terms/l/lawoflargenumbers.asp  
+[^7]: Negative Binomial Distribution Details: https://dlsun.github.io/probability/negative-binomial.html  
+[^8]: Online Negative Binomial Calculator: https://homepage.divms.uiowa.edu/~mbognar/applets/nb1.html  
+
 
