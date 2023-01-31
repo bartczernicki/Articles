@@ -60,10 +60,11 @@ To use a negative binomial distribution, you need to know two things: the averag
 - How many sales calls does the salesperson need to make?
 
 Using the negative binomial calculation, it can probalistically estimated that in order to close 10 deals in a month from a 10% sales converstion:  
-- 1.6%  probabability it will take at least 100 sales calls
-- 25.5% probabability it will take at least 150 sales calls
-- 70.6% probabability it will take at least 200 sales calls
+- 1.6%  probabability it will take up to 100 sales calls
+- 25.5% probabability it will take up to 150 sales calls
+- 70.6% probabability it will take up to 200 sales calls
 
+It is probably common sense that more sales calls will help achieve the desired sales conversion number. However, the **negative binomial distribution** helps illuminate the exact numbers clearly using probabilities. 
 
 
 
