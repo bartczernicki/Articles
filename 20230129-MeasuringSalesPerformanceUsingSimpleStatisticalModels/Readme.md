@@ -66,7 +66,7 @@ Using an **online negative binomial calculator**[^7], it can probalistically est
 - 25.5% probabability it will take up to 150 sales calls to achieve the monthly sales bonus
 - 70.6% probabability it will take up to 200 sales calls to achieve the monthly sales bonus
 
-It is probably common sense that more sales calls will help achieve the desired sales conversion number. However, the **negative binomial distribution** helps illuminate the exact numbers and put probabilities on those numbers. This provides incredible amount of information for the call center of the sales individual to plan their monthly success accordingly.
+It is probably common sense that more sales calls (attempts) will help achieve the desired sales conversion number. However, the **negative binomial distribution** helps illuminate a numerical forecast and put probabilities on the forecast. This provides an incredible amount of information to the sales leadership or the sales individual to plan their monthly success accordingly.
 
 
 ## Footnotes
