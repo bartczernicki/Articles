@@ -48,9 +48,21 @@ In addition to predicting future sales performance, the law of large numbers can
 It's important to keep in mind that the law of large numbers only works if the things you're tracking don't change a lot from one time to the next. For example, if the number of sales changes a lot from month to month, it will be harder to see a clear trend. That's why it's important to keep track of your sales over a long time, and to be careful when interpreting the results.
 
 
-## Statistical Distributions - How Negative Binomial Can be used to Measure Sales Goals
+## Statistical Distributions - How Negative Binomial Can be used to Measure Call Center Sales Goals
 
 ![Sales - Call Center](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesCallCenter.png)
+
+A **negative binomial distribution**[^6] is a way to understand what happens when you're counting a certain number of events, but the number of events you need to observe is unknown. In the context of sales performance, you can use a negative binomial distribution to make predictions about the number of sales you'll make and given the amount of sales attempts it will take, given consistent performance number.  
+
+To use a negative binomial distribution, you need to know two things: the average number of successful sales and the probability of making a sale. You can use past sales data to find the average number of successful sales, and use market research or other information to estimate the probability of making a sale.  With this information, you can make predictions about the number of sales you'll make. Assume the following scenario:
+- There is a sales bonus given out every month if a salesperson closes 20 deals in a month
+- The probability of closing a sales deal is consistently 10% from a single sales call
+- How many sales calls does the salesperson need to make?
+
+Using the negative binomial calculation, it can probalistically estimated that in order to close 10 deals in a month from a 10% sales performance:  
+- 1.6%  probabability it will take at least 100 sales calls
+- 25.5% probabability it will take at least 150 sales calls
+- 70.6% probabability it will take at least 200 sales calls
 
 
 
