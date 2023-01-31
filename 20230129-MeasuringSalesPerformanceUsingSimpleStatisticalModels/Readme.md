@@ -23,10 +23,17 @@ It is important to note that while **Price's Law** can provide useful insights i
 
 ![Sales - Regression to the Mean](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesRegressionToMean.png)
 
+## Law of Large Numbers - Consistent Patterns & Trends will emerge with enough Sales Engagements
 
 ![Sales - Law of Large Numbers](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesLawOfLargeNumbers.png)
 
+
+## Statistical Distributions - How Negative Binomial Can be used to Measure Sales Goals
+
 ![Sales - Call Center](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesCallCenter.png)
+
+
+
 
 ## Footnotes
 [^1]: Stable Diffusion on Hugging Face: https://huggingface.co/spaces/stabilityai/stable-diffusion 
