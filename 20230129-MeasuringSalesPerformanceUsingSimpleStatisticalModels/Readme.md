@@ -54,15 +54,15 @@ It's important to keep in mind that the law of large numbers only works if the t
 
 A **negative binomial distribution**[^6] is a way to understand what happens when you're counting a certain number of events, but the number of events you need to observe is unknown. In the context of sales performance, you can use a negative binomial distribution to make predictions about the number of sales you'll make and given the amount of sales attempts it will take, given consistent performance number.  
 
-To use a negative binomial distribution, you need to know two things: the average number of successful sales and the probability of making a sale. You can use past sales data to find the average number of successful sales, and use market research or other information to estimate the probability of making a sale.  With this information, you can make predictions about the number of sales you'll make. Assume the following scenario:
+To use a negative binomial distribution, you need to know two things: the number of desired successful sales and the consistent probability of making a sale. You can use past sales data to find the average number of successful sales, and use market research or other information to estimate the probability of making a sale.  With this information, you can make predictions about the number of sales you'll make. Assume the following scenario:
 - There is a sales bonus given out every month if a salesperson closes 20 deals in a month
 - The probability of closing a sales deal is consistently 10% from a single sales call
-- How many sales calls does the salesperson need to make?
+- How many sales calls does the salesperson need to make to earn the monthly sales bonus?
 
-Using the negative binomial calculation, it can probalistically estimated that in order to close 10 deals in a month from a 10% sales converstion:  
-- 1.6%  probabability it will take up to 100 sales calls
-- 25.5% probabability it will take up to 150 sales calls
-- 70.6% probabability it will take up to 200 sales calls
+Using an **online negative binomial calculator**[^7], it can probalistically estimated that in order to close 10 deals in a month from a 10% sales converstion:  
+- 1.6%  probabability it will take up to 100 sales calls to achieve the monthly sales bonus
+- 25.5% probabability it will take up to 150 sales calls to achieve the monthly sales bonus
+- 70.6% probabability it will take up to 200 sales calls to achieve the monthly sales bonus
 
 It is probably common sense that more sales calls will help achieve the desired sales conversion number. However, the **negative binomial distribution** helps illuminate the exact numbers clearly using probabilities. 
 
@@ -75,3 +75,5 @@ It is probably common sense that more sales calls will help achieve the desired 
 [^4]: Regression To the Mean: https://www.statisticshowto.com/regression-mean/  
 [^5]: Law of Large Numbers: https://www.investopedia.com/terms/l/lawoflargenumbers.asp  
 [^6]: Negative Binomial Distribution Details: https://dlsun.github.io/probability/negative-binomial.html  
+[^7]: Online Negative Binomial Calculator: https://homepage.divms.uiowa.edu/~mbognar/applets/nb1.html  
+
