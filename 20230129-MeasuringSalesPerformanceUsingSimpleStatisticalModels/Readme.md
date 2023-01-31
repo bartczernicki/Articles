@@ -63,7 +63,7 @@ To use a **negative binomial distribution**[^7] in a sales scenario, you need to
 - The probability of closing a sales deal is consistently shows a 10% probability from a sales call; every sales call there is a 1 in 10 chance of closing business
 - How many sales calls does the salesperson need to make to earn the monthly sales bonus?
 
-Using an **online negative binomial calculator**[^7], it can probalistically estimated that in order to close 10 deals in a month from a 10% sales converstion:  
+Using an **online negative binomial calculator**[^7], it can probabalistically estimated that in order to close **20 deals in a month from a 10% sales converstion**:  
 - 1.6%  probabability it will take up to 100 sales calls to achieve the monthly sales bonus
 - 25.5% probabability it will take up to 150 sales calls to achieve the monthly sales bonus
 - 70.6% probabability it will take up to 200 sales calls to achieve the monthly sales bonus
