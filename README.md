@@ -9,4 +9,4 @@ Description: Calculate the probability of life events using simple statistical m
 
 **2) Measuring Sales Performance with Simple Statistical Models**  
 https://github.com/bartczernicki/Articles/tree/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels  
-Description: Calculate the probability of life events using simple statistical models  
+Description: Whether it is a small or enterprise sales team, simple quantitative techniques can be used to provide valuable sales insights or draw attention to areas of need  
