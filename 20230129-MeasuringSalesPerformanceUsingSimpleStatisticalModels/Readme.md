@@ -30,6 +30,8 @@ In the context of hiring a new salesperson, **regression to the mean** can come 
 
 There is a super simple statistical regression formula (illustrated below) that can be used. Many social sciences studies show that cognitive correlation regarding performance is usually in the 20% (0.2) - 30% (0.3) range. This means that using a job interview performance as the key driver of future sales outcomes will only likely explain 20%-30% of future sales outcomes. In fact, only 3% of 708 cognitive studies showed correlations of 50% or more on future performance from a single cognitive driver (like a job interview)[^5]. Basically, you need more factors to judge a correlated future performance.
 
+![Sales - Regression to the Mean](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-RegressionToMeanCalculation.png)
+
 In the job interview scenario shown above:  
 - A new "rockstar salesperson" interviews for a sales position. A sales leader estimates that they will produce triple than the current team
 - If for example, historically on average a salesperson performs at $1 million/year, tripling this new "rockstar salesperson's" performance would lead to a sales performance expectation of $3 million/year
