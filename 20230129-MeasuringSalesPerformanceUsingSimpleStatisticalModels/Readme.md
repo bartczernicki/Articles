@@ -77,6 +77,13 @@ Using an **online negative binomial calculator**[^9], it can probabilistically e
 
 It is probably common sense that more sales calls (attempts) will help achieve the desired sales conversion number. However, the **negative binomial distribution** helps illuminate a numerical forecast and put probabilities on the forecast. This provides an incredible amount of information to the sales leadership or the sales individual to plan their monthly success accordingly.
 
+## Summary
+
+Simple statistical models can play a significant role in sales performance management, as they allow companies to make data-driven decisions that can help improve their overall sales results. One of the key benefits of using simple statistical models is that they can provide a more objective view of sales performance, as opposed to relying solely on human intuition or ad-hoc methods. This can help to eliminate bias and minimize the impact of personal opinions, leading to more accurate and reliable results.
+
+Moreover, these models are also relatively straightforward to implement, and require only basic statistical knowledge and a minimal investment in terms of time and resources. This makes them a cost-effective solution for companies looking to improve their sales performance, especially for those with limited budgets or resources.
+
+However, it is important to note that these simple statistical models should not be used as the sole measure of sales performance. While they provide valuable insights into key drivers of sales, they are not designed to provide sophisticated sales forecasting, which requires more complex models and algorithms. Therefore, companies should complement these models with other methods, such as market analysis and customer insights, to get a more comprehensive view of their sales performance and make more informed decisions.
 
 ## Footnotes
 [^1]: Stable Diffusion on Hugging Face: https://huggingface.co/spaces/stabilityai/stable-diffusion 
