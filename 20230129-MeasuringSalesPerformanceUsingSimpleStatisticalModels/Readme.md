@@ -34,7 +34,9 @@ In the job interview scenario shown above:
 - A new "rockstar salesperson" interviews for a sales position. A sales leader estimates that they will produce triple than the current team
 - If for example, historically on average a salesperson performs at $1 million/year, tripling this new "rockstar salesperson's" performance would lead to a sales performance expectation of $3 million/year
 - The **regression to the mean** formula states that it is more likely this new "rockstar salesperson" will be closer to the average and not optimistic outlier. Their sales performance should be estimated closer to the average: $1 million/year + $2 million/year * 30% = $1.6 million/year
-- The sales leader can still account for the salesperson to perform considerably better, but **regression to the mean** calibrates the estimate conservatively. Using regression the mean, the larger the initial estimate, the bigger the movement to the mean
+- The sales leader can certainly forecast for the salesperson to perform considerably better. However, using the **regression to the mean** calibrates the estimate conservatively. Note that using the **regression to the mean**, the larger the initial estimate ($2 million/year vs $1 million/year), will result in a bigger the regression to the mean as a percentage change.
+- For decisions & judgements based on a single driving factor, you want to use the cognitive correlation coefficient of betweeen 0.2 - 0.3. If you are very optimistic and confident, you could perhaps use something slightly higher (0.4). What if you don't want to rely on cognitive intuition/cognitive expertise? The good news is that if you have actual data, the correlation coefficient (r) can be easily calculated.
+
 
 To avoid making an overly optimistic sales forecast for a new salesperson, it's important to consider multiple factors when assigning a performance quota, such as the salesperson's skills, experience, and the market conditions that they will be operating in. However, when considering one main factor (job interview/resume) it is best to calibrate the performance expecations closer to the average. This can help to ensure that the new hire's sales performance is sustainable and in line with expectations.
 
@@ -43,7 +45,7 @@ To avoid making an overly optimistic sales forecast for a new salesperson, it's 
 
 ![Sales - Law of Large Numbers](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesLawOfLargeNumbers.png)
 
-**The law of large numbers**[^6] is a statistical concept that states that as the sample size increases, the average of the sample approaches the population mean (ground truth). For example, to test the performance of a system of flipping a coin heads or tails, a number of coin flips could be performed. After enough sample flips the "ground truth" of 50% emerges (50% probability of a coin landing on a head or tail). In the beginning of the chart below, note there are some wild swings in the esimate, but the trend converges to a 50% probability eventually with a large enough sample. Law of large numbers can apply to even large complex systems as long as similar processes are used and the events are more or less independent.
+**The law of large numbers**[^7] is a statistical concept that states that as the sample size increases, the average of the sample approaches the population mean (ground truth). For example, to test the performance of a system of flipping a coin heads or tails, a number of coin flips could be performed. After enough sample flips the "ground truth" of 50% emerges (50% probability of a coin landing on a head or tail). In the beginning of the chart below, note there are some wild swings in the esimate, but the trend converges to a 50% probability eventually with a large enough sample. Law of large numbers can apply to even large complex systems as long as similar processes are used and the events are more or less independent.
 
 ![Sales - Regression to the Mean](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-LawOfLargeNumbersCoins.png)
 
@@ -52,21 +54,21 @@ In the context of sales processes, the **law of large numbers** can be used to f
 
 In addition to predicting future sales performance, the **law of large numbers** can also be used to identify trends in sales processes. For example, if a company notices that sales are consistently higher on certain days of the week or during certain months of the year, it can use this information to make strategic decisions about product promotions, staffing levels, and other factors that affect sales.
 
-It's important to keep in mind that the **law of large numbers**[^6] only works if the metrics you're tracking don't change a lot from one time to the next. For example, if the number of sales changes a lot from month to month, it will be harder to see a clear trend. That is why it's important to keep track of your sales over a long time, and to be careful when interpreting the results. These trends can manifest themselves as consistent historical probabilities that can be used as input into other forecast models.
+It's important to keep in mind that the **law of large numbers**[^7] only works if the metrics you're tracking don't change a lot from one time to the next. For example, if the number of sales changes a lot from month to month, it will be harder to see a clear trend. That is why it's important to keep track of your sales over a long time, and to be careful when interpreting the results. These trends can manifest themselves as consistent historical probabilities that can be used as input into other forecast models.
 
 
 ## Statistical Distributions - How Negative Binomial Can be used to Measure Call Center Sales Goals
 
 ![Sales - Call Center](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels/Image-SalesCallCenter.png)
 
-There are various stastical distributions that have a small set of parameters that are very effective tools in estimating processes. One such distribution is the negative binomial distribution. A **negative binomial distribution**[^7] is a way to understand what happens when you're counting a certain number of events, but the number of events you need to observe is unknown (and you need to predict it). In the context of sales performance, you can use a negative binomial distribution to make predictions about the number of sales you'll make and given the amount of sales attempts it will take, given consistent performance number.  
+There are various stastical distributions that have a small set of parameters that are very effective tools in estimating processes. One such distribution is the negative binomial distribution. A **negative binomial distribution**[^8] is a way to understand what happens when you're counting a certain number of events, but the number of events you need to observe is unknown (and you need to predict it). In the context of sales performance, you can use a negative binomial distribution to make predictions about the number of sales you'll make and given the amount of sales attempts it will take, given consistent performance number.  
 
-To use a **negative binomial distribution**[^7] in a sales scenario, you need to know two key inputs: the number of desired successful sales and the consistent probability of making a sale. You can use past sales data to find the average number of successful sales (trends from law of large numbers), and use market research or other information to estimate the probability of making a sale.  With this information, you can make predictions about the number of sales you'll make. Assume the following call center sales scenario:
+To use a **negative binomial distribution**[^8] in a sales scenario, you need to know two key inputs: the number of desired successful sales and the consistent probability of making a sale. You can use past sales data to find the average number of successful sales (trends from law of large numbers), and use market research or other information to estimate the probability of making a sale.  With this information, you can make predictions about the number of sales you'll make. Assume the following call center sales scenario:
 - There is a sales bonus given out every month if a salesperson closes 20 deals in a month in a call center
 - The probability of closing a sales deal is consistently shows a 10% probability from a sales call; every sales call there is a 1 in 10 chance of closing business
 - How many sales calls does the salesperson need to make to earn the monthly sales bonus?
 
-Using an **online negative binomial calculator**[^7], it can probabalistically estimated that in order to close **20 deals in a month from a 10% sales converstion**:  
+Using an **online negative binomial calculator**[^9], it can probabalistically estimated that in order to close **20 deals in a month from a 10% sales converstion**:  
 - 1.6%  probabability it will take up to 100 sales calls to achieve the monthly sales bonus
 - 25.5% probabability it will take up to 150 sales calls to achieve the monthly sales bonus
 - 70.6% probabability it will take up to 200 sales calls to achieve the monthly sales bonus
@@ -81,7 +83,8 @@ It is probably common sense that more sales calls (attempts) will help achieve t
 [^4]: Regression To the Mean: https://www.statisticshowto.com/regression-mean/  
 [^5]: "Noise: A Flaw in Human Judgement" Daniel Kahneman (page 151): https://www.amazon.com/Noise-Human-Judgment-Daniel-Kahneman/dp/0316451401  
 [^6]: Law of Large Numbers: https://www.investopedia.com/terms/l/lawoflargenumbers.asp  
-[^7]: Negative Binomial Distribution Details: https://dlsun.github.io/probability/negative-binomial.html  
-[^8]: Online Negative Binomial Calculator: https://homepage.divms.uiowa.edu/~mbognar/applets/nb1.html  
+[^7]: Calculate the Correlation Coefficient: https://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/  
+[^8]: Negative Binomial Distribution Details: https://dlsun.github.io/probability/negative-binomial.html  
+[^9]: Online Negative Binomial Calculator: https://homepage.divms.uiowa.edu/~mbognar/applets/nb1.html  
 
 
