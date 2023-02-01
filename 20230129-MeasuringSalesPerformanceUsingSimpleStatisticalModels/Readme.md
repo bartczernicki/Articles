@@ -35,7 +35,7 @@ In the job interview scenario shown above:
 - If for example, historically on average a salesperson performs at $1 million/year, tripling this new "rockstar salesperson's" performance would lead to a sales performance expectation of $3 million/year
 - The **regression to the mean** formula states that it is more likely this new "rockstar salesperson" will be closer to the average and not optimistic outlier. Their sales performance should be estimated closer to the average: $1 million/year + $2 million/year * 30% = $1.6 million/year
 - The sales leader can certainly forecast for the salesperson to perform considerably better. However, using the **regression to the mean** calibrates the estimate conservatively. Note that using the **regression to the mean**, the larger the initial estimate ($2 million/year vs $1 million/year), will result in a bigger the regression to the mean as a percentage change.
-- For decisions & judgements based on a single driving factor, you want to use the cognitive correlation coefficient of betweeen 0.2 - 0.3. If you are very optimistic and confident, you could perhaps use something slightly higher (0.4). What if you don't want to rely on cognitive intuition/cognitive expertise? The good news is that if you have actual data, the correlation coefficient (r) can be easily calculated.
+- For decisions & judgements based on a single driving factor, you want to use the cognitive correlation coefficient of betweeen 0.2 - 0.3. If you are very optimistic and confident, you could perhaps use something slightly higher (0.4). What if you don't want to rely on cognitive intuition/cognitive expertise? The good news is that if you have actual data, the correlation coefficient (r) can be easily calculated[^6].
 
 
 To avoid making an overly optimistic sales forecast for a new salesperson, it's important to consider multiple factors when assigning a performance quota, such as the salesperson's skills, experience, and the market conditions that they will be operating in. However, when considering one main factor (job interview/resume) it is best to calibrate the performance expecations closer to the average. This can help to ensure that the new hire's sales performance is sustainable and in line with expectations.
@@ -82,8 +82,8 @@ It is probably common sense that more sales calls (attempts) will help achieve t
 [^3]: Price's Law - Jordan Peterson Video: https://www.youtube.com/watch?v=8z3OZ7QuJE0  
 [^4]: Regression To the Mean: https://www.statisticshowto.com/regression-mean/  
 [^5]: "Noise: A Flaw in Human Judgement" Daniel Kahneman (page 151): https://www.amazon.com/Noise-Human-Judgment-Daniel-Kahneman/dp/0316451401  
-[^6]: Law of Large Numbers: https://www.investopedia.com/terms/l/lawoflargenumbers.asp  
-[^7]: Calculate the Correlation Coefficient: https://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/  
+[^6]: Calculate the Correlation Coefficient: https://www.statisticshowto.com/probability-and-statistics/correlation-coefficient-formula/  
+[^7]: Law of Large Numbers: https://www.investopedia.com/terms/l/lawoflargenumbers.asp  
 [^8]: Negative Binomial Distribution Details: https://dlsun.github.io/probability/negative-binomial.html  
 [^9]: Online Negative Binomial Calculator: https://homepage.divms.uiowa.edu/~mbognar/applets/nb1.html  
 
