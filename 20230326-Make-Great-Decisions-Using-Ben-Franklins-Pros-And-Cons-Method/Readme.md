@@ -10,9 +10,17 @@ However, Franklin's contributions extend beyond his inventions and political lea
 
 Ben Franklin was a close friend of Joseph Priestley in the 1700s, who was himself a chemist, political theorist, educator amongst other things. As trusted friends, Ben Franklin and Joseph Priestley exchanged ideas throughout the years on many ideas. In the summer of 1772, via a letter Joseph Priestley sought advice from Ben Franklin about a high-stakes decision he had to make. Priestley had a decision to make between relinquishing his position as the minister of the fame Unitarian church Mill Hill Chapel in Leeds or accepting a very desireable position as the general assistant to the Earl of Shelburne. Rather than providing an opinion on which option to select, Ben Franklin responded to Priestley by teaching him how to make a decision using a systematic process! 
 
-Below is the actual response letter from Ben Franklin in 1772:  
+Below is the actual letter Ben Franklin wrote in 1772 detailing the process to his friend Joseph Priestley:  
 >When these difficult Cases occur, they are difficult chiefly because while we have them under Consideration all the Reasons pro and con are not present to the Mind at the same time; but sometimes one Set present themselves, and at other times another, the first being out of Sight. Hence the various Purposes or Inclinations that alternately prevail, and the Uncertainty that perplexes us.
 
 >To get over this, my Way is, to divide half a Sheet of Paper by a Line into two Columns, writing over the one Pro, and over the other Con. Then during three or four Days Consideration I put down under the different Heads short Hints of the different Motives that at different Times occur to me for or against the Measure. When I have thus got them all together in one View, I endeavour to estimate their respective Weights; and where I find two, one on each side, that seem equal, I strike them both out: If I find a Reason pro equal to some two Reasons con, I strike out the three. If I judge some two Reasons con equal to some three Reasons pro, I strike out the five; and thus proceeding I find at length where the Ballance lies; and if after a Day or two of farther Consideration nothing new that is of Importance occurs on either side, I come to a Determination accordingly.
 
 >And tho’ the Weight of Reasons cannot be taken with the Precision of Algebraic Quantities, yet when each is thus considered separately and comparatively, and the whole lies before me, I think I can judge better, and am less likely to take a rash Step; and in fact I have found great Advantage from this kind of Equation, in what may be called Moral or Prudential Algebra.
+
+The above letter was written over 250 years ago and sounds quite different the way current letters are written. In summary these are the steps Ben Franklin recommends when making a decision:  
+In this article, I will cover the following concepts:
+- Divide an area into two competing halves: a Pro side and Con side
+- Label one side "Pro" and the other "Con"
+- Under each respective side, over several days write down various reasons that support (Pro) or are against (Con)
+- After spending some time thinking exhaustively and writing down the reasons, weight the different Pro and Con reasons
+- Take reasons that are of similar weight and cross them off of the other competing half. Multiple reasons can be combined from one side to form a "subjective" weight to balance out the other half. (For example, two "Pro" reasons might add up to an equal weight of a single "Con" reason)
