@@ -6,7 +6,7 @@ Benjamin Franklin is one of the most well-known figures in American history, wit
 
 However, Franklin's contributions extend beyond his inventions and political leadership. He was also a keen observer of human behavior, and his writings on decision making and problem-solving have had a lasting impact on the field of decision theory. Franklin developed a method for making decisions known as the pros and cons list, in which he would weigh the potential advantages and disadvantages of a particular choice. This method has become a staple in decision-making processes, and its effectiveness has been proven time and again.
 
-## Ben Franklin's Pros & Cons Decision Method
+## Ben Franklin's Pros & Cons Decision Making Method
 
 Ben Franklin was a close friend of Joseph Priestley in the 1700s, who was himself a chemist, political theorist, educator amongst other things. As trusted friends, Ben Franklin and Joseph Priestley exchanged ideas throughout the years on many ideas. In the summer of 1772, via a letter Joseph Priestley sought advice from Ben Franklin about a high-stakes decision he had to make. Priestley had a decision to make between relinquishing his position as the minister of the fame Unitarian church Mill Hill Chapel in Leeds or accepting a very desireable position as the general assistant to the Earl of Shelburne. Rather than providing an opinion on which option to select, Ben Franklin responded to Priestley by teaching him how to make a decision using a systematic process! 
 
