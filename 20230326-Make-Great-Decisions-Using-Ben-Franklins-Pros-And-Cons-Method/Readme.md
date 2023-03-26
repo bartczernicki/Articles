@@ -18,11 +18,12 @@ Below is the actual letter Ben Franklin wrote in 1772 detailing the process to h
 >And tho’ the Weight of Reasons cannot be taken with the Precision of Algebraic Quantities, yet when each is thus considered separately and comparatively, and the whole lies before me, I think I can judge better, and am less likely to take a rash Step; and in fact I have found great Advantage from this kind of Equation, in what may be called Moral or Prudential Algebra.
 
 The above letter was written over 250 years ago and sounds quite different the way current letters are written. In summary these are the steps Ben Franklin recommends when making a decision:  
-- Divide an area into two competing halves: a Pro side and Con side
-- Label one side "Pro" and the other "Con"
-- Under each respective side, over several days write down various reasons that support (Pro) or are against (Con)
-- After spending some time thinking exhaustively and writing down the reasons, weight the different Pro and Con reasons
-- Take reasons that are of similar weight and cross them off of the other competing half. Multiple reasons can be combined from one side to form a "subjective" weight to balance out the other half. (For example, two "Pro" reasons might add up to an equal weight of a single "Con" reason)
+- Frame a decison that has two options (Yes or a No)
+- Divide an area into two competing halves: a "Pro" side and "Con" side
+- Label the top of one side "Pro" (for) and the other "Con" (against)
+- Under each respective side, over a period of time (Ben Frankklin recommended days, this could be minutes) write down various reasons/arguments that support (Pro) or are against (Con) the decision
+- After spending some time thinking exhaustively and writing down the reasons, weight the different Pro and Con reasons/arguments
+- Take reasons/arguments that are of similar weight and cross them off of the other competing half. Multiple reasons can be combined from one side to form a "subjective" weight to balance out the other half. (For example, two medium "Pro" reasons might add up to an equal weight of a single important "Con" reason)
 - The side with the most remaining reasons is the option one should select for the decision in question
 
 ## Example
