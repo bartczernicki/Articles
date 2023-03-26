@@ -23,7 +23,7 @@ The above letter was written over 250 years ago and sounds quite different the w
 - Label the top of one side "Pro" (for) and the other "Con" (against)
 - Under each respective side, over a period of time (Ben Frankklin recommended days, this could be minutes) write down various reasons/arguments that support (Pro) or are against (Con) the decision
 - After spending some time thinking exhaustively and writing down the reasons, weight the different Pro and Con reasons/arguments
-- Take reasons/arguments that are of similar weight and cross them off of the other competing half. Multiple reasons can be combined from one side to form a "subjective" weight to balance out the other half. (For example, two medium "Pro" reasons might add up to an equal weight of a single important "Con" reason)
+- Determine the relative imporance of each reason or argument. This is done by taking reasons/arguments that are of similar value (weight) and crossing them off of the other competing half. Multiple reasons can be combined from one side to form a "subjective" value (weight) to balance out the other half. (For example, two medium "Pro" reasons might add up to an equal value of a single important "Con" reason)
 - The side with the most remaining reasons is the option one should select for the decision in question
 
 ## Example
