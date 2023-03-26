@@ -18,7 +18,6 @@ Below is the actual letter Ben Franklin wrote in 1772 detailing the process to h
 >And tho’ the Weight of Reasons cannot be taken with the Precision of Algebraic Quantities, yet when each is thus considered separately and comparatively, and the whole lies before me, I think I can judge better, and am less likely to take a rash Step; and in fact I have found great Advantage from this kind of Equation, in what may be called Moral or Prudential Algebra.
 
 The above letter was written over 250 years ago and sounds quite different the way current letters are written. In summary these are the steps Ben Franklin recommends when making a decision:  
-In this article, I will cover the following concepts:
 - Divide an area into two competing halves: a Pro side and Con side
 - Label one side "Pro" and the other "Con"
 - Under each respective side, over several days write down various reasons that support (Pro) or are against (Con)
