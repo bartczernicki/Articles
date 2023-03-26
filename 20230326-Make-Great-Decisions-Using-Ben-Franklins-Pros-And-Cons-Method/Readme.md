@@ -25,4 +25,8 @@ The above letter was written over 250 years ago and sounds quite different the w
 - Take reasons that are of similar weight and cross them off of the other competing half. Multiple reasons can be combined from one side to form a "subjective" weight to balance out the other half. (For example, two "Pro" reasons might add up to an equal weight of a single "Con" reason)
 - The side with the most remaining reasons is the option one should select for the decision in question
 
+## Example
 
+## Why This Simple Process Matters
+
+Most people in their personal lives or even in business context do not use a systematic or organized decision process. Even important or high-stakes decisions are made using "expertise" or "gut feel". A simple decision-making process, such as creating a pro and con list, is better than having no decision-making process because it introduces structure and organization to the decision-making task. Even though this basic method is over 250 years old it encourages individuals to consider multiple aspects of a decision, including potential benefits and drawbacks. By examining both positive and negative factors, decision-makers can gain a clearer understanding of the implications of their choices, which can lead to more informed and balanced decisions.
