@@ -23,3 +23,6 @@ The above letter was written over 250 years ago and sounds quite different the w
 - Under each respective side, over several days write down various reasons that support (Pro) or are against (Con)
 - After spending some time thinking exhaustively and writing down the reasons, weight the different Pro and Con reasons
 - Take reasons that are of similar weight and cross them off of the other competing half. Multiple reasons can be combined from one side to form a "subjective" weight to balance out the other half. (For example, two "Pro" reasons might add up to an equal weight of a single "Con" reason)
+- The side with the most remaining reasons is the option one should select for the decision in question
+
+
