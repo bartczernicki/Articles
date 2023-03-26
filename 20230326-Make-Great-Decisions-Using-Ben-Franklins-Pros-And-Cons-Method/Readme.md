@@ -28,7 +28,7 @@ The above letter was written over 250 years ago and sounds quite different the w
 
 ## Example
 
-## Why This Simple 250 Yeard Old Process Matters
+## Why This Simple 250 Year Old Decision Making Method Matters
 
 Most people in their personal lives or even in business context do not use a systematic or organized reasoning process. Even important or high-stakes decisions are made using "expertise" or "gut feel". Most decisions are biased, indivuals naturally have preferences and prefer one alternative to another. There is nothing wrong with having a preference. However, there needs to be a discipline imposed in order to overcome biases and personal preferences. 
 
