@@ -1,3 +1,5 @@
+![Cover - Sales Team](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230326-Make-Great-Decisions-Using-Ben-Franklins-Pros-And-Cons-Method/Image-MakeGreatDecisions.png)
+
 Making decisions can be a daunting task, particularly when the stakes are high. Fortunately, there are strategies and tools available to guide decision-makers through the process. One such tool is the weighted pros and cons list, which was popularized by none other than Benjamin Franklin. In this article, we will explore how a systematic approach to decision-making, utilizing Franklin's simple pros and cons tool, can lead to better outcomes. We will examine the steps involved in this approach, highlight the benefits of this method, and provide an example of how it can be applied in an individual decision. By the end of this article, readers will have a greater understanding of how to make great decisions using a systematic approach, and the confidence to apply this knowledge in their own decision-making processes.
 
 ## Background
