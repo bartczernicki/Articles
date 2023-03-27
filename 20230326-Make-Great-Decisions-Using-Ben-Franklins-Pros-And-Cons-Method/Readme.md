@@ -1,4 +1,4 @@
-![Cover - Sales Team](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230326-Make-Great-Decisions-Using-Ben-Franklins-Pros-And-Cons-Method/Image-MakeGreatDecisions.png)
+![Cover - Decision Making](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230326-Make-Great-Decisions-Using-Ben-Franklins-Pros-And-Cons-Method/Image-MakeGreatDecisions.png)
 
 Making decisions can be a daunting task, particularly when the stakes are high. Fortunately, there are strategies and tools available to guide decision-makers through the process. One such tool is the weighted pros and cons list, which was popularized by none other than Benjamin Franklin. In this article, we will explore how a systematic approach to decision-making, utilizing Franklin's simple pros and cons tool, can lead to better outcomes. We will examine the steps involved in this approach, highlight the benefits of this method, and provide an example of how it can be applied in an individual decision. By the end of this article, readers will have a greater understanding of how to make great decisions using a systematic approach, and the confidence to apply this knowledge in their own decision-making processes.
 
@@ -19,6 +19,8 @@ Below is the actual letter Ben Franklin wrote in 1772 detailing the process to h
 
 >And tho’ the Weight of Reasons cannot be taken with the Precision of Algebraic Quantities, yet when each is thus considered separately and comparatively, and the whole lies before me, I think I can judge better, and am less likely to take a rash Step; and in fact I have found great Advantage from this kind of Equation, in what may be called Moral or Prudential Algebra.
 
+![Decision Making Process](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230326-Make-Great-Decisions-Using-Ben-Franklins-Pros-And-Cons-Method/Image-BenFranklinDecisionMakingMethod.png)
+
 In bullet summary, these are the steps Ben Franklin recommends when making a decision, which he called his "Decision Making Method of Moral Algebra":  
 - Frame a decison that has two options (Yes or a No)
 - Divide an area into two competing halves: a "Pro" side and "Con" side
@@ -30,7 +32,12 @@ In bullet summary, these are the steps Ben Franklin recommends when making a dec
 
 ## Example
 
+![Decision Making Process](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230326-Make-Great-Decisions-Using-Ben-Franklins-Pros-And-Cons-Method/Image-VacationDecisionMaking.png)
+
 ## Why This Simple 250 Year Old Decision Making Method Matters
+
+![Decision Making - Balanced Outcomes](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230326-Make-Great-Decisions-Using-Ben-Franklins-Pros-And-Cons-Method/Image-BalancedOutcomes.png)
+
 
 Many sophisticated decision support systems or management systems use big data, artificial intelligence, statistical probabilities or confidence interval ranges. Ben Franklin's decision making method is not meant to replace any of those as it is quite inferior. However, in my opinion this method still matters! Why? Most people in their personal lives or even in business context do not use a systematic or organized reasoning process at all!! Even important or high-stakes decisions are made using "past expertise" or "gut feel". Humans have selective recall, are influenced by recent events and even will make a different decision presented with the same information depending on their "mood"! Most decisions are heavily biased, indivuals naturally have preferences and prefer one alternative to another. There is nothing wrong with having a preference. However, there needs to be a discipline imposed in order to overcome biases and personal preferences. 
 
