@@ -1,6 +1,6 @@
 # Articles
 
-Collection of research articles, blogs and related artitfacts of related topcis
+Collection of research decision intelligence, AI, statistics: articles, blogs and related artitfacts of related topcis
 
 
 **1) My Mom's Predictive Dream About My Family Before She Passed**  
