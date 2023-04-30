@@ -13,4 +13,4 @@ Description: Whether it is a small or enterprise sales team, simple quantitative
 
 **3) Make Great Decisions using Ben Franklin's (Pros And Cons) Decision Making Method**  
 https://github.com/bartczernicki/Articles/tree/main/20230326-Make-Great-Decisions-Using-Ben-Franklins-Pros-And-Cons-Method  
-Description: Implement a simple and effective systematic technique to make great decisions and reduce human error  
+Description: Executives rate decision-making as one of the most important qualities they look. In this article, learn how-to implement a simple and effective systematic technique to make consistent decisions and reduce some human error, using Ben Franklin's technique from over 250 years ago! 
