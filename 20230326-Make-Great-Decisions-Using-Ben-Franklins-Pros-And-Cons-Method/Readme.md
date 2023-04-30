@@ -30,7 +30,7 @@ In bullet summary, these are the steps Ben Franklin recommends when making a dec
 - Determine the relative imporance of each reason or argument. This is done by taking reasons/arguments that are of similar value (weight) and crossing them off of the other competing half. Multiple reasons can be combined from one side to form a "subjective" value (weight) to balance out the other half. (For example, two medium "Pro" reasons might add up to an equal value of a single important "Con" reason)
 - The side with the most remaining reasons is the option one should select for the decision in question
 
-## Example
+## Example - Deciding on a Luxury Family Vacation
 
 ![Decision Making Process](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230326-Make-Great-Decisions-Using-Ben-Franklins-Pros-And-Cons-Method/Image-VacationDecisionMaking.png)
 
