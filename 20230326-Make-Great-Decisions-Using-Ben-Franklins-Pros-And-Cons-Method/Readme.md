@@ -37,7 +37,7 @@ In bullet summary, these are the steps Ben Franklin recommends when making a dec
 Let's asssume a family is planning a luxury family vacation next year to the Maldives. How would the family approach this important decision using this decision-making framework? Taking the first 4 steps from the section above (frame the decision, provide for/con reasons in two halves), the family may write down the supporting reasons in the table below:
 ![Decision Making Process](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230326-Make-Great-Decisions-Using-Ben-Franklins-Pros-And-Cons-Method/Image-VacationDecisionMaking-ProConList.png)
 
-
+![Decision Making Process](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230326-Make-Great-Decisions-Using-Ben-Franklins-Pros-And-Cons-Method/Image-VacationDecisionMaking-ProConList-Ranked.png)
 
 ## Why This Simple 250 Year Old Decision Making Method Matters
 
