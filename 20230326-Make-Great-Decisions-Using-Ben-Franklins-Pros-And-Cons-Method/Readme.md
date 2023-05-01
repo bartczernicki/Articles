@@ -53,9 +53,11 @@ One of the reasons why Ben Franklin's decision-making method is still important 
 
 ![Decision Making - Processes Compared](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230326-Make-Great-Decisions-Using-Ben-Franklins-Pros-And-Cons-Method/Image-DecisionMakingProcesses-Compared.png)
 
-Ben Franklin's decision-making method provides a simple yet effective technique to overcome biases and personal preferences. This method encourages decision-makers to consider all factors involved in the decision-making process, including the potential benefits and drawbacks of each option. By examining both positive and negative factors, decision-makers can gain a clearer understanding of the implications of their choices, leading to more informed and balanced decisions.
+Ben Franklin's decision-making method provides a simple yet effective technique to overcome biases and personal preferences. This method encourages decision-makers to consider all factors involved in the decision-making process, including the potential benefits and drawbacks of each option. By examining both positive and negative factors, decision-makers can gain a clearer understanding of the implications of their choices, leading to more informed and balanced decisions.[^2]
 
 For those who are making crucial high-stakes decisions without any organized process, using Ben Franklin's decision-making method is a recommended starting point. This technique allows for a balanced review of the decision-making process, ensuring that all factors are considered before arriving at a final decision. By utilizing this method, decision-makers can minimize their biases and personal preferences, resulting in decisions made based on objective analysis and thoughtful consideration.
 
 ## Footnotes
 [^1]: Stable Diffusion on Hugging Face: https://huggingface.co/spaces/stabilityai/stable-diffusion 
+[^2]: Business Analytics - Decision Making Process: https://www.techtarget.com/searchbusinessanalytics/definition/decision-making-process  
+
