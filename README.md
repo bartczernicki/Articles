@@ -11,6 +11,6 @@ Description: Calculate the probability of life events using simple statistical m
 https://github.com/bartczernicki/Articles/tree/main/20230129-MeasuringSalesPerformanceUsingSimpleStatisticalModels  
 Description: Whether it is a small or enterprise sales team, simple quantitative techniques can be used to provide valuable sales insights or draw attention to areas of need  
 
-**3) Make Great Decisions using Ben Franklin's (Pros And Cons) Decision Making Method**  
+**3) Make Great Decisions using Ben Franklin's (Pros and Cons) Decision Making Method**  
 https://github.com/bartczernicki/Articles/tree/main/20230326-Make-Great-Decisions-Using-Ben-Franklins-Pros-And-Cons-Method  
 Description: Decision-making ability is regarded by executives as one of the most highly desired business skills. In this article, learn how-to implement a simple and effective systematic technique to make consistent decisions and reduce some human error, using Ben Franklin's technique from over 250 years ago! 
