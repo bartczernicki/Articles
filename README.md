@@ -15,5 +15,5 @@ Description: Whether it is a small or enterprise sales team, simple quantitative
 https://github.com/bartczernicki/Articles/tree/main/20230326-Make-Great-Decisions-Using-Ben-Franklins-Pros-And-Cons-Method  
 Description: Decision-making ability is regarded by executives as one of the most highly desired business skills. In this article, learn how-to implement a simple and effective systematic technique to make consistent decisions and reduce some human error, using Ben Franklin's technique from over 250 years ago! 
 
-**4) An Innovative OpenAI Approach to Crafting a Vector Database in SQL Server and using Semantic Kernel**
+**4) An Innovative OpenAI Approach to Crafting a Vector Database in SQL Server and using Semantic Kernel**  
 Description: Article covering an end-to-end console application can uses 30 books as a source, builds a vector database using OpenAI embeddings, allows for searching the database index using pure SQL with Semantic Kernel and finally answers a question that can only be found in the text of the books  
