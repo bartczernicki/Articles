@@ -2,7 +2,7 @@
 
 ## Background
 
-Harnessing the power of AI and text analytics to handle large volumes of text data has been a revolutionary stride in data science. With the emergence of OpenAI and the power of embeddings search, now one can craft information retrieval engines that combine private document stores, public or internet knowledge graphs that can be provided as context to LLMs (large language models) to help provide insights and answer questions on 
+Large language models (LLMs) has signaled a transformative shift in artificial intelligence (AI), providing a doorway to tasks rooted in natural language processing. While they are a crucial component of traditional AI, it's important to acknowledge that these models also come with their share of limitations. Their versatility and wide-ranging utility have positioned them as fundamental building blocks for numerous applications, leading some to re-christen them as "foundation models". The scope of this term is extensive, encompassing not only language models but also those trained on a spectrum of data beyond just text. However, this document focuses less on such multimodal models. Additionally, it's critical to approach the label "language model" with some level of skepticism. Although LMs accurately replicate syntax and various linguistic facets, their most compelling attribute is their ability to mirror the world, as characterized by the dataset they are trained on.
 
 
 the creation of vector databases in SQL Server has been made possible, adding an extra dimension to traditional text analytics. This blog post explores the inner workings of this application and the underlying process.
