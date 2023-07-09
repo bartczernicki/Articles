@@ -19,7 +19,7 @@ Vector databases are not an new concept. In fact, there has been years of resear
 
 ### Why SQL?
 * Proven enterprise product with pedigree since late 1990s  
-* It runs almost anywhere you would need a vector database: on-premises (local), IoT, Docker container, cross-cloud, Linux/Windows etc.
+* It runs almost anywhere you would need a vector database: on-premises (local), IoT, Docker container, cross-cloud, Linux/Windows, x64 and ARM architectures etc.
 * Free devalopment! SQL Server offers a development SKU ideal for development of AI and vector-based solutions  
 * The power of SQL language. SQL has been around in existance for quite some time and it is very easy to perform complex analytical, mathematical, filtering etc. using it. Compare this with vector database startups, that are just adding basic filtering or lack ability to perform a simple join!  
 * ColumnStore indexes allow SQL to scale to millions of documents per table (Vector Index)  
