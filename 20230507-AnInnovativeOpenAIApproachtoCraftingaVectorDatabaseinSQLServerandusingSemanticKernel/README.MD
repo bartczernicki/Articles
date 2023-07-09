@@ -30,6 +30,9 @@ Vector databases are not an new concept. In fact, there has been years of resear
 
 ![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-Pipeline.png)  
 
+Main GitHub location and instructions to get started:
+https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows  
+
 ## Features:
 * The console app uses 30 selected books from the Project Gutenberg site from various authors: Oscar Wilde, Bram Stoker, Edgar Allen Poe and performs enrichment using multiple AI enrichment steps
 * Downloads book text, processes text analytics & embeddings, creates a vector database in SQL, demonstrates vector search and answers a sample question using semantic meaning from OpenAI embeddings
