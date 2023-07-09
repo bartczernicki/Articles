@@ -48,9 +48,13 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 
 ![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-ConsoleApp.png)  
 
-## Data Enrichment Pipeline in action  
+## Data Enrichment Pipeline in Action  
 * Essentially performs all of the text analytics, AI (OpenAI) work to materialize the SQL Server Vector Database
 
-![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLVectorEmbeddingsProcessingConsole.gif)  
+![Data Enrichment Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLVectorEmbeddingsProcessingConsole.gif)  
 
+## Q&A Pipeline in Action  
+* Uses both the SQL Vector Search Database and Semantic Kernel to answer question(s) from the 30 processed novels
+
+![Q&A Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-Pipeline-Finish.png)  
 
