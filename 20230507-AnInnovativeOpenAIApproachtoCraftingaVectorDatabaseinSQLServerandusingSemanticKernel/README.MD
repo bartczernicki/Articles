@@ -13,4 +13,17 @@ Good news is that there are approaches to overcome these limitations and improvi
 
 However, there are challenges associated with this approach. Maintaining, storing, and searching embeddings through vector databases can be challenging in production settings. Embeddings are heavy objects and the storage requirements can grow quickly, especially with larger datasets. There are many new open-source and startups trying to solve for this issue. In this article, it will be illustrated how SQL Server or Azure SQL can be used to solve these issues by building an end-to-end vector database, efficiently store vectors in columnstore indexes, perform search and be able to answer queries with Semantic Kernel!
 
+## Case for SQL as a Vector Database
+
+Vector databases are not an new concept. In fact, there has been years of research on this subject and vector database have been used in specific scenarios (i.e. Information Retrieval, Bing Search). There has been a lot more interest in vector database correlated with the explosion of OpenAI and new powerful embeddings models. As any technology space going through disruption, many startups and open-source offerings have appeared: Qdrant, Pinecone, Chroma, Faiss and integrations into other enterprise products: Azure Cognitive Search, Redis, ElasticSearch etc. One product to consider for vector search is Microsoft's SQL engine.
+
+### Why SQL?
+* Proven enterprise product with pedigree since late 1990s  
+* It runs almost anywhere you would need a vector database: on-premises (local), IoT, Docker container, cross-cloud, Linux/Windows etc.
+* Free devalopment! SQL Server offers a development SKU ideal for development of AI and vector-based solutions  
+* The power of SQL language. SQL has been around in existance for quite some time and it is very easy to perform complex analytical, mathematical, filtering etc. using it. Compare this with vector database startups, that are just adding basic filtering or lack ability to perform a simple join!  
+* ColumnStore indexes allow SQL to scale to millions of documents per table (Vector Index)  
+* Enterprise features like security, business continuity, integrations with hundreds of systems built-in  
+* You probably already have used SQL Server/Azure SQL or are using it in your enterprise
+
 
