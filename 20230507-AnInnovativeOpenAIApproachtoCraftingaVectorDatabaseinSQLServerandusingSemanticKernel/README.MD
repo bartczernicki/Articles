@@ -28,8 +28,6 @@ Vector databases are not an new concept. In fact, there has been years of resear
 
 ## Introducting the "Vector Database SQL Search" Demo Console Application  
 
-![TPL Pipeline](https://github.com/bartczernicki/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/blob/master/Images/TPLDataFlows-Pipeline.png)
-
-![TPL Pipeline](https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows/blob/master/TPLDataFlows-Pipeline.png)
+![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-Pipeline.png)  
 
 
