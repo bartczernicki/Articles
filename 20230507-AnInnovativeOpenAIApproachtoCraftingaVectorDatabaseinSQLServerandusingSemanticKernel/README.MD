@@ -26,6 +26,7 @@ Vector databases are not an new concept. In fact, there has been years of resear
 * Enterprise features like security, business continuity, integrations with hundreds of systems built-in  
 * You probably already have used SQL Server/Azure SQL or are using it in your enterprise
 
-## Introducting the "Vector Database SQL Search" Demo Console Application
+## Introducting the "Vector Database SQL Search" Demo Console Application  
 
+![TPL Pipeline](https://github.com/bartczernicki/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-Pipeline.png)  
 
