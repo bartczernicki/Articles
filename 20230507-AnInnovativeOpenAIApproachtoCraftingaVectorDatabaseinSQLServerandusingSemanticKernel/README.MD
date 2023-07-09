@@ -46,5 +46,11 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 * Option 1 processes the entire Data Enrichment Pipeline (build the embeddings Vector Database in SQL)
 * Option 2 processes the Q&A pipeline using Semantic Kernel over the Vector Database (Note: Option #1 must have been run beforehand at some point)  
 
-![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-ConsoleApp.png) 
+![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-ConsoleApp.png)  
+
+## Data Enrichment Pipeline in action  
+* Essentially performs all of the text analytics, AI (OpenAI) work to materialize the SQL Server Vector Database
+
+![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLVectorEmbeddingsProcessingConsole.gif)  
+
 
