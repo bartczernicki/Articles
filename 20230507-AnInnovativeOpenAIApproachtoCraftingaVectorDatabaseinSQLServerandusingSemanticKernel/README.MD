@@ -39,4 +39,9 @@ Vector databases are not an new concept. In fact, there has been years of resear
 * Demonstrates how to create a Machine Intelligence & Text Analytics Pipeline can be combbined using TPL DataFlows
 * The console application is cross-platform .NET 8.x. It will run on macOS, Linux, Windows 10/11 x64, Windows 11 ARM
 
+## Getting Started - Step 2) Processing (after adding proper SQL and OpenAI/Azure OpenAI connections):
+* Select option 1 to process the entire Data Enrichment Pipeline (build the embeddings Vector Database in SQL)
+* Select option 2 to just process the Q&A pipeline using Semantic Kernel over the Vector Database (Note: Option #1 must have been run beforehand at some point)
+
+![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-ConsoleApp.png) 
 
