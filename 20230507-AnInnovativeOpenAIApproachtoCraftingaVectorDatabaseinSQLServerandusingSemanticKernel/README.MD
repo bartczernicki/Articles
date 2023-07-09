@@ -28,10 +28,10 @@ Vector databases are not an new concept. In fact, there has been years of resear
 
 ## Introducting the "Vector Database SQL Search" Demo Console Application  
 
-![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-Pipeline.png)  
-
-Main GitHub location and instructions to get started:
+Main GitHub location and instructions to get started:  
 https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows  
+
+![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-Pipeline.png)  
 
 ## Features:
 * The console app uses 30 selected books from the Project Gutenberg site from various authors: Oscar Wilde, Bram Stoker, Edgar Allen Poe and performs enrichment using multiple AI enrichment steps
@@ -42,9 +42,9 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 * Demonstrates how to create a Machine Intelligence & Text Analytics Pipeline can be combbined using TPL DataFlows
 * The console application is cross-platform .NET 8.x. It will run on macOS, Linux, Windows 10/11 x64, Windows 11 ARM
 
-## Getting Started - Step 2) Processing (after adding proper SQL and OpenAI/Azure OpenAI connections):
-* Select option 1 to process the entire Data Enrichment Pipeline (build the embeddings Vector Database in SQL)
-* Select option 2 to just process the Q&A pipeline using Semantic Kernel over the Vector Database (Note: Option #1 must have been run beforehand at some point)
+## Two Pipeline Execution Options showing the power of Vector Embeddings Search using SQL
+* Option 1 processes the entire Data Enrichment Pipeline (build the embeddings Vector Database in SQL)
+* Option 2 processes the Q&A pipeline using Semantic Kernel over the Vector Database (Note: Option #1 must have been run beforehand at some point)  
 
 ![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-ConsoleApp.png) 
 
