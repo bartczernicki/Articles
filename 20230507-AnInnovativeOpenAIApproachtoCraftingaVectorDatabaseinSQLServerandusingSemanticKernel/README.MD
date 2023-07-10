@@ -54,7 +54,7 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 ![Data Enrichment Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLVectorEmbeddingsProcessingConsole.gif)  
 
 ## Q&A Pipeline in Action  
-* Uses both the SQL Vector Search Database and Semantic Kernel to answer question(s) from the 30 processed novels
+* Uses both the SQL Vector Search Database & Semantic Kernel to answer question(s) from the 35 processed novels
 
 ![Q&A Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-Pipeline-Finish.png)  
 
