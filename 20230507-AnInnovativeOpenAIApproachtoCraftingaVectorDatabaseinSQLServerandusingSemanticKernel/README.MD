@@ -17,7 +17,7 @@ However, there are challenges associated with this approach. Maintaining, storin
 
 Vector databases are not an new concept. In fact, there has been years of research on this subject and vector database have been used in specific scenarios (i.e. Information Retrieval, Bing Search). There has been a lot more interest in vector database correlated with the explosion of OpenAI and new powerful embeddings models. As any technology space going through disruption, many startups and open-source offerings have appeared: Qdrant, Pinecone, Chroma, Faiss and integrations into other enterprise products: Azure Cognitive Search, Redis, ElasticSearch etc. One product to consider for vector search is Microsoft's SQL engine.
 
-### Why Microsoft SQL?
+### Features of Microsoft SQL for Vector (Indexes) Databases
 * Proven enterprise-grade product line with pedigree since late 1990s  
 * It runs almost anywhere you would need a vector database: on-premises (local), IoT, Docker container, cross-cloud, Linux/Windows, x64 and ARM architectures etc.
 * No-cost (free) development environment!! SQL Server offers a development SKU ideal for development of AI and vector-based solutions  
@@ -28,12 +28,12 @@ Vector databases are not an new concept. In fact, there has been years of resear
 
 ## Introducting the "Vector Database SQL Search" Demo Console Application  
 
-Main GitHub location and instructions to get started:  
+Main GitHub location and developer instructions to get started:  
 https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows  
 
 ![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-Pipeline.png)  
 
-## Features:
+### Features:
 * The console app uses 30 selected books from the Project Gutenberg site from various authors: Oscar Wilde, Bram Stoker, Edgar Allen Poe and performs enrichment using multiple AI enrichment steps
 * Downloads book text, processes text analytics & embeddings, creates a vector database in SQL, demonstrates vector search and answers a sample question using semantic meaning from OpenAI embeddings
 * Stores all enrichment output for each book in a seperate JSON file
@@ -42,18 +42,18 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 * Demonstrates how to create a Machine Intelligence & Text Analytics Pipeline can be combbined using TPL DataFlows
 * The console application is cross-platform .NET 8.x. It will run on macOS, Linux, Windows 10/11 x64, Windows 11 ARM
 
-## Two Pipeline Execution Options showing the power of Vector Embeddings Search using SQL
+### Two Pipeline Execution Options showing the power of Vector Embeddings Search using SQL
 * Option 1 processes the entire Data Enrichment Pipeline (build the embeddings Vector Database in SQL)
 * Option 2 processes the Q&A pipeline using Semantic Kernel over the Vector Database (Note: Option #1 must have been run beforehand at some point)  
 
 ![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-ConsoleApp.png)  
 
-## Data Enrichment Pipeline in Action  
+### Data Enrichment Pipeline in Action  
 * Essentially performs all of the text analytics, AI (OpenAI) work to materialize the SQL Server Vector Database
 
 ![Data Enrichment Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLVectorEmbeddingsProcessingConsole.gif)  
 
-## Q&A Pipeline in Action  
+### Q&A Pipeline in Action  
 * Uses both the SQL Vector Search Database & Semantic Kernel to answer question(s) from the 35 processed novels
 
 ![Q&A Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-Pipeline-Finish.png)  
