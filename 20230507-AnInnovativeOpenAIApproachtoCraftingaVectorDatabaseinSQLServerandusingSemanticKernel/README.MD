@@ -39,12 +39,12 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 * Stores all enrichment output for each book in a seperate JSON file
 * Rather than processing text analytics enrichment in single synchronous steps, it uses an data flow model to create efficient pipelines that can saturate multiple logical CPU cores  
 * Illustrates that SQL Server or Azure SQL can be used as a valid Vector Store, can perform vector search and provide Q&A over the database
-* Demonstrates how to create a Machine Intelligence & Text Analytics Pipeline can be combbined using TPL DataFlows
+* Demonstrates how to create a Machine Intelligence & AI (OpenAI) Pipeline can be combbined using C# TPL DataFlows
 * The console application is cross-platform .NET 8.x. It will run on macOS, Linux, Windows 10/11 x64, Windows 11 ARM
 
 ### Two Pipeline Execution Options showing the power of Vector Embeddings Search using SQL
-* Option 1 processes the entire Data Enrichment Pipeline (build the embeddings Vector Database in SQL)
-* Option 2 processes the Q&A pipeline using Semantic Kernel over the Vector Database (Note: Option #1 must have been run beforehand at some point)  
+* Option 1 processes the entire Data Enrichment Pipeline (builds the embeddings Vector Database in SQL)
+* Option 2 processes the Q&A pipeline using Semantic Kernel over the Vector Database (Note: Option #1 must have been run beforehand at some point and the application needs access to the current vector store)  
 
 ![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-ConsoleApp.png)  
 
