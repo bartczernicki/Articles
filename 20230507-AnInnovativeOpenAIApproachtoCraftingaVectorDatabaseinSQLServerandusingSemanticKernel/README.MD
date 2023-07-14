@@ -2,7 +2,7 @@
 
 ## Background
 
-Large language models (LLMs) has signaled a transformative shift in artificial intelligence (AI), providing a doorway to tasks rooted in natural language processing. While they are a crucial component of traditional AI, it's important to acknowledge that these models also come with their share of limitations. Their versatility and wide-ranging utility have positioned them as fundamental building blocks for numerous applications, leading some to re-christen them as "foundation models". Despite their value, current LLMs (including GPT-4)
+Large language models (LLMs) have signaled a transformative shift in artificial intelligence (AI), providing a doorway to tasks rooted in natural language processing. While they are a crucial component of traditional AI, it's important to acknowledge that these models also come with their share of limitations. Their versatility and wide-ranging utility have positioned them as fundamental building blocks for numerous applications, leading some to re-christen them as "foundation models". Despite their value, current LLMs (including GPT-4)
 have inherent limitations:
 * **Lack of access to current information.** For example, many OpenAI models have been trained on data up to September 2021  
 * **Lack of access to private document stores.** For example, OpenAI models were not trained on private corporate contracts  
