@@ -45,7 +45,7 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 ### Two Pipeline Execution Options showing the power of Vector Embeddings Search using SQL
 * Option 1 processes the entire Data Enrichment Pipeline (builds the embeddings Vector Database in SQL)
 * Option 2 processes the Q&A pipeline using Semantic Kernel over the Vector Database (Note: Option #1 must have been run beforehand at some point and the application needs access to the current vector store)  
-* Option 3 processes the Q&A pipeline with reasoning using Semantic Kernel over the Vector Database (Note: Option #1 must have been run beforehand at some point and the application needs access to the current vector store)  
+* Option 3 processes the Q&A pipeline with reasoning using Semantic Kernel over the Vector Database. It also includes a rudimentary confidence score. (Note: Option #1 must have been run beforehand at some point and the application needs access to the current vector store)  
 
 ![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-ConsoleApp.png)  
 
@@ -55,7 +55,7 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 ![Data Enrichment Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLVectorEmbeddingsProcessingConsole.gif)  
 
 ### Q&A Pipeline in Action  
-* Uses both the SQL Vector Search Database & Semantic Kernel to answer question(s) from the 35 processed novels
+* Uses both the SQL Vector Search Database & Semantic Kernel to answer question(s) from the 50 processed novels
 
 ![Q&A Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-Pipeline-Finish.png)  
 
