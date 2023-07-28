@@ -55,7 +55,13 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 ![Data Enrichment Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLVectorEmbeddingsProcessingConsole.gif)  
 
 ### Q&A Pipeline in Action  
-* Uses both the SQL Vector Search Database & Semantic Kernel to answer question(s) from the 50 processed novels
+* Uses both the SQL Vector Search Database & Semantic Kernel to answer question(s) from the 50 processed novels. The sample questions show how the power of the SQL Vector DB and Semantic Kernel can work together on a simple vector search, more complex hybrid search to enhance the accuracy and filter out any disambiguation between context(s) of novels.
 
 ![Q&A Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-Pipeline-Finish.png)  
 
+### Learn More
+
+After introducing this concept, in the next three parts of this series I will cover the three core components that make up the solution:  
+* 1) .NET 8.x TPL Data Flows Pipelines - How .NET is uniquely positioned to run anywhere with performance and leverage advanced concepts like saturating all of the available the CPU environment to execute a data-enrichment AI pipeline
+* 2) How the SQL Server engine can be effectively used as a vector database, facilitate hybrid search capabilities and provide massive scale to millions of documents
+* 3) Semantic Kernel configuration and how Semantic Kernel can be configured to adapt to context from almost any vector store and work with vector stores on advanced features. Finally, I will cover additional concepts that can improve recall of Q&A in sophisticated context environments.
