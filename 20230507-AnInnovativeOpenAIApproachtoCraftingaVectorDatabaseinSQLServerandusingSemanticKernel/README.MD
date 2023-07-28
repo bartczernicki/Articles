@@ -4,8 +4,8 @@
 
 Large language models (LLMs) have signaled a transformative shift in artificial intelligence (AI), providing a doorway to tasks rooted in natural language processing. While they are a crucial component of traditional AI, it's important to acknowledge that these models also come with their share of limitations. Their versatility and wide-ranging utility have positioned them as fundamental building blocks for numerous applications, leading some to re-christen them as "foundation models". Despite their value, current LLMs (including GPT-4)
 have inherent limitations:
-* **Lack of access to current information.** For example, many OpenAI models have been trained on data up to September 2021  
-* **Lack of access to private document stores.** For example, OpenAI models were not trained on private corporate contracts  
+* **Lack of access to current information.** For example, several current OpenAI models have been trained on data up to September 2021  
+* **Lack of access to private document stores.** For example, most OpenAI models were not trained on private corporate contracts  
 * **Lack of cognitive reasoning.** LLMs (including OpenAI) can provide nonsense answers sometimes called "hallucinations"  
 * **Limited amount of context.** Most LLMs have small contexts (memory) that help it remember what topic the chat was about or details of the previous chat exchange   
 
@@ -15,15 +15,15 @@ However, there are challenges associated with this approach. Maintaining, storin
 
 ## Case for SQL as a Vector Database
 
-Vector databases are not an new concept. In fact, there has been years of research on this subject and vector database have been used in specific scenarios (i.e. Information Retrieval, Bing Search).  If you launch a search engine and look up old articles for vector databases, you will find articles from over a decade ago! However, there has been a lot more interest in vector database correlated with the explosion of OpenAI and new powerful embeddings models. As any technology space going through disruption, many startups and open-source offerings have appeared: Qdrant, Pinecone, Chroma, Faiss and integrations into other enterprise products: Azure Cognitive Search, Redis, ElasticSearch etc. One product to consider for vector search is Microsoft's SQL engine.
+Vector databases are not an new concept. In fact, there has been years of research on this subject and vector database have been used in specific scenarios (i.e. Information Retrieval, Bing Search).  If you launch a search engine and look up old articles for vector databases, you will find articles from over a decade ago! However, there has been a lot more interest in vector database correlated with the explosion of OpenAI and new powerful embeddings models. As any technology space going through disruption, many startups and open-source offerings have appeared: Qdrant, Pinecone, Chroma, Faiss and integrations into other enterprise products: Azure Cognitive Search, Redis, ElasticSearch etc. One product to consider for vector search is Microsoft's SQL database engine.
 
 ### Features of Microsoft SQL for Vector (Indexes) Databases
-* Proven enterprise-grade product line with pedigree since late 1990s  
-* It runs almost anywhere you would need a vector database: on-premises (local), IoT, Docker container, cross-cloud, Linux/Windows, x64 and ARM architectures etc.
-* No-cost (free) development environment!! SQL Server offers a development SKU ideal for development of AI and vector-based solutions  
+* Proven enterprise-grade product line with pedigree since late 1990s. It has been around for quite some time, and likely continue to be around
+* It runs almost anywhere you would need a vector database: on-premises (local), IoT, Docker container, cross-cloud, Linux/Windows, x64 and ARM architectures etc.  
+* No-cost (free) development environment!! SQL Server offers a development SKU ideal for development of AI and vector-based solutions offered for free to test out the engine.  
 * The power of SQL language. SQL has been around in existance for quite some time and it is very easy to perform complex analytical, mathematical, filtering etc. using it. Compare this with some vector database startups, that are just adding basic filtering (where clause) or lack ability to perform a simple join!  
-* Columnstore indexes, partitioning, distributing indexes in tables allow Microsoft SQL to scale to tens of millions of documents in  Vector Index. For example, Columnstore indexes provide massive performance gains by reducing I/O through data compression and batch processing, which allows more data to be stored in memory and entire "areas" of data to be eliminated during query processing  
-* Enterprise features like security, business continuity, query intelligence optimizations, integrations with hundreds of other systems & software
+* Columnstore indexes, partitioning, distributing indexes in tables allow Microsoft SQL to scale to tens of millions of documents in a Vector Index. For example, Columnstore indexes provide massive performance gains by reducing I/O through data compression and batch processing, which allows more data to be stored in memory and entire "areas" of data to be eliminated during query processing  
+* Enterprise features like security, business continuity, query intelligence optimizations, integrations with hundreds of other systems & software are first-class citizens. Many open-source vector database alternatives can't match this functionality posture.  
 * You probably already have used SQL Server/Azure SQL or are using it in your enterprise. You are probably NOT using one of the open-source or new startup vector stores  
 
 ## Introducting the "Vector Database SQL Search" Demo Console Application  
