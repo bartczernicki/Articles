@@ -24,7 +24,7 @@ Vector databases are not an new concept. In fact, there has been years of resear
 * The power of SQL language. SQL has been around in existance for quite some time and it is very easy to perform complex analytical, mathematical, filtering etc. using it. Compare this with some vector database startups, that are just adding basic filtering (where clause) or lack ability to perform a simple join!  
 * Columnstore indexes, partitioning, distributing indexes in tables allow Microsoft SQL to scale to tens of millions of documents in a Vector Index. For example, Columnstore indexes provide massive performance gains by reducing I/O through data compression and batch processing, which allows more data to be stored in memory and entire "areas" of data to be eliminated during query processing  
 * Enterprise features like security, business continuity, query intelligence optimizations, integrations with hundreds of other systems & software are first-class citizens. Many open-source vector database alternatives can't match this functionality posture.  
-* You probably already have used SQL Server/Azure SQL or are using it in your enterprise. You are probably NOT using one of the open-source or new startup vector stores  
+* You probably already have used SQL Server/Azure SQL or are using it in your enterprise. You are probably NOT using one of the open-source or new startup vector stores. In the former example, it is clearly easier to "integrate" a vector store into an existing database system.  
 
 ## Introducting the "Vector Database SQL Search" Demo Console Application  
 
@@ -40,7 +40,7 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 * Rather than processing text analytics enrichment in single synchronous steps, it uses an data flow model to create efficient pipelines that can saturate multiple logical CPU cores  
 * Illustrates that SQL Server or Azure SQL can be used as a valid Vector Store, can perform vector search and provide Q&A over the database
 * Demonstrates how to create a Machine Intelligence & AI (OpenAI) Pipeline can be combbined using C# TPL DataFlows
-* The console application is cross-platform .NET 8.x. It will run on macOS, Linux, Windows 10/11 x64, Windows 11 ARM
+* The console application is cross-platform .NET 8.x. It can run on macOS, Linux, Windows 10/11 x64, Windows 11 ARM
 
 ### Three Pipeline Execution Options showing the power of Vector Embeddings Search using SQL
 * Option 1 processes the entire Data Enrichment Pipeline (builds the OpenAI embeddings Vector Database in SQL)
@@ -50,7 +50,7 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 ![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-ConsoleApp.png)  
 
 ### Data Enrichment Pipeline in Action  
-* Essentially performs all of the text analytics, AI (OpenAI) work to materialize the SQL Server Vector Database
+* Essentially performs all of the text analytics, AI (OpenAI) work to materialize the SQL Server Vector Database. The start of the pipeline is a list of 50 books and their URL locations. At the completion of the pipeline a full AI& ML enriched set of JSON documents and a vector embeddings database is built.  
 
 ![Data Enrichment Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLVectorEmbeddingsProcessingConsole.gif)  
 
