@@ -6,8 +6,8 @@ Large language models (LLMs) have signaled a transformative shift in artificial 
 have inherent limitations:
 * **Lack of access to current information.** For example, several current OpenAI models have been trained on data up to September 2021  
 * **Lack of access to private document stores.** For example, most OpenAI models were not trained on private corporate contracts  
-* **Lack of cognitive reasoning.** LLMs (including OpenAI) can provide nonsense answers sometimes called "hallucinations"  
-* **Limited amount of context.** Most LLMs have small contexts (memory) that help it remember what topic the chat was about or details of the previous chat exchange   
+* **Lack of cognitive reasoning.** LLMs (either OpenAI or open-source) can provide nonsense answers sometimes called "hallucinations"  
+* **Limited amount of context.** Most LLMs have small token contexts (memory) that help it remember what topic the chat was about or details of the previous chat exchange  
 
 Good news is that there are approaches to overcome these limitations and improving the utility of large language models (including OpenAI). One of these approaches is "adding more memory" using a vector database for storing and retrieving embeddings, which are mathematical representations of features or attributes of data. Vector databases allow for fast and accurate similarity search and retrieval of data based on their vector distance or similarity, making it possible to find the most similar or relevant data based on their semantic or contextual meaning. This kind of "grounding" the LLM with context-specific data can provide more accurate and relevant outputs to answer specific questions.
 
@@ -18,8 +18,8 @@ However, there are challenges associated with this approach. Maintaining, storin
 Vector databases are not an new concept. In fact, there has been years of research on this subject and vector database have been used in specific scenarios (i.e. Information Retrieval, Bing Search).  If you launch a search engine and look up old articles for vector databases, you will find articles from over a decade ago! However, there has been a lot more interest in vector database correlated with the explosion of OpenAI and new powerful embeddings models. As any technology space going through disruption, many startups and open-source offerings have appeared: Qdrant, Pinecone, Chroma, Faiss and integrations into other enterprise products: Azure Cognitive Search, Redis, ElasticSearch etc. One product to consider for vector search is Microsoft's SQL database engine.
 
 ### Features of Microsoft SQL for Vector (Indexes) Databases
-* Proven enterprise-grade product line with pedigree since late 1990s. It has been around for quite some time, and likely continue to be around
-* It runs almost anywhere you would need a vector database: on-premises (local), IoT, Docker container, cross-cloud, Linux/Windows, x64 and ARM architectures etc.  
+* Proven enterprise-grade product line with pedigree since late 1990s. It has been around for quite some time, and likely continue to be around for years
+* SQL Server engine runs almost anywhere you would need a vector database: on-premises (local), IoT, Docker container, cross-cloud, Linux/Windows, x64 and ARM architectures etc.  
 * No-cost (free) development environment!! SQL Server offers a development SKU ideal for development of AI and vector-based solutions offered for free to test out the engine.  
 * The power of SQL language. SQL has been around in existance for quite some time and it is very easy to perform complex analytical, mathematical, filtering etc. using it. Compare this with some vector database startups, that are just adding basic filtering (where clause) or lack ability to perform a simple join!  
 * Columnstore indexes, partitioning, distributing indexes in tables allow Microsoft SQL to scale to tens of millions of documents in a Vector Index. For example, Columnstore indexes provide massive performance gains by reducing I/O through data compression and batch processing, which allows more data to be stored in memory and entire "areas" of data to be eliminated during query processing  
@@ -43,14 +43,14 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 * The console application is cross-platform .NET 8.x. It can run on macOS, Linux, Windows 10/11 x64, Windows 11 ARM
 
 ### Three Pipeline Execution Options showing the power of Vector Embeddings Search using SQL
-* Option 1 processes the entire Data Enrichment Pipeline (builds the OpenAI embeddings Vector Database in SQL)
+* Option 1 processes the entire Data Enrichment Pipeline (builds the OpenAI embeddings Vector Database in SQL)  
 * Option 2 processes the Q&A pipeline using Semantic Kernel over the Vector Database (Note: Option #1 must have been run beforehand at some point and the application needs access to the current vector store)  
 * Option 3 processes the Q&A pipeline with reasoning using Semantic Kernel over the Vector Database. It also includes a rudimentary confidence score illustrating how "sure" the LLM is in its answer. (Note: Option #1 must have been run beforehand at some point and the application needs access to the current vector store)  
 
 ![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-ConsoleApp.png)  
 
 ### Data Enrichment Pipeline in Action  
-* Essentially performs all of the text analytics, AI (OpenAI) work to materialize the SQL Server Vector Database. The start of the pipeline is a list of 50 books and their URL locations. At the completion of the pipeline a full AI& ML enriched set of JSON documents and a vector embeddings database is built.  
+* Essentially performs all of the text analytics, AI (OpenAI) work to materialize the SQL Server Vector Database. The start of the pipeline is a list of 50 books and their URL locations. At the completion of the pipeline a full AI & ML enriched set of JSON documents and a vector embeddings database is built.  
 
 ![Data Enrichment Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLVectorEmbeddingsProcessingConsole.gif)  
 
@@ -59,9 +59,9 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 
 ![Q&A Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-Pipeline-Finish.png)  
 
-### Learn More
+### Learn More - Upcoming Articles
 
 After introducing this solution, in the next upcoming three parts of this series I will cover the three core components that make up the solution:  
-* 1) .NET 8.x TPL Data Flows Pipelines - How .NET is uniquely positioned to run anywhere with performance and leverage advanced concepts like saturating all of the available the CPU environment to execute a data-enrichment AI pipeline
-* 2) How the SQL Server engine can be effectively used as a vector database, facilitate hybrid search capabilities and provide massive scale to millions of documents
-* 3) Semantic Kernel configuration and how Semantic Kernel can be configured to adapt to context from almost any vector store and work with vector stores on advanced features. Finally, I will cover additional concepts that can improve recall of Q&A in sophisticated context environments.
+* Part 1) .NET 8.x TPL Data Flows Pipelines - How .NET is uniquely positioned to run anywhere with performance and leverage advanced concepts like saturating all of the available the CPU environment to execute a data-enrichment AI pipeline
+* Part 2) How the SQL Server engine can be effectively used as a vector database, facilitate hybrid search capabilities and provide massive scale to millions of documents
+* Part 3) Semantic Kernel configuration and how Semantic Kernel can be configured to adapt to context from almost any vector store and work with vector stores on advanced features. Finally, I will cover additional concepts that can improve recall of Q&A in sophisticated context environments.
