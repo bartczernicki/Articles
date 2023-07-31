@@ -34,12 +34,12 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 ![TPL Pipeline](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/TPLDataFlows-Pipeline.png)  
 
 ### Features:
-* The console app uses 50 selected books from the Project Gutenberg site from various authors: Oscar Wilde, Bram Stoker, Edgar Allen Poe, Alexandre Dumas and performs enrichment using multiple AI enrichment steps
+* The console application uses 50 selected books (with over 33 million text characters) from the Project Gutenberg site from various authors: Oscar Wilde, Bram Stoker, Edgar Allen Poe, Alexandre Dumas and performs enrichment using multiple AI enrichment steps
 * Downloads book text, processes text analytics & embeddings, creates a vector database in SQL, demonstrates vector search and answers a sample question using semantic meaning from OpenAI embeddings
 * Stores all enrichment output for each book in a seperate JSON file
 * Rather than processing text analytics enrichment in single synchronous steps, it uses an data flow model to create efficient pipelines that can saturate multiple logical CPU cores  
-* Illustrates that SQL Server or Azure SQL can be used as a valid Vector Store, can perform vector search and provide Q&A over the database
-* Demonstrates how to create a Machine Intelligence & AI (OpenAI) Pipeline can be combbined using C# TPL DataFlows
+* Illustrates that the SQL Server engine or Azure SQL can be used as a valid Vector Store, can perform vector search and provide Q&A over the database
+* Demonstrates how to create a Machine Intelligence & AI (OpenAI) Pipeline can be combbined using advanced C# TPL DataFlow patterns
 * The console application is cross-platform .NET 8.x. It can run on macOS, Linux, Windows 10/11 x64, Windows 11 ARM
 
 ### Three Pipeline Execution Options showing the power of Vector Embeddings Search using SQL
