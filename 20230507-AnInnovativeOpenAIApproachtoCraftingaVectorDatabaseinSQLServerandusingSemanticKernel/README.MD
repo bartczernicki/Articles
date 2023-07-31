@@ -60,7 +60,10 @@ https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows
 
 ### Learn More - Upcoming Articles
 
+Main GitHub location: source code, developer instructions to get started and more details on the application:  
+https://github.com/bartczernicki/MachineIntelligence-TextAnalytics-TPLDataFlows  
+
 After introducing this solution, in the next upcoming three parts of this series I will cover the three core components that make up the solution:  
-* Part 1) .NET 8.x TPL Dataflows Pipelines - How .NET is uniquely positioned to run anywhere with performance and leverage advanced concepts like saturating all of the available the CPU environment to execute a data-enrichment AI pipeline
-* Part 2) How the SQL Server engine can be effectively used as a vector database, facilitate hybrid search capabilities and provide massive scale to millions of documents
-* Part 3) Semantic Kernel configuration and how Semantic Kernel can be configured to adapt to context from almost any vector store and work with vector stores on advanced features. Finally, I will cover additional concepts that can improve recall of Q&A in sophisticated context environments.
+* Part 1) How the SQL Server engine can be effectively used as a vector database, facilitate hybrid search capabilities and provide massive scale to millions of documents  
+* Part 2) .NET 8.x TPL Dataflows Pipelines - How .NET is uniquely positioned to run anywhere with performance and leverage advanced concepts like saturating all of the available the CPU environment to execute a data-enrichment AI pipeline  
+* Part 3) Semantic Kernel configuration and how Semantic Kernel can be configured to adapt to context from almost any vector store and work with vector stores on advanced features. Finally, I will cover additional concepts that can improve recall of Q&A in sophisticated context environments.  
