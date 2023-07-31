@@ -1,4 +1,5 @@
 ## An Innovative OpenAI Approach to Crafting a Vector Database in SQL Server using Semantic Kernel
+![An Innovative OpenAI Approach to Crafting a Vector Database in SQL Server using Semantic Kernel](https://raw.githubusercontent.com/bartczernicki/Articles/main/20230507-AnInnovativeOpenAIApproachtoCraftingaVectorDatabaseinSQLServerandusingSemanticKernel/Images/AnInnovativeOpenAIApproachToCraftingAVectorDatabase.png)  
 
 ## Background
 
