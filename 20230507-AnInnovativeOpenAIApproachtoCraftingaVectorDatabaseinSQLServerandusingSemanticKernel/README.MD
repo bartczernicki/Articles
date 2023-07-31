@@ -68,3 +68,7 @@ After introducing this solution, in the next upcoming three parts of this series
 * Part 1) How the SQL Server engine can be effectively used as a vector database, facilitate hybrid search capabilities and provide massive scale to millions of documents  
 * Part 2) .NET 8.x TPL Dataflows Pipelines - How .NET is uniquely positioned to run anywhere with performance and leverage advanced concepts like saturating all of the available the CPU environment to execute a data-enrichment AI pipeline  
 * Part 3) Semantic Kernel configuration and how Semantic Kernel can be configured to adapt to context from almost any vector store and work with vector stores on advanced features. Finally, I will cover additional concepts that can improve recall of Q&A in sophisticated context environments.  
+
+Article is published at:
+* https://medium.com/@bartczernicki/an-innovative-openai-approach-to-crafting-a-vector-database-in-sql-server-using-semantic-kernel-b18c2e675660  
+* https://dev.to/bartczernicki/an-innovative-openai-approach-to-crafting-a-vector-database-in-sql-server-using-semantic-kernel-4339  
