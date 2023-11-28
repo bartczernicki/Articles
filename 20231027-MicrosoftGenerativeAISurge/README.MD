@@ -37,9 +37,7 @@ Here is a summary of the GitHub 2023 Universe Conference, focusing on AI and dev
 
 ## Microsoft Ignite 2023  
 
-Microsoft Ignite 2023 was a four-day event that showcased the latest innovations and advancements in AI, data, and cloud technologies. For a complete list of everything that Microsoft announced, please review the Ignite 2023 Book of News which includes areas to drill into: videos, blog posts, demos etc.:
-
-[https://news.microsoft.com/ignite-2023-book-of-news/](https://news.microsoft.com/ignite-2023-book-of-news/)
+Microsoft Ignite 2023 was a four-day event that showcased the latest innovations and advancements in AI, data, and cloud technologies. For a complete list of everything that Microsoft announced, please review the Ignite 2023 Book of News which includes areas to drill into: videos, blog posts, demos etc.: [https://news.microsoft.com/ignite-2023-book-of-news/](https://news.microsoft.com/ignite-2023-book-of-news/)
 
 Recorded keynotes & breakouts are available on Microsoft's Ignite channel (also some sessions can be found on YouTube):
 
