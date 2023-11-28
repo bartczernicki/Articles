@@ -53,7 +53,7 @@ Below are some of the main ignite highlights related to AI:
 
 .NETConf 2023 was a three-day virtual developer event that focused on the release of .NET 8, the latest version of the .NET platform offered with long-term support. The conference featured sessions on various topics related to .NET development, with a special emphasis on performance, AI, machine learning, and general development features in .NET 8.
 
-All the sessions were recorded and available to watch on the "DotNet" YouTube channel: [https://www.youtube.com/@dotnet/videos](https://www.youtube.com/@dotnet/videos)
+All the sessions were recorded and available to watch on the "DotNet" YouTube channel: [https://www.youtube.com/@dotnet/videos](https://www.youtube.com/@dotnet/videos)  
 
 Some of the highlights of the conference were:
 
