@@ -39,9 +39,7 @@ Here is a summary of the GitHub 2023 Universe Conference, focusing on AI and dev
 
 Microsoft Ignite 2023 was a four-day event that showcased the latest innovations and advancements in AI, data, and cloud technologies. For a complete list of everything that Microsoft announced, please review the Ignite 2023 Book of News which includes areas to drill into: videos, blog posts, demos etc.: [https://news.microsoft.com/ignite-2023-book-of-news/](https://news.microsoft.com/ignite-2023-book-of-news/)
 
-Recorded keynotes & breakouts are available on Microsoft's Ignite channel (also some sessions can be found on YouTube):
-
-[Session catalog (microsoft.com)](https://ignite.microsoft.com/en-US/sessions?onDemand=1)
+Recorded keynotes & breakouts are available on Microsoft's Ignite channel (also some sessions can be found on YouTube): [Session catalog (microsoft.com)](https://ignite.microsoft.com/en-US/sessions?onDemand=1)
 
 Below are some of the main ignite highlights related to AI:
 
@@ -55,9 +53,7 @@ Below are some of the main ignite highlights related to AI:
 
 .NETConf 2023 was a three-day virtual developer event that focused on the release of .NET 8, the latest version of the .NET platform offered with long-term support. The conference featured sessions on various topics related to .NET development, with a special emphasis on performance, AI, machine learning, and general development features in .NET 8.
 
-All the sessions were recorded and available to watch on the "DotNet" YouTube channel:
-
-[https://www.youtube.com/@dotnet/videos](https://www.youtube.com/@dotnet/videos)
+All the sessions were recorded and available to watch on the "DotNet" YouTube channel: [https://www.youtube.com/@dotnet/videos](https://www.youtube.com/@dotnet/videos)
 
 Some of the highlights of the conference were:
 
