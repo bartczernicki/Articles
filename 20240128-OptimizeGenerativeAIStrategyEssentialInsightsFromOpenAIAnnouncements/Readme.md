@@ -35,14 +35,14 @@ The AI strategy implication is that there will be a constant stream of upcoming 
 
 ## 3) Embedding Sizes are a key Architecture Decision  
 
-'''
+```
 | Method                                | NumberOfVectorsToCreate | Mean      | Error     | StdDev    | Ratio    | RatioSD | 
 |-------------------------------------- |------------------------ |----------:|----------:|----------:|---------:|--------:|-
 | CosineSimilarityVectors3072Dimensions | 1000                    | 0.2291 ms | 0.0002 ms | 0.0002 ms |     +85% |    0.1% | 
 | CosineSimilarityVectors1536Dimensions | 1000                    | 0.1239 ms | 0.0001 ms | 0.0001 ms | baseline |         | 
 | CosineSimilarityVectors768Dimensions  | 1000                    | 0.0646 ms | 0.0001 ms | 0.0001 ms |     -48% |    0.1% | 
 | CosineSimilarityVectors256Dimensions  | 1000                    | 0.0299 ms | 0.0000 ms | 0.0000 ms |     -76% |    0.2% | 
-'''
+```
 
 ## 4) Coming to Azure OpenAI  
 
