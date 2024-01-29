@@ -27,7 +27,7 @@ I would like to focus on what I call the "Competitive Descent in Generative AI P
 
 So, what is the impact on your Generative AI strategy? Should you wait 4-5 years until Generative AI competition potentially drastically lowers prices? Of course not, as you could be losing valuable industry opportunity or risking your competition unlocking generative AI to get ahead in the market. Applying this information, the approach should be to carefully select AI vendors & partners that can provide fluid pricing options that allow your business to thrive with Generative AI potential. Even if your business's technology strategy is to leverage open-source AI models, those could end up costing much more than commercial alternatives. Price forecasting of Gen AI should be a forefront component in making AI strategic decisions.  
 
-## 2) Model Versions Matter  
+## 2) AI Model Versions & Innovation Matters  
 
 
 
