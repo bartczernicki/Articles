@@ -11,7 +11,7 @@ A full summary of announcements from OpenAI: [https://openai.com/blog/new-embedd
 
 In this article, I will uncover how these seemingly simiple announcements show several important patterns in the Generative AI space that every person crafting an Generative AI strategy should be aware of.
 
-## Gen AI Pricing Competitive Descent  
+## Generative AI Pricing Competitive Descent  
 
 ## Model Versions Matter  
 
