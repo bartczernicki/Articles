@@ -11,6 +11,7 @@ A full summary of announcements from OpenAI can be found here: [https://openai.c
 
 In this article, I will uncover how these seemingly simple announcements uncover several important patterns in the Generative AI space that every person crafting an Generative AI strategy should be aware of.
 
+
 ## 1) Competitive Descent in Generative AI Pricing
 
 The competition for Generative AI & Artificial Intelligence overall is hitting a frenzy phase! Seemingly every company is looking to Generative AI as a potential growth scalar for years to come. Some companies are well ahead in executing their AI strategy; others like Google, Meta (Facebook), Apple are going through massive Gen AI transoformation: re-orgs, re-locations (Apple), unlocking financial capital for future AI investments. All one has todo is follow the stock price of public companies on the stock market and one can see a dramatic rise reflected in AI investments. For example, at the time of this writing IBM's stock was up over 13% in a single day, because of blowout earnings forecasts driven by generative AI. History has repeatedly shown that Generative AI is not going to be unique as the competitive market forms.
@@ -27,10 +28,14 @@ I would like to focus on what I call the "Competitive Descent in Generative AI P
 
 So, what is the impact on your Generative AI strategy? Should you wait 4-5 years until Generative AI competition potentially drastically lowers prices? Of course not, as you could be losing valuable industry opportunity or risking your competition unlocking generative AI to get ahead in the market. Applying this information, the approach should be to carefully select AI vendors & partners that can provide fluid pricing options that allow your business to thrive with Generative AI potential. Even if your business's technology strategy is to leverage open-source AI models, those could end up costing much more to maintain/host than commercial alternatives. Price forecasting of Gen AI should be a forefront component in making AI strategic decisions.  
 
+
 ## 2) AI Model Versions & Innovation Matters  
 
-The AI strategy implication is that there will be a constant stream of upcoming generative AI model innovations and model versions. It may seem like common sense to software development veterans to version technology assets, but this concept has not been fully adopted by the data science community (even in 2024)! Your strategy should ensure an architecture that can fluidly test new AI innovations (i.e. A/B testing) and swap out model versions easily from portfolio of AI functionality.
+At the time of writing this article, we just passed the first "rolling 12 months" since ChatGPT launched and grew to one of the fastest services to reach 100 million users. This was largely done on the GPT-3 model version, which is not used anymore! Think about that, the model that showed the world the innovation power just over a year ago has been superceded by dozens of commercial and open-source models.
 
+On 01.25.2024, OpenAI continued that innovation trend updating the functionality, performance, accuracy and context size of their models. For example, there are over 7 different GPT-3.5 model versions with 3 of these model versions being labeled as "legacy" in the API documentation. This applied to GPT-4 with 8 different model versions offered by OpenAI.
+
+The clear AI strategy implication is that there will be a constant stream of upcoming generative AI model innovations and model versions. It may seem like common sense to software development veterans to version technology assets, but this concept has not been fully adopted by the data science community (even in 2024)! Your strategy should ensure an architecture that can fluidly test new AI innovations (i.e. A/B testing) and implement new Gen AI model innovations easily from portfolio of AI functionality. Having this fluidity will optimize the business impact of Generative AI investments.
 
 
 ## 3) Embedding Sizes are a Key Performance & Architecture Decision  
