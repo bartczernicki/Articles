@@ -33,7 +33,16 @@ The AI strategy implication is that there will be a constant stream of upcoming 
 
 
 
-## 3) Embedding Sizes are a key Architecture Decision  
+## 3) Embedding Sizes are a Key Performance & Architecture Decision  
+
+OpenAI provided embeddings functionality from their Ada-v1 and Ada-v2 model that outputed vectors with 1536 dimensions. Basically, if you sent in a sentence, paragraph or document it would translate it to a vector with 1536 dimensions.
+
+With the new embedding models, OpenAI has made several innovations:
+- New embedding model version(s) promoted to v3  
+- Improved performance (similarity search & match) with the v3 models over v2. Note the [embedding leadearboard rankkings](https://huggingface.co/spaces/mteb/leaderboard)  
+- New v3 embedding models offered in varying dimension sizes from 256 to 3072 vector dimensions, offering a huge performance improvement for smaller dimension sizes  
+
+After the vectors are "translated" from a sentence/phrase/document into a vector, in order to compare it to another sentence/phrase/document math needs to be performed between the vectors. This is usually done by distance (similarity) formulas like cosine or dot product calculations. As you can imagine, if there are less vectors (smaller dimension size) there is less math to perform that can dramatically lead to massive performance gains. Below are results of a simple test, comparing varying OpenAI v3 dimension sizes. For example, performing cosine similarity on 256 dimension size is 76% faster than the 1536 dimension size. There is a tradeoff with smaller dimension sized models in accuracy performance and smaller token context size.
 
 ```
 | Method                                | NumberOfVectorsToCreate | Mean      | Error     | StdDev    | Ratio    | RatioSD | 
@@ -43,6 +52,8 @@ The AI strategy implication is that there will be a constant stream of upcoming 
 | CosineSimilarityVectors768Dimensions  | 1000                    | 0.0646 ms | 0.0001 ms | 0.0001 ms |     -48% |    0.1% | 
 | CosineSimilarityVectors256Dimensions  | 1000                    | 0.0299 ms | 0.0000 ms | 0.0000 ms |     -76% |    0.2% | 
 ```
+
+What is the implication on your AI strategy? This OpenAI innovation will lead to more vendors (commercial or open-source) offering a common model with varying dimension size capabilities. Similarly to the constant updates of model versions, your AI strategy needs to consider embedding size to balance performance and accuracy. This is especially important for hetereogenous embedding model deployments using various model sizes across varying model types.
 
 ## 4) Coming to Azure OpenAI  
 
