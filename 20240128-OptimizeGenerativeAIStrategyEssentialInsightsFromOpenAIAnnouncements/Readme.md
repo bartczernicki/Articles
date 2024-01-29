@@ -1,6 +1,6 @@
 ## Intro
 
-On January 25th, 2024 OpenAI made several key announcements that can be used to extract several patterns that can be used when formulating a Generative AI (or AI) strategy. What innnovations did OpenAI announce?  
+On January 25th, 2024 OpenAI made several key announcements that should be used to extract several emerging patterns that can be applied to a Generative AI (or AI) strategy. What key innnovations did OpenAI announce?  
 
 - Two new embedding models, with fluid dimension sizes & pricing options  
 - An updated GPT-4 Turbo preview model  
@@ -9,7 +9,7 @@ On January 25th, 2024 OpenAI made several key announcements that can be used to 
 
 A full summary of announcements from OpenAI: [https://openai.com/blog/new-embedding-models-and-api-updates](https://openai.com/blog/new-embedding-models-and-api-updates)
 
-In this article, I will uncover how these seemingly simiple announcements show several important patterns in the Generative AI space that every person crafting an Generative AI strategy should be aware of.
+In this article, I will uncover how these seemingly simple announcements uncover several important patterns in the Generative AI space that every person crafting an Generative AI strategy should be aware of.
 
 ## 1) Competitive Descent in Generative AI Pricing
 
