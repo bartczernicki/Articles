@@ -21,7 +21,7 @@ I would like to focus on what I call the "Competitive Descent in Generative AI P
 - Nov '23: $0.001 (-33%)  
 - Jan '24: $0.0005 (-50%)
 
-**Basically, the latest GPT-3.5 Turbo model(s) are 4x cheaper than they were just 9 months ago!** In my personal opinion, we are in the early throes of the Generative AI price decline that typically will follow a steep decline follow by a "floor" (logarithmic decreasing function).  Let's take a look from a similar innovation like "cloud blob storage" and the price decline that had occuredd. The figure below showcases the steep price declines across several cloud hyperscalars over roughly four (4) years until prices stabalized very cleanly over the last dozen years.
+**Basically, the latest GPT-3.5 Turbo model(s) are 4x cheaper than they were just 9 months ago!** In my personal opinion, we are in the early throes of the Generative AI price decline that typically will follow a steep decline follow by a "floor" (logarithmic decreasing function).  Let's take a look from a similar innovation like "cloud blob storage" and the price decline that had occuredd. The figure below ([full article from Wasabi](https://wasabi.com/industry/cloud-storage-fee-inflation/)) showcases the steep price declines across several cloud hyperscalars over roughly four (4) years until prices stabalized very cleanly over the last dozen years.
 
 ![Price Decline in Blob Storage](https://github.com/bartczernicki/Articles/blob/main/20240128-OptimizeGenerativeAIStrategyEssentialInsightsFromOpenAIAnnouncements/Images/ReductionsInCloudStoragePricing.png?raw=true)
 
