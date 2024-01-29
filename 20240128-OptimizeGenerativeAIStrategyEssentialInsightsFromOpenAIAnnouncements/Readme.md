@@ -19,7 +19,8 @@ I would like to focus on what I call the "Competitive Descent in Generative AI P
 - Mar '23: $0.002 (initial availability)  
 - Jul '23: $0.0015 (-25%)  
 - Nov '23: $0.001 (-33%)  
-- Jan '24: $0.0005 (-50%)  
+- Jan '24: $0.0005 (-50%)
+
 Basically, the latest GPT-3.5 Turbo model(s) are 4x cheaper than they were just 9 months ago.  
 
 ## 2) Model Versions Matter  
