@@ -37,6 +37,9 @@ The AI strategy implication is that there will be a constant stream of upcoming 
 
 OpenAI provided embeddings functionality from their Ada-v1 and Ada-v2 model that outputed vectors with 1536 dimensions. Basically, if you sent in a sentence, paragraph or document it would translate it to a vector with 1536 dimensions.
 
+![Vector Translation](https://raw.githubusercontent.com/bartczernicki/Articles/ff9437889bb586828e22cdcf910da7cb623fde10/20240128-OptimizeGenerativeAIStrategyEssentialInsightsFromOpenAIAnnouncements/Images/vectors-1.svg)
+<img src="https://raw.githubusercontent.com/bartczernicki/Articles/ff9437889bb586828e22cdcf910da7cb623fde10/20240128-OptimizeGenerativeAIStrategyEssentialInsightsFromOpenAIAnnouncements/Images/vectors-1.svg">
+
 With the new embedding models, OpenAI has made several innovations:
 - New embedding model version(s) promoted to v3  
 - Improved performance (similarity search & match) with the v3 models over v2. Note the [embedding leadearboard rankkings](https://huggingface.co/spaces/mteb/leaderboard)  
