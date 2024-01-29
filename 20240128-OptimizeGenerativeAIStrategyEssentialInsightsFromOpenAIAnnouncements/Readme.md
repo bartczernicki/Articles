@@ -21,7 +21,9 @@ I would like to focus on what I call the "Competitive Descent in Generative AI P
 - Nov '23: $0.001 (-33%)  
 - Jan '24: $0.0005 (-50%)
 
-Basically, the latest GPT-3.5 Turbo model(s) are 4x cheaper than they were just 9 months ago.  
+Basically, the latest GPT-3.5 Turbo model(s) are 4x cheaper than they were just 9 months ago! In my personal opinion, we are in the early throes of the Generative AI price decline that typically will follow a steep decline follow by a "floor" (logarithmic decreasing function).  Let's take a look from a similar innovation like "cloud blob storage" and the price decline that had occuredd. The figure below showcases the steep price declines across several cloud hyperscalars over several years until prices stabalize very cleanly.
+
+
 
 ## 2) Model Versions Matter  
 
