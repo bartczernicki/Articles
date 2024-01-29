@@ -29,6 +29,8 @@ So, what is the impact on your Generative AI strategy? Should you wait 4-5 years
 
 ## 2) AI Model Versions & Innovation Matters  
 
+The AI strategy implication is that there will be a constant stream of upcoming generative AI model innovations and model versions. It may seem like common sense to software development veterans to version technology assets, but this concept has not been fully adopted by the data science community (even in 2024)! Your strategy should ensure an architecture that can fluidly test new AI innovations (i.e. A/B testing) and swap out model versions easily from portfolio of AI functionality.
+
 
 
 ## 3) Embedding Sizes are a key Architecture Decision  
