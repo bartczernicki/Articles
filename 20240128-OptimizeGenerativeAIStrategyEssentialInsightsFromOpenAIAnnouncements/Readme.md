@@ -11,13 +11,15 @@ A full summary of announcements from OpenAI: [https://openai.com/blog/new-embedd
 
 In this article, I will uncover how these seemingly simiple announcements show several important patterns in the Generative AI space that every person crafting an Generative AI strategy should be aware of.
 
-## Generative AI Pricing Competitive Descent  
+## 1) Generative AI Competitive Descent in Pricing
 
-## Model Versions Matter  
+The competition for Generative AI & Artificial Intelligence holistically is hitting a frenzy phase. Seemingly, every company is looking to Generative AI as a potential huge growth driver for years to come. Some companies are well ahead in executing their AI strategy; others like Google, Meta (Facebook), Apple are going through massive re-orgs, re-locations (Apple), unlocking financial capital for future AI investments. History has repeatedly shown that Generative AI is not going to be unique as the competitive market forms. One key highlight will be what I am calling the "Competitive Descent in GenAI Pricing"
 
-## Embedding Sizes are a key Architecture Decision  
+## 2) Model Versions Matter  
 
-## Coming to Azure OpenAI  
+## 3) Embedding Sizes are a key Architecture Decision  
 
-## Not all Innovations initiate from OpenAI  
+## 4) Coming to Azure OpenAI  
+
+## 5) Not all Innovations initiate from OpenAI  
 
