@@ -65,7 +65,7 @@ What is the implication on your AI strategy? This OpenAI innovation will lead to
 
 ## 4) "Coming Soon" to Azure OpenAI  
 
-Microsoft has a special relationship with OpenAI. Most of the innovations that OpenAI announces "fast follow" to Microsoft Azure OpenAI or other Microsoft products (M365). Basically, this means that the various model versions & capabilities in their state (preview or general availability) make it to the Microsoft platforms quite quickly. There are some key things to look out for: pricing & licensing options offered on Microsoft's platforms, additional adjacent Machine Learning and AI Services that compliment OpenAI offers, hyperscalar global Azure OpenAI region availability and many more hundreds of Azure/M365 services that help unlock the full potential of OpenAI.  
+Microsoft has a special commercial relationship with OpenAI. Most of the innovations that OpenAI announces "fast follow" to Microsoft Azure OpenAI or other Microsoft products (M365). Basically, this means that the various model versions & capabilities in their state (preview or general availability) make it to the Microsoft platforms quite quickly. There are some key things to look out for: pricing & licensing options offered on Microsoft's platforms, additional adjacent Machine Learning and AI Services that compliment OpenAI offers, hyperscalar global Azure OpenAI region availability and many more hundreds of Azure/M365 services that help unlock the full potential of OpenAI.  
 
 ## 5) Not all Gen AI Innovations initiate from OpenAI  
 
