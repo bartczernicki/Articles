@@ -62,7 +62,10 @@ After the vectors are "translated" from a sentence/phrase/document into a vector
 
 What is the implication on your AI strategy? This OpenAI innovation will lead to more vendors (commercial or open-source) offering a common model with varying dimension size capabilities; not just tied to the model size. Similarly to the constant updates of model versions, your AI technical strategy needs to consider embedding size to balance performance and accuracy. This is especially important for hetereogenous embedding model deployments using various model sizes across varying model types.
 
-## 4) Coming to Azure OpenAI  
+## 4) "Coming Soon" to Azure OpenAI  
 
-## 5) Not all Innovations initiate from OpenAI  
+Microsoft has a special relationship with OpenAI. Most of the innovations that OpenAI announces "fast follow" to Microsoft Azure OpenAI or other Microsoft products (M365). Basically, this means that the various model versions & capabilities in their state (preview or general availability) make it to the Microsoft platforms quite quickly. There are some key things to look out for: pricing & licensing options offered on Microsoft's platforms, additional adjacent Machine Learning and AI Services that compliment OpenAI offers, hyperscalar global Azure OpenAI region availability and many more hundreds of Azure/M365 services that help unlock the full potential of OpenAI.  
 
+## 5) Not all Gen AI Innovations initiate from OpenAI  
+
+While the previous items focused on OpenAI innovations, it is important to note that not all of the Generative AI nor AI innovations initiate from OpenAI. This might be common sense for some as OpenAI is relatively "young" company and AI has been around for quite some time. For example, from the OpenAI updates announced recently: variable text embedding sizes as well as 
