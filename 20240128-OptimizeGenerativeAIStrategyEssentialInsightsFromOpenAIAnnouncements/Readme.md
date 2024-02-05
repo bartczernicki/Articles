@@ -1,5 +1,4 @@
 <p align="center" width="100%">
-    Price Decline in Azure Blog Storage<br>
     <img src="https://github.com/bartczernicki/Articles/blob/main/20240128-OptimizeGenerativeAIStrategyEssentialInsightsFromOpenAIAnnouncements/Images/Header-GenAIStrategy.png?raw=true" width="100%"/>
 </p>
 
