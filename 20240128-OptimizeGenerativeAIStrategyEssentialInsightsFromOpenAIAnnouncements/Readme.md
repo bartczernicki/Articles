@@ -32,7 +32,7 @@ So, what is the impact on your Generative AI strategy? Should you wait 4-5 years
 
 ## 2) AI Model Versions & Innovation Matters  
 
-At the time of writing this article, we just passed the first "rolling 12 months" since ChatGPT launched and grew to one of the fastest services to reach 100 million users. This was largely done on the GPT-3 model version, which is not used anymore! Think about that, the model that showed the world the innovation power just over a year ago has been superceded by dozens of commercial and open-source models.
+At the time of writing this article, we just passed the first "rolling 12 months" since ChatGPT launched and grew to one of the fastest services to reach 100 million users. This was largely done on the GPT-3 model version, which is not used anymore! Think about that, the model that showed the world the innovation power just over a year ago has been superseded by dozens of commercial and open-source models.
 
 On 01.25.2024, OpenAI continued that innovation trend updating the functionality, performance, accuracy and context size of their models. For example, there are over 7 different GPT-3.5 model versions with 3 of these model versions being labeled as "legacy" in the API documentation. This applied to GPT-4 with 8 different model versions offered by OpenAI.
 
@@ -47,7 +47,7 @@ OpenAI has provided embeddings functionality from their Ada-v1 and Ada-v2 embedd
 
 With the new embedding models, OpenAI has made several innovations:
 - New embedding model version(s) promoted to v3  
-- Improved performance (similarity search & match) with the v3 models over v2. Note the [embedding leadearboard rankkings](https://huggingface.co/spaces/mteb/leaderboard)  
+- Improved performance (similarity search & match) with the v3 models over v2. Note the [embedding leaderboard rankings](https://huggingface.co/spaces/mteb/leaderboard)  
 - New v3 embedding models offered in varying dimension sizes from 256 to 3072 vector dimensions, offering a huge performance improvement for smaller dimension sizes  
 
 After the vectors are "translated" from a sentence/phrase/document into a vector, in order to compare it to another sentence/phrase/document math needs to be performed between the vectors to gauge their semantic similarity. This is usually done by distance formulas like cosine or dot product calculations. As you can imagine, if there are less vectors (smaller dimension size) there is less math to perform (less floating points to add, multiply, square etc.) This optimization can dramatically lead to massive performance gains! Below are results of a simple test, comparing varying OpenAI v3 dimension sizes. For example, performing cosine similarity on a 256 dimension size is 76% faster than the 1536 dimension size. There is a tradeoff with smaller dimension sized models in accuracy performance and smaller token context size.
