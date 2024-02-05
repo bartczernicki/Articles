@@ -1,3 +1,8 @@
+<p align="center" width="100%">
+    Price Decline in Azure Blog Storage<br>
+    <img src="https://github.com/bartczernicki/Articles/blob/main/20240128-OptimizeGenerativeAIStrategyEssentialInsightsFromOpenAIAnnouncements/Images/Header-GenAIStrategy.png?raw=true" width="100%"/>
+</p>
+
 ## Intro
 
 On January 25th, 2024 OpenAI made several key announcements that highlight several emerging patterns that should be considered in a Generative AI (or AI) strategy. What key innovations did OpenAI announce?  
