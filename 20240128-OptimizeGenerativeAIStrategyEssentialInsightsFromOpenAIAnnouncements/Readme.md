@@ -38,7 +38,12 @@ So, what is the impact on your Generative AI strategy? Should you wait 4-5 years
 
 At the time of writing this article, we just passed the first "rolling 12 months" since ChatGPT launched and grew to one of the fastest services to reach 100 million users. This was largely done on the GPT-3 model version, which is not used anymore! Think about that, the model that showed the world the innovation power just over a year ago has been superseded by dozens of commercial and open-source models.
 
-On 01.25.2024, OpenAI continued that innovation trend updating the functionality, performance, accuracy and context size of their models. For example, there are over 7 different GPT-3.5 model versions with 3 of these model versions being labeled as "legacy" in the API documentation. This applied to GPT-4 with 8 different model versions offered by OpenAI.
+On 01.25.2024, OpenAI continued that innovation trend updating the functionality, performance, accuracy and context size of their models. For example, there are over 5 different GPT-3.5 model versions with 2 of these model versions being labeled as "legacy" in the API documentation. This applied to GPT-4 with 8 different model versions offered by OpenAI. For example, let's take a look at the GPT-3.5 model versions:   
+- gpt-3.5-turbo-16k-0613  
+- gpt-3.5-turbo-0613  
+- gpt-3.5-turbo-instruct  
+- gpt-3.5-turbo-1106
+- gpt-3.5-turbo-0125  
 
 The clear AI strategy implication is that there will be a constant stream of upcoming generative AI model innovations and model versions. It may seem like common sense to software development veterans to version technology assets, but this concept has not been fully adopted by the data science community (even in 2024)! Your strategy should ensure an architecture that can fluidly test new AI innovations (i.e. A/B testing) and implement new Gen AI model innovations easily from portfolio of AI functionality. Having this fluidity will optimize the business impact of Generative AI investments.
 
