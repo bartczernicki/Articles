@@ -2,14 +2,19 @@
 ## Intro
 
 
-## Background on Generative AI Tools Used
-
-
+## Background on Generative AI Used
 
 Artificial Intelligence was used to create the research and model. All the tools that were used to generate this comparison can be found in OpenAI's ChatGPT platform. Specifically, the following features were used: 
-* OpenAI GPT 4.5 Model  
+* OpenAI GPT 4.5 Research Preview Model  
+* Basic Prompt Engineering (Kept to a minium to give AI the most autonomy) 
 * Deep Research (ChatGPT Pro Subscription) used 26 web sources to gather the required intelligence  
-* Basic Prompt Engineering (Kept to a minium to give AI )  
+ 
+OpenAI Deep Research is the main AI component. OpenAI Deep Research is an AI Automation Workflow. It works by refactoring the goal, spending time performing robust research using internet knowledge grounding and delivers a final comprehensive report to the user. Deep Research automation can take several minutes to complete. I have seen it take up to 25 minutes on certain research tasks.
+
+The OpenAI Deep Research process armed with multiple steps and tool calls greatly improves accuracy of the results. This is illustrated below on the benchmark results with *Humanity's Last Exam* data set. This benchmark is meant to be a very challenging benchmark of 2,700 curated questions. As clearly seen from below, the Deep Research process greatly improves performance than individual AI models.  
+<img style="display: block; margin: auto;" width ="700px" src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F760dbed0-9c9c-448b-a320-b6dab4bcb580_1200x700.heic">  
+
+More information on *Humanity's Last Exam* can be found here with updated results: https://agi.safe.ai/ 
 
 The OpenAI Deep Research prompts used can be found in this chat by following the link: https://chatgpt.com/share/67c25ceb-a834-8006-8ce6-c5147d40da92     
 
