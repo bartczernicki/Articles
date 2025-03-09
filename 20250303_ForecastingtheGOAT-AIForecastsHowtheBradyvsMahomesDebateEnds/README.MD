@@ -1,13 +1,14 @@
 
 ## Intro  
 
-We naturally like to compare, rank and even name things "as the greatest". This is seen across all areas, domains, products, industry etc. One of the areas we see this most is in sports, where players are constanstly ranked and where a select few players are put in "Greatest of All Time" (GOAT) conversation. In fact, one of NHL's Wayne Gretzky's nicknames is "The Great One".  
+We naturally enjoy comparing, ranking, and even labeling things as "The Greatest." This tendency spans virtually every area, including products, industries, and especially sports. Athletes are frequently ranked, but only a select few earn the prestigious distinction of being part of the "Greatest of All Time" (GOAT) conversation. For instance, NHL legend Wayne Gretzky famously carries the nickname "The Great One."
 
-Tom Brady is widely considered NFL's GOAT quaterback. His career accomplishments across the most statistical metrics are unrivaled. However, some consider Patrick Mahomes's career on a trajectory that can approach GOAT status. Patrick Mahomes has won 3 Super Bowls and was going for something that has never been accomplished: leading a team to three Super Bowls wins in a row. Super Bowl LIX completed about a month ago, where Mahomes's Chiefs got beat handily by the Philadelphia Eagles. Therefore, almost after Super Bowl LIX, the NFL Quaterback GOAT conversation was a topic discussed on various sports shows. 
+In the NFL, Tom Brady is widely regarded as the GOAT quarterback due to his unrivaled achievements across numerous statistical categories. However, many believe Patrick Mahomes's career trajectory is positioning him to potentially challenge Brady's status. Mahomes has already secured three Super Bowl victories and recently aimed to achieve something unprecedented: to win three consecutive Super Bowls. About a month ago, during Super Bowl LIX, Mahomes and the Kansas City Chiefs were handily defeated by the Philadelphia Eagles. Consequently, following Super Bowl LIX, the debate about the NFL's quarterback GOAT was once again a hot topic across sports media pundits.
 
-<img style="display: block; margin: auto;" width ="500px" src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20250303_ForecastingtheGOAT-AIForecastsHowtheBradyvsMahomesDebateEnds/Images/TomBradySevenRings.png">  
+<img style="display: block; margin: auto;" width ="500px" src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20250303_ForecastingtheGOAT-AIForecastsHowtheBradyvsMahomesDebateEnds/Images/TomBradySevenRings.png">    
+<br>
 
-Examples from recent sports talk shows comparing Mahomes and Brady:  
+Video examples from recent sports talk shows comparing Mahomes and Brady:  
 * *‘Mahomes will never be Tom Brady’, Did Super Bowl LIX end the GOAT debate?:* https://www.youtube.com/watch?v=bt4kMkDq-7o  
 * *Can Patrick Mahomes still catch Tom Brady in the GOAT-bate?:* https://www.youtube.com/watch?v=6zAgYtXFOCA  
 * *Tom Brady Is Still The GOAT, Not Patrick Mahomes:* https://www.youtube.com/watch?v=Hv3PbMk9FDM  
@@ -15,21 +16,23 @@ Examples from recent sports talk shows comparing Mahomes and Brady:
 
 > 🗒️ **Note:** The videos selected above are illustrative of the recent NFL quaterback GOAT debate. These debate videos were recorded after the most recent Super Bowl LIX, which does give us additional information (Mahome Super Bowl loss performance). However, these videos have recency bias that needs to be taken in consideration. In a few months, even if there aren't new NFL statistics to consider the recency bias will have somewhat worn off.  
 
+We have seen what the sports media has to say about the Brady vs Mahomes debate. I thought it would be interesting to have Generative AI provide an analysis, forecast and and opinion of its own!
+
 ## Background on Generative AI Used  
 
 Artificial Intelligence was used to demonstrate the research process and final probabilistic forecast. All the tools that were used to generate this comparison can be found in OpenAI's ChatGPT platform. Specifically, the following features were used: 
 * OpenAI GPT 4.5 Research Preview Model  
 * Basic Prompt Engineering (Kept to a minium to give AI the most autonomy) 
 * Deep Research (ChatGPT Pro Subscription) used 26 different web sources to gather the required intelligence  
- 
-OpenAI Deep Research is the highlight of the tools used. OpenAI Deep Research is essentially an opiniated AI Automation workflow. It works by refactoring the goal, spending time performing robust research using internet knowledge grounding and delivers a final comprehensive report to the user. The caveat with using Deep Research automation is that it can take several minutes to complete. In fact, I have seen it take up to 25 minutes on various research tasks. Additional time for AI to focus on your problem is essentially the tradeoff for a high quality answer.
 
-The OpenAI Deep Research process armed with multiple automation steps and several tool calls greatly improves accuracy of the results. This is illustrated below on the benchmark results with *Humanity's Last Exam* data set. This benchmark is meant to be a very challenging benchmark of 2,700 highly curated questions. The questions in this benchmark are expert-level questions from a variety of domains. As clearly seen below, the Deep Research process greatly improves performance than individual AI models.  
+The key highlight among the tools used is OpenAI's Deep Research feature. OpenAI Deep Research is essentially an opinionated AI automation workflow. It operates by clearly defining the goal, investing significant time in robust internet-based research, and delivering a comprehensive, detailed report to the user. One caveat of using this automation is the duration it takes to complete; research tasks can sometimes require several minutes, occasionally up to 25 minutes. The additional processing time is essentially the trade-off for obtaining high-quality, accurate results.
+
+The OpenAI Deep Research process, equipped with multiple automation steps and several tool integrations, significantly enhances outcome accuracy. This improvement is evident in the benchmark results shown below, using the Humanity's Last Exam dataset. This benchmark comprises 2,700 highly curated expert-level questions from various domains and is intended to be particularly challenging. The results clearly indicate that the Deep Research process delivers superior performance compared to individual AI models.   
 <img style="display: block; margin: auto;" width ="700px" src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F760dbed0-9c9c-448b-a320-b6dab4bcb580_1200x700.heic">  
 
-More information on *Humanity's Last Exam* can be found here with example questions and updated results: https://agi.safe.ai/ 
+More information on *Humanity's Last Exam* can be found here with example questions and updated results: https://agi.safe.ai/  
 
-The OpenAI Deep Research prompts used for this research can be found in this chat by following the link: https://chatgpt.com/share/67c25ceb-a834-8006-8ce6-c5147d40da92     
+The OpenAI Deep Research prompts used for this research can be found in this chat by following the link: https://chatgpt.com/share/67c25ceb-a834-8006-8ce6-c5147d40da92  
 
 ## Summary Analysis Table: Project Mahomes Career and Compare to Tom Brady  
 
@@ -69,32 +72,47 @@ Taking all the above into account – championships, stats, awards, and the proj
 >
 > -- <cite>George E. P. Box (British statistician and thought leader recognized for his foundational contributions to statistical modeling)</cite>
 
-I consider the "model" that OpenAI Deep Research was able to construct as very good. Why? With some prompt engineering, Deep Research was able to:
-* Understand the key criteria to compare two NFL quaterback careers
+I consider the AI-generated "model" from OpenAI's Deep Research to be very good. Why? With thoughtful prompt engineering, Deep Research successfully:
+* Identified key criteria to effectively compare two NFL quarterback careers  
 * Gather Patrick Mahomes's career statistics and project realistic final career statistics 
 * Cite the various internet knowledge stores used  
 * Summarize the key metrics, rank them, communicate and present them in an easy to undertand table   
 * Take all of the information into account and provide a final quantitative probabilistic estimate (30%)
 
-Let's compare this to the analysis from major sports networks. When a major sports show is produced, many people prepare the analysis for a show. As you can see from the sample videos provided, a plularity of these sports experts do not even operate on half the analysis provided in the AI research above! The human sports analysis is often filled extremely subjective projections often missing key metrics to compare. This doesn't mean that this AI model is perfect. For example the AI reasearch didn't consider head-to-head matchups of Tom Brady and Patrick Mahomes; or how Patrick Mahomes's reliance on mobility may lead to a steeper decline in QB play. These two latter comparision points were included in the human sports pundit analysis. However, this "model" that was AI generated is very comparable to the analysis found on major sports networks.  
+Now, let's compare this to the analysis we typically see from major sports networks. When these sports shows are produced, multiple analysts and producers are involved in creating the segment. Yet, as demonstrated by the sample videos provided, many sports experts don't deliver even half the depth or thoroughness offered by this AI-generated analysis. Human-generated sports analyses often rely heavily on subjective projections and frequently overlook crucial comparison metrics.
 
-We must consider costs when performing this analysis. Keep in mind a sports segment from a major news network that provided analysis on the Tom Brady vs Patrick Mahomes GOAT debate likely costs tens of thousands of dollars. This AI model was better for fraction of the cost and time; all it took was a few well crafted prompts!  
+This doesn't imply the AI model is flawless. For instance, it did not account for head-to-head matchups between Tom Brady and Patrick Mahomes, nor did it consider how Mahomes's reliance on mobility might lead to a steeper performance decline over time. These are two key areas that human analysts did cover. Still, this AI-generated model closely matches or even surpasses the quality of analysis commonly presented on major sports networks.
 
+We must also consider cost efficiency in such analyses. Producing a sports segment on a major network that analyzes the Brady vs. Mahomes GOAT debate typically costs tens of thousands of dollars. This AI-driven analysis, however, achieved comparable or better results at a mere fraction of that cost and time, requiring only a handful of well-crafted prompts!
 
 ## Possible Model Optimizations paired with Artificial Intelligence 
 
-While the Deep Research that OpenAI was able to perform was impressive, it would be unreasonable to claim that significant optimizations can't be made. Optimizations can be performed to improve both the approach and ultimate probability forecast (of Mahomes surpasssing Tom Brady). You can provide structure to the optimization in a worflow/process format and put AI in a position where it can excel (at the main analysis portions).  
+While the Deep Research performed by OpenAI is impressive, it would be unreasonable to suggest there aren't significant opportunities for optimization. Optimizations can enhance both the analytical approach and the accuracy of the final probabilistic forecast (such as the likelihood of Mahomes surpassing Tom Brady). By structuring optimizations into a clear workflow or process, AI can be positioned to excel particularly in analytical tasks.  
 
-* The statistical metrics used (Passsing Yards, Super Bowl Wins) are treated as indepdendent events. This is passable for "models" like this as some of the errors tend to average out. However, for optimal accuracy, they should be treated as highly dependent events. For example, in order for Patrick Mahomes's team to win the Super Bowl he would have presumably needed to win some playoff games and win season games (excluding extreme cases like just coming back for the Super Bowl to play). An obvious optimization is to build a model that considers these events as correlated and dependent.  
-* It is possible to break the problem down into smaller components. Perform the Gathering of Intelligence (statistics), Simulating/Projecting of Patrick Mahomes's stats, Final metric comparison and final analysis communication could be done in several seperate steps. This would ensure that each step's quality is validated before passing on any intelligence and moving onto the next step.  
+* Currently, statistical metrics (e.g., passing yards, Super Bowl wins) are treated as independent events. While this method is acceptable because certain errors can average out, optimal accuracy demands treating these as dependent, correlated events. For instance, Mahomes winning a Super Bowl inherently requires winning regular-season and playoff games (with rare exceptions). An improved model would explicitly account for these dependencies. 
+* It is possible to break the problem down into smaller components. Perform the Gathering of Intelligence (statistics), Simulating/Projecting of Patrick Mahomes's stats, metric comparison and final analysis communication could be done in several seperate steps. This would ensure that each step's quality is validated before passing on any intelligence and moving onto the next step.  
 * Monte Carlo Simulations can be used to simulate Patrick Mahomes's remaining career statistics and achievements. This could create a range of probabalistic outcomes that includes a variety of contraints and rare events. For example, you could simulate Mahomes's career anchored on a typical quaterback aging curve. You could introduce "black swan" (rare) events like major injuries (Robert Griffin), suspensions (Michael Vick) or early retirement (Andrew Luck). 
 * Most of these comparison metrics are single point estimations. For example, the AI generated model projects Patrick Mahomes to pass for 600 touchdowns (TDs). An estimate that provides a confidence interval range is a better estimate of uncertainty. As an example, a sophisticated simulation could show a 95% Confidence Interval of Patrick Mahomes ending with a range of 525-650 touchdowns to end his careeer.  
-* Tom Brady's career is static and should be just extracted from a "historical ground truth" of statistics, rather than a scraping of web sites. In fact, 5 head-to-head games between Tom Brady and Patrick Mahomes are static as well (unless Tom Brady un-retires). Tom Brady won 3 of those matchups and won 2 of the most important games; AFC Championship and the Super Bowl. These games are in the history books and should be materialized in a knowledge store that is made available for comparison analysis.  
+* Tom Brady's career data is static and should be sourced directly from historical records rather than relying on repeated web scraping. Similarly, Brady and Mahomes’s five head-to-head matchups (unless Brady returns from retirement) are historical events. Brady won three of these matchups, including the critical AFC Championship game and the Super Bowl. These outcomes are established facts and should be easily accessible within a dedicated knowledge base for accurate comparative analysis. 
+
+### Other Approaches
 
 The comparison between Tom Brady and Patrick Mahomes can also be approached using decision-making. This would allow the optimizations mentioned above to be introduced into various components of the Decision Intelligence Framework.  
 <img style="display: block; margin: auto;" width ="700px" src="https://raw.githubusercontent.com/bartczernicki/DecisionIntelligence.GenAI.Workshop/main/Images/DecisionIntelligenceFramework.png">  
 
 More information on the Decision Intelligence Framework: https://github.com/bartczernicki/DecisionIntelligence.GenAI.Workshop  
 
+You may also be asking if OpenAI Deep Research can be replicated on other platforms. The answer is Yes! For example, below are two AI automation pipelines that are similar to OpenAI Deep Research implemented on Azure OpenAI.
+
+* Risk Analysis with Generative AI Reasoning
+<img style="display: block; margin: auto;" width ="700px" src="https://raw.githubusercontent.com/bartczernicki/RiskAnalysisWithGenerativeAIReasoning/refs/heads/master/RiskAnalysisWithOpenAIReasoning/Images/RiskAnalysisWithOpenAIReasoning-Pipeline.png">  
+* Document Intelligence With Advanced AI Reasoning 
+<img style="display: block; margin: auto;" width ="700px" src="https://raw.githubusercontent.com/bartczernicki/DocIntelligenceWithAdvancedAIReasoning/refs/heads/master/RiskAnalysisPipeline.png"> 
+
 ## Conclusion  
 
+To conclude, I highly recommend trying OpenAI Deep Research! It truly is a game changer in how to approach complex problems, decisions and arrive at a quality decision. I used the example of the Mahomes-Brady GOAT debate to contrast human expertise with AI-driven analyses. As illustrated, OpenAI Deep Research can effectively mimic  consulting reports and other traditionally expensive research tasks, delivering thorough, insightful analyses at a huge fraction of the typical cost and time.  
+
+While there remains room for refinement, the existing capabilities are already transformative, significantly enhancing discussions usually confined to expert panels. The technology may not be flawless yet, but it undeniably represents a leap forward in decision-making and research rigor. In real-world example, this has only been typically avaialble with management consulting engagement.
+
+Ultimately, solutions like OpenAI Deep Research not only enhance debates like the Mahomes-Brady discussion but also signal a broader shift toward democratizing high-quality analysis and insights. As AI-driven methodologies continue to develop, we can expect their widespread adoption across various sectors, fundamentally reshaping how complex issues are evaluated.  
