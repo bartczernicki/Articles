@@ -3,13 +3,15 @@
 
 We naturally like to compare, rank and even name things "as the greatest". This is seen across all areas, domains, products, industry etc. One of the areas we see this most is in sports, where players are constanstly ranked and where a select few players are put in "Greatest of All Time" (GOAT) conversation. In fact, one of NHL's Wayne Gretzky's nicknames is "The Great One".  
 
-Super Bowl LIX completed about a month ago, which included Patrick Mahomes playing in his 5th Super Bowl. Patrick Mahomes is considered on the best NFL quaterbacks to play the game. Some experts and sports pundits have added him to the GOAT conversation, where quaterbacks like Tom Brady, Joe Montana, Peyton Manning are top of people's minds. Immediately after Super Bowl LIX, the NFL Quaterback GOAT conversation was a topic discussed on various sports shows.
+Tom Brady is widely considered NFL's GOAT quaterback. His career accomplishments across the most statistical metrics are unrivaled. However, some consider Patrick Mahomes's career on a trajectory that can approach GOAT status. Patrick Mahomes has won 3 Super Bowls and was going for something that has never been accomplished: leading a team to three Super Bowls wins in a row. Super Bowl LIX completed about a month ago, where Mahomes's Chiefs got beat handily by the Philadelphia Eagles. Therefore, almost after Super Bowl LIX, the NFL Quaterback GOAT conversation was a topic discussed on various sports shows. 
 
-Examples from Recent Sports Talk Shows comparing Mahomes and Brady:  
+<img style="display: block; margin: auto;" width ="500px" src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20250303_ForecastingtheGOAT-AIForecastsHowtheBradyvsMahomesDebateEnds/Images/TomBradySevenRings.png">  
+
+Examples from recent sports talk shows comparing Mahomes and Brady:  
 * *‘Mahomes will never be Tom Brady’, Did Super Bowl LIX end the GOAT debate?:* https://www.youtube.com/watch?v=bt4kMkDq-7o  
-* *Mahomes never had ‘better team’ in Super Bowl, unlike Tom Brady | Pro Football Talk:* https://www.youtube.com/watch?v=1E8cP52ymz8  
-* *Tom Brady Is Still The GOAT, Not Patrick Mahomes:* https://www.youtube.com/watch?v=Hv3PbMk9FDM  
 * *Can Patrick Mahomes still catch Tom Brady in the GOAT-bate?:* https://www.youtube.com/watch?v=6zAgYtXFOCA  
+* *Tom Brady Is Still The GOAT, Not Patrick Mahomes:* https://www.youtube.com/watch?v=Hv3PbMk9FDM  
+* *Mahomes never had ‘better team’ in Super Bowl, unlike Tom Brady | Pro Football Talk:* https://www.youtube.com/watch?v=1E8cP52ymz8  
 
 > 🗒️ **Note:** The videos selected above are illustrative of the recent NFL quaterback GOAT debate. These debate videos were recorded after the most recent Super Bowl LIX, which does give us additional information (Mahome Super Bowl loss performance). However, these videos have recency bias that needs to be taken in consideration. In a few months, even if there aren't new NFL statistics to consider the recency bias will have somewhat worn off.  
 
