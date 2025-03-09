@@ -1,8 +1,19 @@
 
-## Intro
+## Intro  
 
+We naturally like to compare, rank and even name things "as the greatest". This is seen across all areas, domains, products, industry etc. One of the areas we see this most is in sports, where players are constanstly ranked and where a select few players are put in "Greatest of All Time" (GOAT) conversation. In fact, one of NHL's Wayne Gretzky's nicknames is "The Great One".  
 
-## Background on Generative AI Used
+Super Bowl LIX completed about a month ago, which included Patrick Mahomes playing in his 5th Super Bowl. Patrick Mahomes is considered on the best NFL quaterbacks to play the game. Some experts and sports pundits have added him to the GOAT conversation, where quaterbacks like Tom Brady, Joe Montana, Peyton Manning are top of people's minds. Immediately after Super Bowl LIX, the NFL Quaterback GOAT conversation was a topic discussed on various sports shows.
+
+Examples from Recent Sports Talk Shows comparing Mahomes and Brady:  
+* *‘Mahomes will never be Tom Brady’, Did Super Bowl LIX end the GOAT debate?:* https://www.youtube.com/watch?v=bt4kMkDq-7o  
+* *Mahomes never had ‘better team’ in Super Bowl, unlike Tom Brady | Pro Football Talk:* https://www.youtube.com/watch?v=1E8cP52ymz8  
+* *Tom Brady Is Still The GOAT, Not Patrick Mahomes:* https://www.youtube.com/watch?v=Hv3PbMk9FDM  
+* *Can Patrick Mahomes still catch Tom Brady in the GOAT-bate?:* https://www.youtube.com/watch?v=6zAgYtXFOCA  
+
+> 🗒️ **Note:** The videos selected above are illustrative of the recent NFL quaterback GOAT debate. These debate videos were recorded after the most recent Super Bowl LIX, which does give us additional information (Mahome Super Bowl loss performance). However, these videos have recency bias that needs to be taken in consideration. In a few months, even if there aren't new NFL statistics to consider the recency bias will have somewhat worn off.  
+
+## Background on Generative AI Used  
 
 Artificial Intelligence was used to demonstrate the research process and final probabilistic forecast. All the tools that were used to generate this comparison can be found in OpenAI's ChatGPT platform. Specifically, the following features were used: 
 * OpenAI GPT 4.5 Research Preview Model  
@@ -21,7 +32,7 @@ The OpenAI Deep Research prompts used for this research can be found in this cha
 ## Summary Analysis Table: Project Mahomes Career and Compare to Tom Brady  
 
 > 🤖 **AI Generated**  
-> This table was AI Generated and copied from the prompt Deep Research prompt: https://chatgpt.com/share/67c25ceb-a834-8006-8ce6-c5147d40da92    
+> The table below was AI Generated and copied from the prompt Deep Research prompt: https://chatgpt.com/share/67c25ceb-a834-8006-8ce6-c5147d40da92    
 > The table was cleaned up, statistics were described for consistency and some minor statistics were removed.  
 
 | Career Metric             | Tom Brady (Final Career) | Patrick Mahomes (Projected Career) |
