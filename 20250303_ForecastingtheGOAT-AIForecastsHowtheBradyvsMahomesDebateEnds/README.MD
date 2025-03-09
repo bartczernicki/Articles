@@ -102,13 +102,14 @@ The comparison between Tom Brady and Patrick Mahomes can also be approached usin
 
 More information on the Decision Intelligence Framework: https://github.com/bartczernicki/DecisionIntelligence.GenAI.Workshop  
 
-You may also be asking if OpenAI Deep Research can be replicated on other platforms. The answer is Yes! For example, below are two AI automation pipelines that are similar to OpenAI Deep Research implemented on Azure OpenAI.
+You may also be asking if OpenAI Deep Research can be replicated on other platforms. The answer is: Yes! For example, below are two AI automation pipelines that are similar to OpenAI Deep Research implemented on Azure OpenAI.
 
 * Risk Analysis with Generative AI Reasoning
 <img style="display: block; margin: auto;" width ="700px" src="https://raw.githubusercontent.com/bartczernicki/RiskAnalysisWithGenerativeAIReasoning/refs/heads/master/RiskAnalysisWithOpenAIReasoning/Images/RiskAnalysisWithOpenAIReasoning-Pipeline.png">  
+https://github.com/bartczernicki/RiskAnalysisWithGenerativeAIReasoning 
 * Document Intelligence With Advanced AI Reasoning 
 <img style="display: block; margin: auto;" width ="700px" src="https://raw.githubusercontent.com/bartczernicki/DocIntelligenceWithAdvancedAIReasoning/refs/heads/master/RiskAnalysisPipeline.png"> 
-
+https://github.com/bartczernicki/DocIntelligenceWithAdvancedAIReasoning  
 ## Conclusion  
 
 To conclude, I highly recommend trying OpenAI Deep Research! It truly is a game changer in how to approach complex problems, decisions and arrive at a quality decision. I used the example of the Mahomes-Brady GOAT debate to contrast human expertise with AI-driven analyses. As illustrated, OpenAI Deep Research can effectively mimic  consulting reports and other traditionally expensive research tasks, delivering thorough, insightful analyses at a huge fraction of the typical cost and time.  
