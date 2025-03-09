@@ -4,12 +4,12 @@
 
 ## Background on Generative AI Used
 
-Artificial Intelligence was used to create the research and final probabilistic forecast. All the tools that were used to generate this comparison can be found in OpenAI's ChatGPT platform. Specifically, the following features were used: 
+Artificial Intelligence was used to demonstrate the research process and final probabilistic forecast. All the tools that were used to generate this comparison can be found in OpenAI's ChatGPT platform. Specifically, the following features were used: 
 * OpenAI GPT 4.5 Research Preview Model  
 * Basic Prompt Engineering (Kept to a minium to give AI the most autonomy) 
-* Deep Research (ChatGPT Pro Subscription) used 26 web sources to gather the required intelligence  
+* Deep Research (ChatGPT Pro Subscription) used 26 different web sources to gather the required intelligence  
  
-OpenAI Deep Research is the main AI component. OpenAI Deep Research is essentially a perscriptive AI Automation Workflow. It works by refactoring the goal, spending time performing robust research using internet knowledge grounding and delivers a final comprehensive report to the user. The caveat with using Deep Research automation is that it can take several minutes to complete. I have seen it take up to 25 minutes on certain research tasks. Additional time for AI to focus on your problem is essentially the tradeoff for a high quality answer.
+OpenAI Deep Research is the highlight of the tools used. OpenAI Deep Research is essentially an opiniated AI Automation workflow. It works by refactoring the goal, spending time performing robust research using internet knowledge grounding and delivers a final comprehensive report to the user. The caveat with using Deep Research automation is that it can take several minutes to complete. In fact, I have seen it take up to 25 minutes on various research tasks. Additional time for AI to focus on your problem is essentially the tradeoff for a high quality answer.
 
 The OpenAI Deep Research process armed with multiple automation steps and several tool calls greatly improves accuracy of the results. This is illustrated below on the benchmark results with *Humanity's Last Exam* data set. This benchmark is meant to be a very challenging benchmark of 2,700 highly curated questions. The questions in this benchmark are expert-level questions from a variety of domains. As clearly seen below, the Deep Research process greatly improves performance than individual AI models.  
 <img style="display: block; margin: auto;" width ="700px" src="https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F760dbed0-9c9c-448b-a320-b6dab4bcb580_1200x700.heic">  
