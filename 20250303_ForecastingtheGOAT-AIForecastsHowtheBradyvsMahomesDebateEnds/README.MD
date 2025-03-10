@@ -14,13 +14,13 @@ Video examples from recent sports talk shows comparing Mahomes and Brady:
 * *Tom Brady Is Still The GOAT, Not Patrick Mahomes:* https://www.youtube.com/watch?v=Hv3PbMk9FDM  
 * *Mahomes never had ‘better team’ in Super Bowl, unlike Tom Brady | Pro Football Talk:* https://www.youtube.com/watch?v=1E8cP52ymz8  
 
-> 🗒️ **Note:** The videos selected above are illustrative of the recent NFL quaterback GOAT debate. These debate videos were recorded after the most recent Super Bowl LIX, which does give us additional information (Mahome Super Bowl loss performance). However, these videos have recency bias that needs to be taken in consideration. In a few months, even if there aren't new NFL statistics to consider the recency bias will have somewhat worn off.  
+> 🗒️ **Note:** The videos selected above are illustrative of the recent NFL quaterback GOAT debate. These debate videos were recorded after the most recent Super Bowl LIX, which does give us additional information (Mahomes Super Bowl loss performance). However, these videos have recency bias that needs to be taken in consideration. In a few months, even if there aren't new NFL statistics to consider the recency bias will have somewhat worn off.  
 
-We have seen what the sports media has to say about the Brady vs Mahomes debate. I thought it would be interesting to have Generative AI provide an analysis, forecast and and opinion of its own!
+We have seen what the sports media has to say about the Brady vs Mahomes debate. I thought it would be interesting to have Generative AI provide an analysis, forecast and and opinion of its own! In the next few sections, we will see how this can easily be approached with AI, potential optimizations and similar advanced implementations that can be done.
 
-## Background on Generative AI Used  
+## Background on Generative AI Approach  
 
-Artificial Intelligence was used to demonstrate the research process and final probabilistic forecast. All the tools that were used to generate this comparison can be found in OpenAI's ChatGPT platform. Specifically, the following features were used: 
+Artificial Intelligence will be used to demonstrate the research process and final probabilistic forecast. All the tools that will be used to generate this comparison can be found in OpenAI's ChatGPT platform (ChatGPT.com). Specifically, the following features were used: 
 * OpenAI GPT 4.5 Research Preview Model  
 * Basic Prompt Engineering (Kept to a minium to give AI the most autonomy) 
 * Deep Research (ChatGPT Pro Subscription) used 26 different web sources to gather the required intelligence  
@@ -32,13 +32,14 @@ The OpenAI Deep Research process, equipped with multiple automation steps and se
 
 More information on *Humanity's Last Exam* can be found here with example questions and updated results: https://agi.safe.ai/  
 
-The OpenAI Deep Research prompts used for this research can be found in this chat by following the link: https://chatgpt.com/share/67c25ceb-a834-8006-8ce6-c5147d40da92  
+To see the two prompts used prompts used for this research can be found in this chat by following the link. Note the iterative response and locating the web sources used:  https://chatgpt.com/share/67c25ceb-a834-8006-8ce6-c5147d40da92  
+
 
 ## Summary Analysis Table: Project Mahomes Career and Compare to Tom Brady  
 
 > 🤖 **AI Generated**  
-> The table below was AI Generated and copied from the prompt Deep Research prompt: https://chatgpt.com/share/67c25ceb-a834-8006-8ce6-c5147d40da92    
-> The table was cleaned up, statistics were described for consistency and some minor statistics were removed.  
+> The table below was AI Generated and copied from the  Deep Research response: https://chatgpt.com/share/67c25ceb-a834-8006-8ce6-c5147d40da92  
+> I cleaned the table up, statistics were clarified for consistency and some minor statistics were removed.  
 
 | Career Metric             | Tom Brady (Final Career) | Patrick Mahomes (Projected Career) |
 |---------------------------|-------------------------|-----------------------------------|
@@ -72,12 +73,13 @@ Taking all the above into account – championships, stats, awards, and the proj
 >
 > -- <cite>George E. P. Box (British statistician and thought leader recognized for his foundational contributions to statistical modeling)</cite>
 
-I consider the AI-generated "model" from OpenAI's Deep Research to be very good. Why? With thoughtful prompt engineering, Deep Research successfully:
-* Identified key criteria to effectively compare two NFL quarterback careers  
-* Gather Patrick Mahomes's career statistics and project realistic final career statistics 
-* Cite the various internet knowledge stores used  
-* Summarize the key metrics, rank them, communicate and present them in an easy to undertand table   
-* Take all of the information into account and provide a final quantitative probabilistic estimate (30%)
+I consider the AI-generated "model" from OpenAI's Deep Research to be very powerful. Why? With simple prompt engineering, Deep Research was able to successfully: 
+
+* Identify the key criteria to effectively compare two NFL quarterback careers.   
+* Gather Patrick Mahomes's career statistics and project realistic final career statistics. 
+* Cite the various internet knowledge stores used.
+* Summarize the key metrics, rank them, communicate and present them in an easy to undertand table.  
+* Take all of the information into account and provided a final quantitative probabilistic estimate (30%). The estimate (while not statistically verified) is quite reasonable. 
 
 Now, let's compare this to the analysis we typically see from major sports networks. When these sports shows are produced, multiple analysts and producers are involved in creating the segment. Yet, as demonstrated by the sample videos provided, many sports experts don't deliver even half the depth or thoroughness offered by this AI-generated analysis. Human-generated sports analyses often rely heavily on subjective projections and frequently overlook crucial comparison metrics.
 
