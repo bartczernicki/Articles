@@ -1,3 +1,4 @@
+![Cover - Decision Making](https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20250303_ForecastingtheGOAT-AIForecastsHowtheBradyvsMahomesDebateEnds/Images/ForecastingTheGOAT.png)
 
 ## Intro  
 
