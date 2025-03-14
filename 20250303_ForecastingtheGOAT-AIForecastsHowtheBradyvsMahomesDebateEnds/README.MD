@@ -1,5 +1,10 @@
 ![Cover - Decision Making](https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20250303_ForecastingtheGOAT-AIForecastsHowtheBradyvsMahomesDebateEnds/Images/ForecastingTheGOAT.png)
 
+Article is published in the following locations:
+* https://www.linkedin.com/pulse/forecasting-nfl-goat-qb-artificial-intelligence-bart-czernicki-9xrxe/ 
+* https://dev.to/bartczernicki/forecasting-the-goat-with-artificial-intelligence-n88 
+* https://medium.com/@bartczernicki/forecasting-the-goat-with-artificial-intelligence-4813d0f4887f 
+
 ## Intro  
 
 We naturally enjoy comparing, ranking, and even labeling things as "The Greatest." This tendency spans virtually every area, including products, industries, and especially sports. Athletes are frequently ranked, but only a select few earn the prestigious distinction of being part of the "Greatest of All Time" (GOAT) conversation. For instance, NHL legend Wayne Gretzky famously carries the nickname "The Great One."
