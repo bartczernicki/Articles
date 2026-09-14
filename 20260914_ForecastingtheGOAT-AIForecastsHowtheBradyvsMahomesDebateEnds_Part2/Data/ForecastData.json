@@ -1,0 +1,618 @@
+{
+  "schema_version": 1,
+  "cutoff": {
+    "date": "2026-09-14",
+    "description": "Before Kansas City's 2026 opener; no 2026 regular-season performance",
+    "kickoff_local": "2026-09-14T20:15:00-04:00"
+  },
+  "event": "Mahomes eventually ranks above Brady as the broad consensus GOAT quarterback after his career; no official ballot or objective certification is implied.",
+  "historical": {
+    "year": 2025,
+    "probability": 0.3,
+    "method": "Subjective AI research judgment, not a calibrated prior",
+    "source_id": "PART1"
+  },
+  "rounding": "Midpoints away from zero. Headline probability to nearest whole percent; career honors and wins/losses to integer, yards to 1000, regular TDs to 10, playoff TDs to integer, rating to 0.1.",
+  "metrics": [
+    {
+      "id": "super_bowl_wins",
+      "label": "Super Bowl Wins",
+      "brady": 7,
+      "current": 3,
+      "round_to": 1,
+      "brady_note": "Won 7 championships",
+      "projection_note": "Currently 3; scenario mean {mean}",
+      "source_ids": [
+        "MAHOMES",
+        "BRADY",
+        "BRADYHONORS"
+      ]
+    },
+    {
+      "id": "super_bowl_mvps",
+      "label": "Super Bowl MVP Awards",
+      "brady": 5,
+      "current": 3,
+      "round_to": 1,
+      "brady_note": "Won 5 Super Bowl MVPs",
+      "projection_note": "Currently 3; tied to future title wins",
+      "source_ids": [
+        "MAHOMES",
+        "BRADY",
+        "BRADYHONORS"
+      ]
+    },
+    {
+      "id": "nfl_mvps",
+      "label": "NFL MVP Awards",
+      "brady": 3,
+      "current": 2,
+      "round_to": 1,
+      "brady_note": "Won 3 NFL MVPs",
+      "projection_note": "Currently 2; scenario mean {mean}",
+      "source_ids": [
+        "MAHOMES",
+        "BRADY",
+        "BRADYHONORS"
+      ]
+    },
+    {
+      "id": "pro_bowls",
+      "label": "Pro Bowl Selections",
+      "brady": 15,
+      "current": 6,
+      "round_to": 1,
+      "brady_note": "Selected to 15 Pro Bowls",
+      "projection_note": "Currently 6; alternates do not add a selection",
+      "source_ids": [
+        "MAHOMES",
+        "BRADY",
+        "BRADYHONORS"
+      ]
+    },
+    {
+      "id": "first_team_all_pro",
+      "label": "First-Team All-Pro",
+      "brady": 3,
+      "current": 2,
+      "round_to": 1,
+      "brady_note": "AP first-team selections",
+      "projection_note": "Currently 2; allows further elite seasons",
+      "source_ids": [
+        "MAHOMES",
+        "BRADY",
+        "BRADYHONORS"
+      ]
+    },
+    {
+      "id": "passing_yards",
+      "label": "Career Passing Yards",
+      "brady": 89214,
+      "current": 35939,
+      "round_to": 1000,
+      "brady_note": "Regular season only",
+      "projection_note": "Currently 35,939; longevity drives the range",
+      "source_ids": [
+        "MAHOMES",
+        "BRADY",
+        "BRADYHONORS"
+      ]
+    },
+    {
+      "id": "passing_tds",
+      "label": "Career Passing TDs",
+      "brady": 649,
+      "current": 267,
+      "round_to": 10,
+      "brady_note": "Regular season only",
+      "projection_note": "Currently 267; includes assumed aging",
+      "source_ids": [
+        "MAHOMES",
+        "BRADY",
+        "BRADYHONORS"
+      ]
+    },
+    {
+      "id": "playoff_wins",
+      "label": "Playoff Record",
+      "brady": 35,
+      "current": 17,
+      "round_to": 1,
+      "brady_note": "35 wins and 13 losses",
+      "projection_note": "Currently 17–4; projected counts are averages",
+      "source_ids": [
+        "MAHOMES",
+        "BRADY",
+        "BRADYHONORS"
+      ]
+    },
+    {
+      "id": "playoff_passing_tds",
+      "label": "Playoff TD Passes",
+      "brady": 88,
+      "current": 46,
+      "round_to": 1,
+      "brady_note": "Postseason only",
+      "projection_note": "Currently 46; depends on playoff opportunities",
+      "source_ids": [
+        "MAHOMES",
+        "BRADY",
+        "BRADYHONORS"
+      ]
+    },
+    {
+      "id": "playoff_passer_rating",
+      "label": "Playoff Passer Rating",
+      "brady": 89.8,
+      "current": 105.4,
+      "round_to": 0.1,
+      "brady_note": "Historical career rating",
+      "projection_note": "Currently 105.4; final-rating scenario average",
+      "source_ids": [
+        "MAHOMES",
+        "PLAYOFF"
+      ]
+    }
+  ],
+  "baseline": {
+    "mahomes": {
+      "regular_2024_yards": 32352,
+      "regular_2024_tds": 245,
+      "playoff_games": 21,
+      "playoff_losses": 4,
+      "age_on_cutoff": 30,
+      "season_age_2026": 31
+    },
+    "brady": {
+      "playoff_games": 48,
+      "playoff_losses": 13
+    },
+    "seasons": [
+      {
+        "year": 2023,
+        "games": 16,
+        "passing_yards": 4183,
+        "passing_tds": 27,
+        "interceptions": 14,
+        "passer_rating": 92.6
+      },
+      {
+        "year": 2024,
+        "games": 16,
+        "passing_yards": 3928,
+        "passing_tds": 26,
+        "interceptions": 11,
+        "passer_rating": 93.5
+      },
+      {
+        "year": 2025,
+        "games": 14,
+        "passing_yards": 3587,
+        "passing_tds": 22,
+        "interceptions": 11,
+        "passer_rating": 89.6
+      }
+    ],
+    "season_source_id": "NFLSTATS",
+    "chiefs_2025": {
+      "wins": 6,
+      "losses": 11,
+      "points_for": 362,
+      "points_against": 328,
+      "one_possession_wins": 1,
+      "one_possession_losses": 9,
+      "source_ids": [
+        "SCHEDULE",
+        "PREVIEW"
+      ],
+      "games": [
+        {
+          "week": 1,
+          "chiefs_points": 21,
+          "opponent_points": 27
+        },
+        {
+          "week": 2,
+          "chiefs_points": 17,
+          "opponent_points": 20
+        },
+        {
+          "week": 3,
+          "chiefs_points": 22,
+          "opponent_points": 9
+        },
+        {
+          "week": 4,
+          "chiefs_points": 37,
+          "opponent_points": 20
+        },
+        {
+          "week": 5,
+          "chiefs_points": 28,
+          "opponent_points": 31
+        },
+        {
+          "week": 6,
+          "chiefs_points": 30,
+          "opponent_points": 17
+        },
+        {
+          "week": 7,
+          "chiefs_points": 31,
+          "opponent_points": 0
+        },
+        {
+          "week": 8,
+          "chiefs_points": 28,
+          "opponent_points": 7
+        },
+        {
+          "week": 9,
+          "chiefs_points": 21,
+          "opponent_points": 28
+        },
+        {
+          "week": 11,
+          "chiefs_points": 19,
+          "opponent_points": 22
+        },
+        {
+          "week": 12,
+          "chiefs_points": 23,
+          "opponent_points": 20
+        },
+        {
+          "week": 13,
+          "chiefs_points": 28,
+          "opponent_points": 31
+        },
+        {
+          "week": 14,
+          "chiefs_points": 10,
+          "opponent_points": 20
+        },
+        {
+          "week": 15,
+          "chiefs_points": 13,
+          "opponent_points": 16
+        },
+        {
+          "week": 16,
+          "chiefs_points": 9,
+          "opponent_points": 26
+        },
+        {
+          "week": 17,
+          "chiefs_points": 13,
+          "opponent_points": 20
+        },
+        {
+          "week": 18,
+          "chiefs_points": 12,
+          "opponent_points": 14
+        }
+      ]
+    }
+  },
+  "assumptions": {
+    "type": "Subjective, evidence-informed scenario model. Not a simulation, historical fit, medical prognosis, opinion poll or Bayesian posterior.",
+    "profiles": "Illustrative within-scenario averages assigned by judgment, not estimates fitted from career data. Fractional counts summarize multiple possible careers. Profiles are not outcome limits; early retirement and careers beyond the upper representative profile remain possible.",
+    "ratings": "Each scenario assigns a final career playoff passer rating. Their weighted mean is not a pooled rating or an average of annual/game ratings.",
+    "weights_justification": "Lost 2025 postseason opportunity, finite remaining career and uncertainty about sustained recovery motivate 60% on 3–4 titles. Established playoff ceiling, clearance for the opener and team rebound paths reserve 40% for five or more. Exact weights are judgment calls; the evidence does not identify them.",
+    "goat_justification": "At 3–4 titles consensus would require an exceptional alternative legacy (2%). Five with elite totals creates a minority route (25%); six plus exceptional sustained performance a stronger one (60%). Seven or more with the upper profile is compelling but does not guarantee public consensus (90%). These are judgments about legacy standards, not polling results.",
+    "evidence_ids": [
+      "MAHOMES",
+      "SURGERY",
+      "RECOVERY",
+      "SCHEDULE",
+      "PREVIEW",
+      "COACH",
+      "KELCE",
+      "ROSTER"
+    ]
+  },
+  "scenarios": [
+    {
+      "id": "three_four",
+      "final_title_band": "3–4",
+      "title_min": 3,
+      "title_max": 4,
+      "remaining_seasons": 7,
+      "final_season_age": 37,
+      "base_weight": 0.6,
+      "base_goat_given_scenario": 0.02,
+      "profile": {
+        "super_bowl_wins": 3.5,
+        "super_bowl_mvps": 3.35,
+        "nfl_mvps": 2.5,
+        "pro_bowls": 9,
+        "first_team_all_pro": 3,
+        "passing_yards": 59000,
+        "passing_tds": 425,
+        "playoff_wins": 24,
+        "playoff_passing_tds": 65,
+        "playoff_passer_rating": 99,
+        "playoff_losses": 9
+      },
+      "narrative": "Mixed recovery, aging or team support limits further titles; this broad group also includes early exit and ringless longevity."
+    },
+    {
+      "id": "five",
+      "final_title_band": "5",
+      "title_min": 5,
+      "title_max": 5,
+      "remaining_seasons": 10,
+      "final_season_age": 40,
+      "base_weight": 0.24,
+      "base_goat_given_scenario": 0.25,
+      "profile": {
+        "super_bowl_wins": 5,
+        "super_bowl_mvps": 4.4,
+        "nfl_mvps": 3.5,
+        "pro_bowls": 12,
+        "first_team_all_pro": 4.5,
+        "passing_yards": 76000,
+        "passing_tds": 555,
+        "playoff_wins": 31,
+        "playoff_passing_tds": 86,
+        "playoff_passer_rating": 101,
+        "playoff_losses": 11
+      },
+      "narrative": "Successful return, about a decade of further play, and two additional championships."
+    },
+    {
+      "id": "six",
+      "final_title_band": "6",
+      "title_min": 6,
+      "title_max": 6,
+      "remaining_seasons": 12,
+      "final_season_age": 42,
+      "base_weight": 0.11,
+      "base_goat_given_scenario": 0.6,
+      "profile": {
+        "super_bowl_wins": 6,
+        "super_bowl_mvps": 5.1,
+        "nfl_mvps": 4.3,
+        "pro_bowls": 14,
+        "first_team_all_pro": 5.5,
+        "passing_yards": 85000,
+        "passing_tds": 640,
+        "playoff_wins": 36,
+        "playoff_passing_tds": 102,
+        "playoff_passer_rating": 103,
+        "playoff_losses": 12
+      },
+      "narrative": "Extended elite play into the early forties and three additional championships."
+    },
+    {
+      "id": "seven_plus",
+      "final_title_band": "7+",
+      "title_min": 7,
+      "title_max": null,
+      "remaining_seasons": 14,
+      "final_season_age": 44,
+      "base_weight": 0.05,
+      "base_goat_given_scenario": 0.9,
+      "profile": {
+        "super_bowl_wins": 7.3,
+        "super_bowl_mvps": 6.1,
+        "nfl_mvps": 5,
+        "pro_bowls": 16,
+        "first_team_all_pro": 7,
+        "passing_yards": 93000,
+        "passing_tds": 710,
+        "playoff_wins": 43,
+        "playoff_passing_tds": 120,
+        "playoff_passer_rating": 104,
+        "playoff_losses": 12.7
+      },
+      "narrative": "Exceptional longevity, repeated team renewal, and at least four additional championships."
+    }
+  ],
+  "sensitivity": [
+    {
+      "id": "pessimistic",
+      "weights": [
+        0.72,
+        0.2,
+        0.06,
+        0.02
+      ],
+      "goat_given_scenario": [
+        0.01,
+        0.15,
+        0.45,
+        0.8
+      ],
+      "interpretation": "More limited football rebound and greater weight placed on Brady's legacy."
+    },
+    {
+      "id": "base",
+      "weights": [
+        0.6,
+        0.24,
+        0.11,
+        0.05
+      ],
+      "goat_given_scenario": [
+        0.02,
+        0.25,
+        0.6,
+        0.9
+      ],
+      "interpretation": "Central subjective assumptions."
+    },
+    {
+      "id": "optimistic",
+      "weights": [
+        0.45,
+        0.28,
+        0.17,
+        0.1
+      ],
+      "goat_given_scenario": [
+        0.04,
+        0.35,
+        0.7,
+        0.95
+      ],
+      "interpretation": "Stronger recovery/team renewal and more favorable legacy judgments."
+    }
+  ],
+  "sources": [
+    {
+      "id": "PART1",
+      "publisher": "Bart Czernicki",
+      "title": "Forecasting The NFL GOAT Quarterback with Artificial Intelligence",
+      "published": "2025-03-11",
+      "accessed": "2026-09-14",
+      "url": "https://dev.to/bartczernicki/forecasting-the-goat-with-artificial-intelligence-n88",
+      "claims": "Original subjective 30% forecast; updated March 14, 2025.",
+      "updated": "2025-03-14"
+    },
+    {
+      "id": "MAHOMES",
+      "publisher": "Kansas City Chiefs",
+      "title": "Patrick Mahomes: Biography and Career Statistics",
+      "published": null,
+      "accessed": "2026-09-14",
+      "url": "https://www.chiefs.com/team/players-roster/patrick-mahomes/",
+      "claims": "Career totals and honors through 2025; historical statistics only, no 2026 performance."
+    },
+    {
+      "id": "NFLSTATS",
+      "publisher": "NFL",
+      "title": "Patrick Mahomes Career Stats",
+      "published": null,
+      "accessed": "2026-09-14",
+      "url": "https://www.nfl.com/players/patrick-mahomes/stats/career",
+      "claims": "2023–2025 regular-season passing statistics."
+    },
+    {
+      "id": "BRADY",
+      "publisher": "Scott Smith / Tampa Bay Buccaneers",
+      "title": "Tom Brady Retires For Good",
+      "published": "2023-02-02",
+      "accessed": "2026-09-14",
+      "url": "https://www.buccaneers.com/news/tom-brady-retires-23-nfl-seasons-bucs-patriots-quarterback",
+      "claims": "Passing totals. Ignore inconsistent 32–18 record in body; see BRADYHONORS."
+    },
+    {
+      "id": "BRADYHONORS",
+      "publisher": "Kevin Patra / NFL",
+      "title": "Tom Brady says he's retiring for good after 23 seasons",
+      "published": "2023-02-01",
+      "accessed": "2026-09-14",
+      "url": "https://amp.nfl.com/news/tom-brady-retirement-23-seasons-in-nfl-buccaneers-patriots",
+      "claims": "Honors; 48 playoff starts and 35 wins imply 13 losses."
+    },
+    {
+      "id": "PLAYOFF",
+      "publisher": "StatMuse",
+      "title": "Brady Mahomes Playoff Record",
+      "published": null,
+      "accessed": "2026-09-14",
+      "url": "https://www.statmuse.com/nfl/ask/brady-mahomes-playoff-record",
+      "claims": "Independent postseason comparison; Brady 89.8 passer rating."
+    },
+    {
+      "id": "PROBOWL",
+      "publisher": "Kansas City Chiefs",
+      "title": "Four Chiefs Named to the 2026 Pro Bowl Games",
+      "published": "2025-12-23",
+      "accessed": "2026-09-14",
+      "url": "https://www.chiefs.com/news/four-chiefs-named-to-the-2026-pro-bowl-games",
+      "claims": "Mahomes is listed as an alternate, not an added Pro Bowl selection."
+    },
+    {
+      "id": "INJURY",
+      "publisher": "Kansas City Chiefs",
+      "title": "Injury Update on QB Patrick Mahomes",
+      "published": "2025-12-14",
+      "accessed": "2026-09-14",
+      "url": "https://www.chiefs.com/news/injury-update-on-qb-patrick-mahomes",
+      "claims": "Updated December 15: team confirms left ACL tear December 14 and surgery December 15.",
+      "updated": "2025-12-15"
+    },
+    {
+      "id": "SURGERY",
+      "publisher": "Grant Gordon / NFL",
+      "title": "Chiefs QB Patrick Mahomes undergoes successful surgery to repair ACL, LCL",
+      "published": "2025-12-15",
+      "accessed": "2026-09-14",
+      "url": "https://amp.nfl.com/news/chiefs-qb-patrick-mahomes-undergoes-successful-surgery-to-repair-acl-lcl",
+      "claims": "NFL reports LCL repair; Chargers loss eliminated Chiefs."
+    },
+    {
+      "id": "RECOVERY",
+      "publisher": "Kansas City Chiefs",
+      "title": "Week 1 Injury Report: Broncos vs. Chiefs",
+      "published": "2026-09-12",
+      "accessed": "2026-09-14",
+      "url": "https://www.chiefs.com/news/week-1-injury-report-broncos-vs-chiefs-2026",
+      "claims": "Full participation and no game designation; LT Josh Simmons out."
+    },
+    {
+      "id": "OPENER",
+      "publisher": "Grant Gordon / NFL",
+      "title": "Chiefs QB Patrick Mahomes cleared for comeback Monday night vs. Broncos",
+      "published": "2026-09-12",
+      "accessed": "2026-09-14",
+      "url": "https://amp.nfl.com/news/chiefs-qb-patrick-mahomes-knee-has-no-injury-status-cleared-for-comeback-monday-night-vs-broncos",
+      "claims": "Scheduled September 14, 8:15 p.m. ET start; turns 31 September 17."
+    },
+    {
+      "id": "SCHEDULE",
+      "publisher": "Kansas City Chiefs",
+      "title": "2025 Kansas City Chiefs Schedule",
+      "published": null,
+      "accessed": "2026-09-14",
+      "url": "https://www.chiefs.com/schedule/2025/",
+      "claims": "17 completed regular-season games; record, point differential and close-game counts."
+    },
+    {
+      "id": "PREVIEW",
+      "publisher": "Matt McMullen / Kansas City Chiefs",
+      "title": "Five Things to Watch on Monday: Broncos vs. Chiefs",
+      "published": "2026-09-13",
+      "accessed": "2026-09-14",
+      "url": "https://www.chiefs.com/news/five-things-to-watch-on-monday-broncos-vs-chiefs",
+      "claims": "1–9 in one-possession games in 2025."
+    },
+    {
+      "id": "COACH",
+      "publisher": "Matt McMullen / Kansas City Chiefs",
+      "title": "Chiefs Name Eric Bieniemy as Offensive Coordinator",
+      "published": "2026-01-23",
+      "accessed": "2026-09-14",
+      "url": "https://www.chiefs.com/news/chiefs-name-eric-bieniemy-as-offensive-coordinator",
+      "claims": "Bieniemy returns as offensive coordinator."
+    },
+    {
+      "id": "KELCE",
+      "publisher": "Matt McMullen / Kansas City Chiefs",
+      "title": "Travis Kelce to Return for 14th Season",
+      "published": "2026-03-11",
+      "accessed": "2026-09-14",
+      "url": "https://www.chiefs.com/news/travis-kelce-to-return-for-14th-season",
+      "claims": "Kelce returns for 2026."
+    },
+    {
+      "id": "ROSTER",
+      "publisher": "Matt McMullen / Kansas City Chiefs",
+      "title": "Catching Up on the Chiefs Roster Moves as the NFL League Year Begins",
+      "published": "2026-03-16",
+      "accessed": "2026-09-14",
+      "url": "https://www.chiefs.com/news/catching-up-on-the-chiefs-roster-moves-as-the-nfl-league-year-begins-x3713",
+      "claims": "Body updated through March 20; Walker signed March 12; McDuffie traded March 11.",
+      "updated": "2026-03-20"
+    }
+  ],
+  "source_cautions": [
+    "Some historical prose on the Chiefs bio is stale or inconsistent; use explicit numeric totals and honors, not unqualified record-ranking claims.",
+    "Buccaneers retirement report contains an inconsistent 32–18 postseason record; NFL retirement report's 48 starts and 35 wins establishes 35–13.",
+    "Mahomes' 17–4 / 46 TD / 105.4 playoff baseline from Part 1 was correct and remains unchanged after missing the 2025 playoffs.",
+    "Remove Part 1's unqualified highest-ever playoff passer-rating claim.",
+    "Forecast cutoff excludes the outcome of the September 14 opener even if rebuilt later."
+  ]
+}

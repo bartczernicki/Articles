@@ -1,0 +1,209 @@
+{
+    "schema_version":  1,
+    "cutoff":  {
+                   "date":  "2026-09-14",
+                   "description":  "Before Kansas City\u0027s 2026 opener; no 2026 regular-season performance",
+                   "kickoff_local":  "2026-09-14T20:15:00-04:00"
+               },
+    "historical_probability":  0.3,
+    "base_probability":  0.1830,
+    "headline_percent":  18,
+    "exact_change_percentage_points":  -11.7000,
+    "displayed_change_percentage_points":  -12.0,
+    "sensitivity":  [
+                        {
+                            "id":  "pessimistic",
+                            "probability":  0.0802,
+                            "trajectory_only_probability":  0.1184,
+                            "legacy_only_probability":  0.1315
+                        },
+                        {
+                            "id":  "base",
+                            "probability":  0.1830,
+                            "trajectory_only_probability":  0.1830,
+                            "legacy_only_probability":  0.1830
+                        },
+                        {
+                            "id":  "optimistic",
+                            "probability":  0.3300,
+                            "trajectory_only_probability":  0.2710,
+                            "legacy_only_probability":  0.2325
+                        }
+                    ],
+    "scenario_calculations":  [
+                                  {
+                                      "id":  "three_four",
+                                      "contribution_percentage_points":  1.200,
+                                      "future_yards_per_representative_season":  3294.4285714285716,
+                                      "future_tds_per_representative_season":  22.571428571428573
+                                  },
+                                  {
+                                      "id":  "five",
+                                      "contribution_percentage_points":  6.0000,
+                                      "future_yards_per_representative_season":  4006.1,
+                                      "future_tds_per_representative_season":  28.8
+                                  },
+                                  {
+                                      "id":  "six",
+                                      "contribution_percentage_points":  6.600,
+                                      "future_yards_per_representative_season":  4088.4166666666665,
+                                      "future_tds_per_representative_season":  31.083333333333332
+                                  },
+                                  {
+                                      "id":  "seven_plus",
+                                      "contribution_percentage_points":  4.500,
+                                      "future_yards_per_representative_season":  4075.7857142857142,
+                                      "future_tds_per_representative_season":  31.642857142857142
+                                  }
+                              ],
+    "career_weighted_means":  {
+                                  "super_bowl_wins":  4.325,
+                                  "super_bowl_mvps":  3.932,
+                                  "nfl_mvps":  3.063,
+                                  "pro_bowls":  10.62,
+                                  "first_team_all_pro":  3.835,
+                                  "passing_yards":  67640.00,
+                                  "passing_tds":  494.10,
+                                  "playoff_wins":  27.95,
+                                  "playoff_passing_tds":  76.86,
+                                  "playoff_passer_rating":  100.17,
+                                  "playoff_losses":  9.995
+                              },
+    "career_rounded":  {
+                           "super_bowl_wins":  4,
+                           "super_bowl_mvps":  4,
+                           "nfl_mvps":  3,
+                           "pro_bowls":  11,
+                           "first_team_all_pro":  4,
+                           "passing_yards":  68000,
+                           "passing_tds":  490,
+                           "playoff_wins":  28,
+                           "playoff_passing_tds":  77,
+                           "playoff_passer_rating":  100.2,
+                           "playoff_losses":  10
+                       },
+    "weighted_remaining_seasons":  8.62,
+    "career_markdown_table":  "| Career metric | Tom Brady (final) | Patrick Mahomes (projected) |\n|---|---:|---:|\n| Super Bowl Wins | 7 | ≈4 |\n| Super Bowl MVP Awards | 5 | ≈4 |\n| NFL MVP Awards | 3 | ≈3 |\n| Pro Bowl Selections | 15 | ≈11 |\n| First-Team All-Pro | 3 | ≈4 |\n| Career Passing Yards | 89,214 | ≈68,000 |\n| Career Passing TDs | 649 | ≈490 |\n| Playoff Record | 35–13 | ≈28–10 |\n| Playoff TD Passes | 88 | ≈77 |\n| Playoff Passer Rating | 89.8 | ≈100.2 |",
+    "chart_data":  {
+                       "career":  {
+                                      "headers":  [
+                                                      "Career Metric",
+                                                      "Tom Brady (Final Career)",
+                                                      "Patrick Mahomes (Projected Career)"
+                                                  ],
+                                      "rows":  [
+                                                   {
+                                                       "metric":  "Super Bowl Wins",
+                                                       "brady_display":  "7",
+                                                       "brady_note":  "Won 7 championships",
+                                                       "mahomes_display":  "≈4 (projected)",
+                                                       "mahomes_note":  "Currently 3; scenario mean 4.33",
+                                                       "leader":  "brady"
+                                                   },
+                                                   {
+                                                       "metric":  "Super Bowl MVP Awards",
+                                                       "brady_display":  "5",
+                                                       "brady_note":  "Won 5 Super Bowl MVPs",
+                                                       "mahomes_display":  "≈4 (projected)",
+                                                       "mahomes_note":  "Currently 3; tied to future title wins",
+                                                       "leader":  "brady"
+                                                   },
+                                                   {
+                                                       "metric":  "NFL MVP Awards",
+                                                       "brady_display":  "3",
+                                                       "brady_note":  "Won 3 NFL MVPs",
+                                                       "mahomes_display":  "≈3 (projected)",
+                                                       "mahomes_note":  "Currently 2; scenario mean 3.06",
+                                                       "leader":  null
+                                                   },
+                                                   {
+                                                       "metric":  "Pro Bowl Selections",
+                                                       "brady_display":  "15",
+                                                       "brady_note":  "Selected to 15 Pro Bowls",
+                                                       "mahomes_display":  "≈11 (projected)",
+                                                       "mahomes_note":  "Currently 6; alternates do not add a selection",
+                                                       "leader":  "brady"
+                                                   },
+                                                   {
+                                                       "metric":  "First-Team All-Pro",
+                                                       "brady_display":  "3",
+                                                       "brady_note":  "AP first-team selections",
+                                                       "mahomes_display":  "≈4 (projected)",
+                                                       "mahomes_note":  "Currently 2; allows further elite seasons",
+                                                       "leader":  "mahomes"
+                                                   },
+                                                   {
+                                                       "metric":  "Career Passing Yards",
+                                                       "brady_display":  "89,214",
+                                                       "brady_note":  "Regular season only",
+                                                       "mahomes_display":  "≈68,000 (projected)",
+                                                       "mahomes_note":  "Currently 35,939; longevity drives the range",
+                                                       "leader":  "brady"
+                                                   },
+                                                   {
+                                                       "metric":  "Career Passing TDs",
+                                                       "brady_display":  "649",
+                                                       "brady_note":  "Regular season only",
+                                                       "mahomes_display":  "≈490 (projected)",
+                                                       "mahomes_note":  "Currently 267; includes assumed aging",
+                                                       "leader":  "brady"
+                                                   },
+                                                   {
+                                                       "metric":  "Playoff Record",
+                                                       "brady_display":  "35–13",
+                                                       "brady_note":  "35 wins and 13 losses",
+                                                       "mahomes_display":  "≈28–10 (projected)",
+                                                       "mahomes_note":  "Currently 17–4; projected counts are averages",
+                                                       "leader":  "brady"
+                                                   },
+                                                   {
+                                                       "metric":  "Playoff TD Passes",
+                                                       "brady_display":  "88",
+                                                       "brady_note":  "Postseason only",
+                                                       "mahomes_display":  "≈77 (projected)",
+                                                       "mahomes_note":  "Currently 46; depends on playoff opportunities",
+                                                       "leader":  "brady"
+                                                   },
+                                                   {
+                                                       "metric":  "Playoff Passer Rating",
+                                                       "brady_display":  "89.8",
+                                                       "brady_note":  "Historical career rating",
+                                                       "mahomes_display":  "≈100.2 (projected)",
+                                                       "mahomes_note":  "Currently 105.4; final-rating scenario average",
+                                                       "leader":  "mahomes"
+                                                   }
+                                               ],
+                                      "width":  1506,
+                                      "height":  1162
+                                  },
+                       "probability":  {
+                                           "width":  1506,
+                                           "height":  1162,
+                                           "title":  "Mahomes\u0027 chance of surpassing Brady",
+                                           "subtitle":  "Lifetime consensus GOAT forecast | Before the 2026 opener",
+                                           "axis_label":  "Probability of eventually becoming the consensus GOAT",
+                                           "historical":  {
+                                                              "year":  "2025",
+                                                              "value":  30.0,
+                                                              "label":  "30%",
+                                                              "note":  "Part 1: subjective assessment"
+                                                          },
+                                           "current":  {
+                                                           "year":  "2026",
+                                                           "value":  18,
+                                                           "label":  "18%",
+                                                           "note":  "Scenario estimate: 18.3%, rounded"
+                                                       },
+                                           "sensitivity":  {
+                                                               "low":  8,
+                                                               "high":  33,
+                                                               "label":  "2026 assumption sensitivity range: 8%–33%"
+                                                           },
+                                           "change_label":  "12 percentage points lower than 2025",
+                                           "footer_lines":  [
+                                                                "Sensitivity reflects alternative assumptions, not a confidence interval.",
+                                                                "Information cutoff: September 14, 2026, before Kansas City\u0027s opener."
+                                                            ]
+                                       }
+                   }
+}
