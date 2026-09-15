@@ -33,15 +33,10 @@ The surrounding team has changed, too. Eric Bieniemy returned as offensive coord
 
 The career projections summarize the **central scenarios and weights explained below**. For every metric, I assign an illustrative average within each scenario, then calculate its weighted average. These profiles are assumptions, not empirical estimates of quarterback aging.
 
-For example, the passing-yard profiles for **3–4 / 5 / 6 / 7+ final Super Bowl titles**, respectively, are **59,000 / 76,000 / 85,000 / 93,000**. Their weighted average is **67,640**, displayed as approximately **68,000**. The weighted title total is **4.325**, displayed as approximately **4**. Neither is a guaranteed finishing point or the uniquely most likely career.
-
-![Updated career table compares Brady's final totals with Mahomes' scenario-weighted projections across ten metrics.](Images/CareerProjections.png)
+![Updated career table compares Brady's final totals with Mahomes' scenario-weighted projections across ten metrics.](https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20260914_ForecastingtheGOAT-AIForecastsHowtheBradyvsMahomesDebateEnds_Part2/Images/CareerProjections.png)
 
 *Historical baselines: [Chiefs biography](https://www.chiefs.com/team/players-roster/patrick-mahomes/), [NFL Brady retirement summary](https://amp.nfl.com/news/tom-brady-retirement-23-seasons-in-nfl-buccaneers-patriots), and [postseason comparison](https://www.statmuse.com/nfl/ask/brady-mahomes-playoff-record). Mahomes' Pro Bowl total remains six; the [2026 announcement](https://www.chiefs.com/news/four-chiefs-named-to-the-2026-pro-bowl-games) lists him as an alternate.*
 
-Counts round to whole numbers, yards to the nearest 1,000, regular-season touchdowns to the nearest ten, and passer rating to one decimal. The playoff record represents separately rounded average wins and losses. Rating is an average of assumed final career ratings, not an average of individual game ratings.
-
-Green checkmarks identify strict leads in the displayed central projections; they do not represent probabilities. For the playoff-record row, the comparison uses total wins. The chart also removes the original unqualified “highest ever” passer-rating claim. Raw efficiency across different eras is informative but cannot, by itself, settle the comparison.
 
 ## Turning the GOAT question into explicit scenarios
 
@@ -90,8 +85,6 @@ Sources were checked September 14, 2026, subject to the pre-opener cutoff.
 - Kevin Patra, NFL, [Brady retirement summary](https://amp.nfl.com/news/tom-brady-retirement-23-seasons-in-nfl-buccaneers-patriots), February 1, 2023; StatMuse, [playoff comparison](https://www.statmuse.com/nfl/ask/brady-mahomes-playoff-record).
 - Chiefs, [Pro Bowl selections](https://www.chiefs.com/news/four-chiefs-named-to-the-2026-pro-bowl-games), December 23, 2025.
 
-[Research inputs and scenario assumptions](Data/ForecastData.json), [calculated chart data](Data/ForecastResults.json), and [reproduction instructions](ForecastNotes.md) accompany the article.
-
 </details>
 
 ## Final probability assessment
@@ -122,7 +115,7 @@ The resulting **8%–33% assumption sensitivity range is not a confidence interv
 
 Changing only the football scenario weights gives **11.84%–27.10%**. Changing only the conditional legacy judgments gives **13.15%–23.25%**. Both sources of uncertainty matter, and other reasonable assumptions could produce results outside the displayed range.
 
-![Two horizontal bars compare the 2025 GOAT assessment of 30% with the 2026 estimate of 18%, with an 8%–33% assumption sensitivity range.](Images/GOATProbabilityUpdate.png)
+![Two horizontal bars compare the 2025 GOAT assessment of 30% with the 2026 estimate of 18%, with an 8%–33% assumption sensitivity range.](https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20260914_ForecastingtheGOAT-AIForecastsHowtheBradyvsMahomesDebateEnds_Part2/Images/GOATProbabilityUpdate.png)
 
 | Forecast | Headline estimate | Assumption sensitivity range |
 |---|---:|---|
