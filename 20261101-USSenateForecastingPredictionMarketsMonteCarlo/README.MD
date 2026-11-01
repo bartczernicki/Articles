@@ -17,7 +17,6 @@ In this article, we will demonstrate a forecast of the 35 US Senate race outcome
 Prediction markets such as Polymarket and Kalshi let people buy and sell contracts on questions like, "Will this candidate win?" Trading turns those competing views into a probability that changes as new information arrives. A market resolves when it confirms the outcome under its rules and settles the contracts.
 
 ![How Kalshi Contract Market Works](https://www.tradetheoutcome.com/wp-content/uploads/2026/07/How-Kalshi-YES-NO-Contract-Payoffs-Work-768x512.jpg)
-
 *Workflow of Kalshi Market Contracts. Image credit: [Trade the Outcome](https://www.tradetheoutcome.com/wp-content/uploads/2026/07/How-Kalshi-YES-NO-Contract-Payoffs-Work-768x512.jpg).*
 
 **Key Concepts:**
@@ -47,7 +46,6 @@ For our U.S. Senate forecast, these market probabilities provide the starting es
 A **Monte Carlo simulation** runs a model thousands (or more) of times, using random draws to represent uncertainty. Each run produces one possible future. For our Senate forecast, one run represents an entire election: who wins each race, how many seats each party holds, and who controls the chamber.
 
 ![Simulation as a way to explore outcomes before acting, illustrated by a person checking a ladder](https://raw.githubusercontent.com/bartczernicki/decision-intelligence-with-ai/refs/heads/main/Images/DecisionIntelligenceFramework/DecisionExecution-QuantMethods-LadderSimulation.png)
-
 *A Monte Carlo simulation lets us explore what could happen before the real event, much like checking a ladder's stability before climbing.*
 
 **Monte Carlo Basics:**
@@ -57,7 +55,6 @@ A **Monte Carlo simulation** runs a model thousands (or more) of times, using ra
 - **Count how often an outcome happens:** As an illustration, if Democrats control the Senate in 65,000 of 100,000 simulations, the model estimates a 65% chance of Democratic control. More runs reduce random variation in this estimate; the quality of the forecast still depends on its inputs and assumptions.
 
 ![Monte Carlo sales forecast showing a distribution of outcomes from 10,000 simulations](https://raw.githubusercontent.com/bartczernicki/decision-intelligence-with-ai/refs/heads/main/Images/DecisionIntelligence-MonteCarlo-SalesProbabilities.png)
-
 *This sales example illustrates the same principle: repeated simulations produce a range of possible results.*
 
 **Forecast Methodology:**
