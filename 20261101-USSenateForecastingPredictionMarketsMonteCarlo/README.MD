@@ -1,6 +1,8 @@
 # Forecasting the U.S. Senate with Prediction Markets and Monte Carlo Simulations  
 
-Predicting which party will control the U.S. Senate is challenging because each race comes with its own uncertainties and complexities. Unless you are in politics, have access to polling data, this used to be a daunting problem. However, we can find information that can help us in prediction markets. Prediction markets like Polymarket and Kalshi provide historical and real-time estimates of each Senate candidate's chances of winning. By combining these estimates with Monte Carlo simulations, we can quckly run tens of thousands of possible election scenarios to better understand which party is most likely to win a Senate majority! We can also explore how changes in the national political environment might affect multiple races at once (Democratic or Republican wave). In this article, we'll walk through how to build a forecasting model for the 2026 U.S. Senate elections using prediction market data, statistical research methods and Monte Carlo simulations.
+Prediction markets price both individual Senate races and overall Senate control. This article tests whether those prices tell the same story. We combine individual race probabilities with Monte Carlo simulations and compare the resulting chance of Senate control with the overall market contract.
+
+As of **11.01.2026**, Kalshi's overall contract gives Democrats a **71%** chance of controlling the Senate, while our simulations using its individual race probabilities estimate roughly **76%–86%**. We'll walk through the inputs, compare independent and correlated simulations, and explore whether that gap suggests a potential market opportunity.
 
 ## Background on the 2026 Senate Races
 
@@ -37,7 +39,7 @@ Prediction markets such as Polymarket and Kalshi let people buy and sell contrac
 
   ![Decision assurance and probability calibration](https://raw.githubusercontent.com/bartczernicki/decision-intelligence-with-ai/refs/heads/main/Images/DecisionIntelligence-DecisionAssurance-Calibration.png)
 
-- **Forecasts often improve closer to resolution:** As the event approaches, market traders have more information and less uncertainty to price. Research has found markets better calibrated near expiration than farther out. For example, making a prediction for a U.S. Senate election 6 months before the election (before any debates, official candidate positions or major voter considerations) has considerably much more uncertainty than a forecast 6 days before the election. ([Page and Clemen, 2013](https://scholars.duke.edu/publication/765630))
+- **Forecasts often improve closer to resolution:** As Election Day approaches, traders have more information and less uncertainty to price. Research has found markets better calibrated near expiration than farther out. This supports using near-election prices as inputs, while calibration still needs to be checked against actual outcomes. ([Page and Clemen, 2013](https://scholars.duke.edu/publication/765630))
 
 **U.S. Senate Races on Prediction Markets**
 
@@ -55,7 +57,7 @@ Prediction markets offer both **macro contracts** for the overall election and *
     <a href="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/20261101-TexasSenate.png"><img src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/20261101-TexasSenate.png" alt="Kalshi Texas Senate market showing James Talarico at 69% and Ken Paxton at 31%" width="500"></a>
   </p>
 
-For our U.S. Senate forecast, these market probabilities provide the starting estimates for each race. The data that has been used was over the last week prior to the 11.03.2026 U.S. Senate election. Therefore, the Polymarket and Kalshi markets can be considered to be calibrated fairly well. 
+For our Senate forecast, individual race prices provide the starting estimates. We test whether combining those probabilities produces a Senate-control estimate consistent with the overall contract. A difference could point to potential value, depending on the model assumptions; proximity to Election Day alone does not establish that the prices are well calibrated.
 
 
 
@@ -77,23 +79,23 @@ A **Monte Carlo simulation** runs a model thousands (or more) of times, using ra
 
 **U.S. Senate Forecast Methodology:**
 
-1. **Start with market probabilities:** Use the time-stamped Polymarket and Kalshi estimates for the 35 races as inputs. Exclude the 65 Senate seats not on the ballot.
+1. **Start with market probabilities:** Use Kalshi's **11.01.2026** estimates for the 35 races as inputs. Hold the 65 Senate seats not on the ballot fixed.
 2. **Simulate a complete election:** Generate winners for all 35 races. An independent baseline treats each race separately; a correlated version also includes shared influences that can move several races together.
 3. **Count seats and determine control:** Add the simulated winners to the existing seats, counting independents according to their caucus alignment. Democrats need a bloc of 51; Republicans can retain control with 50 because they hold the vice presidency.
-4. **Repeat and compare:** Summarize the seat distribution and control probabilities across many simulated elections. Compare the independent baseline with correlated simulations and explicitly defined wave scenarios to see how the assumptions affect the forecast.
+4. **Repeat and compare:** Summarize the seat distribution and control probabilities across many simulated elections. Compare the independent and correlated results with the overall Kalshi contract to see how the assumptions affect the estimated opportunity.
 
-**Correlated Outcomes: FLIPR and a potential Democratic Wave**
+**Correlated Outcomes: FLIPR and Shared National Influences**
 
 Senate races share influences such as national turnout and shifts in voter sentiment. If a forecast misses one of those influences, several races can surprise us together. Nate Silver's **FLIPR** model combines polls, other indicators such as incumbency and fundraising, and, in its default version, expert ratings. It runs **many simulations per update**, accounting for uncertainty shared nationally, across similar regions or demographic groups, within a state, and within individual races. ([Silver's FLIPR methodology](https://www.natesilver.net/p/flipr-midterms-model-methodology))
 
-For the ordinary baseline, the correlated simulation should preserve each race's starting market probability across all runs; correlation changes which wins occur together. A deliberately stronger **Democratic wave scenario** asks a separate question: **How would Senate control change if the national environment were better for Democrats than markets currently expect?** Its results are conditional on that assumption. Correlation alone does not automatically increase either party's chance of control.
-
-What does this all mean? Think of the national environment as a tide that can help or hurt candidates across several states. In one of our simulation options, that shared tide accounts for 12% of the variation in each race’s score, while the other 88% comes from uncertainty specific to that race. This allows Senate races in Michigan, Iowa and North Carolina to move together when the national environment shifts, while still allowing different results in each state.
+Think of the national environment as a tide that can help or hurt candidates from the same party across several states. In our correlated model, **we assume** this shared tide accounts for **12% of the variation in each race's simulated score**, while the other **88%** comes from uncertainty specific to that race. This is our modeling assumption, not a parameter taken from FLIPR. It allows races in Michigan, Iowa and North Carolina to move together while still producing different results. The shared influence can favor either party; we do not assume a Democratic wave.
 
 
 ## Simulation Approach and Results  
 
-Putting this all together, we can create an application that uses the prediction market data and combines the approaches mentioned above into code. An example of how this can be done is shown here: https://github.com/bartczernicki/USSenateElectionsForecast  
+The [USSenateElectionsForecast console application](https://github.com/bartczernicki/USSenateElectionsForecast) puts these ideas into practice.
+
+**Results setup:** Both runs use the same **11.01.2026 Kalshi probabilities for the 35 Senate races**, plus the 65 seats not on the ballot. We compare an **independent model** with a **correlated model that allows races to move together**. The correlated model allows a national surprise benefiting either party; it does not assume a Democratic wave.
 
 **What the simulation checks:** We combine the individual Senate race probabilities through repeated simulated elections, add the seats not on the ballot, and estimate each party's chance of Senate control. We then compare that estimate with the overall Senate contract. **Do the individual race prices tell the same story as the overall market?**
 
