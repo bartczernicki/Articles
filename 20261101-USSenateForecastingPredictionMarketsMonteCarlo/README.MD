@@ -35,11 +35,11 @@ Prediction markets such as Polymarket and Kalshi let people buy and sell contrac
     <a href="https://www.penguinrandomhouseretail.com/book/?isbn=9780735216358"><img src="https://images.penguinrandomhouse.com/cover/9780735216358" alt="Thinking in Bets by Annie Duke — book cover" width="150"></a>
   </p>
 
-- **Calibration means the percentages match reality:** Across many comparable events assigned a **70% chance**, roughly **70 out of 100 should happen** (within statistical boundary) in a well-calibrated market. If the forecast is way over in its forecast versus the reality, it is considered overconfident. Conversely, a forecast that is way under its forecast is considered underconfident. ([Research on market calibration](https://pubmed.ncbi.nlm.nih.gov/42896054/))
+- **Calibration means the percentages match reality:** Across many comparable events assigned a **70% chance**, roughly **70 out of 100 should happen** (within statistical boundary) in a well-calibrated market. If the forecast is way over in its forecast versus the reality, it is considered overconfident. Conversely, a forecast that is way under its forecast is considered underconfident. ([Research on market calibration, 2026](https://pubmed.ncbi.nlm.nih.gov/42896054/))
 
   ![Decision assurance and probability calibration](https://raw.githubusercontent.com/bartczernicki/decision-intelligence-with-ai/refs/heads/main/Images/DecisionIntelligence-DecisionAssurance-Calibration.png)
 
-- **Forecasts often improve closer to resolution:** As Election Day approaches, traders have more information and less uncertainty to price. Research has found markets better calibrated near expiration than farther out. This supports using near-election prices as inputs, while calibration still needs to be checked against actual outcomes. ([Page and Clemen, 2013](https://scholars.duke.edu/publication/765630))
+- **Forecasts often improve closer to resolution:** Kalshi's own August 2026 study of more than 2.2 million resolved markets found prices generally well calibrated near resolution, with forecast errors declining as markets approached their close. This supports using near-election prices as inputs, while calibration still needs to be checked against actual outcomes. ([Kalshi Research, 2026](https://kalshi.com/research/publications/calibration))
 
 **U.S. Senate Races on Prediction Markets**
 
