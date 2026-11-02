@@ -46,13 +46,13 @@ Prediction markets offer both **macro contracts** for the overall election and *
 - **Overall Senate control:** This contract asks which party will control the U.S. Senate. The 11.01.2026 screenshot below shows a 71% chance for Democrats and 29% for Republicans.
 
   <p align="center">
-    <a href="Images/20261101-USSenate.png"><img src="Images/20261101-USSenate.png" alt="Kalshi Senate-control market showing Democrats at 71% and Republicans at 29%" width="500"></a>
+    <a href="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/20261101-USSenate.png"><img src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/20261101-USSenate.png" alt="Kalshi Senate-control market showing Democrats at 71% and Republicans at 29%" width="500"></a>
   </p>
 
 - **Individual Senate races:** Separate contracts cover each state's race. For example, the 11.01.2026 Texas screenshot shows James Talarico at 69% and Ken Paxton at 31%.
 
   <p align="center">
-    <a href="Images/20261101-TexasSenate.png"><img src="Images/20261101-TexasSenate.png" alt="Kalshi Texas Senate market showing James Talarico at 69% and Ken Paxton at 31%" width="500"></a>
+    <a href="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/20261101-TexasSenate.png"><img src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/20261101-TexasSenate.png" alt="Kalshi Texas Senate market showing James Talarico at 69% and Ken Paxton at 31%" width="500"></a>
   </p>
 
 For our U.S. Senate forecast, these market probabilities provide the starting estimates for each race. The data that has been used was over the last week prior to the 11.03.2026 U.S. Senate election. Therefore, the Polymarket and Kalshi markets can be considered to be calibrated fairly well. 
@@ -104,11 +104,11 @@ Putting this all together, we can create an application that uses the prediction
 Using the **Kalshi individual-race probabilities**, the independent simulation produces the following seat distribution and probabilities:
 
 <p align="center">
-  <a href="Images/Simulation-Independent-Distributions.png"><img src="Images/Simulation-Independent-Distributions.png" alt="Independent simulation seat distributions for the Democratic and Republican caucuses" width="500"></a>
+  <a href="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Independent-Distributions.png"><img src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Independent-Distributions.png" alt="Independent simulation seat distributions for the Democratic and Republican caucuses" width="500"></a>
 </p>
 
 <p align="center">
-  <a href="Images/Simulation-Independent-Probabilities.png"><img src="Images/Simulation-Independent-Probabilities.png" alt="Independent simulation probabilities of reaching Democratic seat thresholds, including an 86.02% chance of at least 51 seats" width="500"></a>
+  <a href="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Independent-Probabilities.png"><img src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Independent-Probabilities.png" alt="Independent simulation probabilities of reaching Democratic seat thresholds, including an 86.02% chance of at least 51 seats" width="500"></a>
 </p>
 
 - **Democratic control:** Democrats reach the required **51 seats or more in 86.02%** of simulations.
@@ -120,11 +120,11 @@ This model suggests Democrats are favored to capture the Senate, with the most l
 **Correlated Monte Carlo Simulation:** This uses the same Kalshi individual-race probabilities while allowing a shared national influence to move races together. A national surprise can help or hurt the same party across several states.
 
 <p align="center">
-  <a href="Images/Simulation-Correlated-Distribution.png"><img src="Images/Simulation-Correlated-Distribution.png" alt="Correlated simulation showing a wider distribution of Democratic-caucus seat totals" width="500"></a>
+  <a href="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Correlated-Distribution.png"><img src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Correlated-Distribution.png" alt="Correlated simulation showing a wider distribution of Democratic-caucus seat totals" width="500"></a>
 </p>
 
 <p align="center">
-  <a href="Images/Simulation-Correlated-Probabilities.png"><img src="Images/Simulation-Correlated-Probabilities.png" alt="Correlated simulation probabilities of reaching Democratic seat thresholds, including a 76.30% chance of at least 51 seats" width="500"></a>
+  <a href="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Correlated-Probabilities.png"><img src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Correlated-Probabilities.png" alt="Correlated simulation probabilities of reaching Democratic seat thresholds, including a 76.30% chance of at least 51 seats" width="500"></a>
 </p>
 
 - **Democratic control:** Democrats reach **51 seats or more in 76.30%** of simulations.
