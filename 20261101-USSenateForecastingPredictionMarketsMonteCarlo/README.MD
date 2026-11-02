@@ -1,6 +1,6 @@
 # Forecasting the U.S. Senate with Prediction Markets and Monte Carlo Simulations  
 
-Predicting which party will control the U.S. Senate is challenging because each race comes with its own uncertainties and complexities. Prediction markets like Polymarket and Kalshi provide real-time estimates of each candidate's chances of winning. By combining these estimates with Monte Carlo simulations, we can quckly run tens of thousands of possible election scenarios to better understand which party is most likely to win a Senate majority. We can also explore how changes in the national political environment might affect multiple races at once (Democratic or Republican wave). In this article, we'll walk through how to build a forecasting model for the 2026 U.S. Senate elections using prediction market data, statistical research methods and Monte Carlo simulations.
+Predicting which party will control the U.S. Senate is challenging because each race comes with its own uncertainties and complexities. Prediction markets like Polymarket and Kalshi provide historical and real-time estimates of each candidate's chances of winning. By combining these estimates with Monte Carlo simulations, we can quckly run tens of thousands of possible election scenarios to better understand which party is most likely to win a Senate majority. We can also explore how changes in the national political environment might affect multiple races at once (Democratic or Republican wave). In this article, we'll walk through how to build a forecasting model for the 2026 U.S. Senate elections using prediction market data, statistical research methods and Monte Carlo simulations.
 
 ## Background on the 2026 Senate Races
 
@@ -71,3 +71,24 @@ Senate races share influences such as national turnout and shifts in voter senti
 A simpler approach using market probabilities can borrow that principle: draw **one shared national environment for each simulated election**, alongside randomness specific to each race. In a Democratic wave simulation, stronger Democratic turnout or support can help Democratic candidates in several states at once. Local factors still matter, so a wave does not mean every close race goes the same way. Shared surprises can also favor Republicans; Silver explicitly treats that uncertainty as party-neutral. ([Silver on correlated forecast errors](https://www.natesilver.net/p/what-if-the-polls-are-wrong-again))
 
 For the ordinary baseline, the correlated simulation should preserve each race's starting market probability across all runs; correlation changes which wins occur together. A deliberately stronger **Democratic wave scenario** asks a separate question: **How would Senate control change if the national environment were better for Democrats than markets currently expect?** Its results are conditional on that assumption. Correlation alone does not automatically increase either party's chance of control.
+
+**Performing U.S. Senate Simulations & Results**
+
+Prediction markets offer both **macro contracts** for the overall election and **detailed contracts** for each individual senate race:
+
+- **Overall Senate control:** This contract asks which party will control the U.S. Senate. The 11.01.2026 screenshot below shows a 71% chance for Democrats and 29% for Republicans.
+
+  <p align="center">
+    <a href="Images/20261101-USSenate.png"><img src="Images/20261101-USSenate.png" alt="Kalshi Senate-control market showing Democrats at 71% and Republicans at 29%" width="500"></a>
+  </p>
+
+- **Individual Senate races:** Separate contracts cover each state's race. For example, the 11.01.2026 Texas screenshot shows James Talarico at 69% and Ken Paxton at 31%.
+
+  <p align="center">
+    <a href="Images/20261101-TexasSenate.png"><img src="Images/20261101-TexasSenate.png" alt="Kalshi Texas Senate market showing James Talarico at 69% and Ken Paxton at 31%" width="500"></a>
+  </p>
+
+**What the simulation checks:** We combine the individual senate race probabilities through repeated simulated elections, add the seats not on the ballot, and estimate each party's chance of Senate control. We then compare that estimate with the overall Senate contract. **Do the individual race prices tell the same story as the overall market?**
+
+**Looking for potential value:** A meaningful gap could suggest that a contract is priced too high or too low. The comparison should use probabilities from the same time and matching contract rules. A gap can also reflect assumptions about how races move together, so it signals possible mispricing to investigate. Establishing that a market is poorly calibrated requires checking many forecasts against their actual outcomes. 
+
