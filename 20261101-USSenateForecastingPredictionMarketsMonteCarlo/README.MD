@@ -145,7 +145,13 @@ As of **11.01.2026**, the overall **Kalshi Senate-control market shows a 71% cha
 | Independent simulation | 86.02% | +15.02 percentage points |
 | Correlated simulation | 76.30% | +5.30 percentage points |
 
-The simulations estimate roughly a **76%–86% chance that Democrats capture the Senate**, compared with the overall market's **71%**. That gap suggests a **potential opportunity in the market**: if the model inputs and assumptions hold, the overall contract may understate the chance of Democratic control.
+The simulations estimate roughly a **76%–86% chance that Democrats capture the Senate**, compared with the 11.01.2026 overall market's **71%**. That gap suggests a **potential opportunity in the market**: if the model inputs and assumptions hold, the overall contract may understate the chance of Democratic control. The 76%–86% range represents **two model estimates**, not a confidence interval. The gap is a reason to investigate possible mispricing; it does not by itself prove that the market is poorly calibrated or guarantee a profit. The simulations flag a potential pricing opportunity under our chosen assumptions. 
 
-The 76%–86% range represents **two model estimates**, not a confidence interval. The gap is a reason to investigate possible mispricing; it does not by itself prove that the market is poorly calibrated or guarantee a profit. The simulations flag a potential pricing opportunity under our chosen assumptions. Confirming a trading edge requires checking the exact inputs, correlation setting, contract rules, and executable price after fees.
+**Opportunity** 
 
+This article showed how overall prediction markets that are composed of smaller markets can be potentiallly mispriced. If all of the components are available/priced, we can use simulation techniques, like the Monte Carlo to understand where there is potential value. Breaking the problem down into smaller parts has always been a trick that management consultants used in the past to quantify value and make accurate forecasts. Now you have a path on howto do this yourself! 
+
+**Resources** 
+- **Decision Intelligence with AI Book:** https://www.decisionintelligencebook.ai/ 
+- **US Senate Elections Forecast Console App:** https://github.com/bartczernicki/USSenateElectionsForecast
+- **System One Decisions Console App:** https://github.com/bartczernicki/SystemOneDecisionsConsole 
