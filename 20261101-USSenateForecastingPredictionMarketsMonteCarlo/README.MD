@@ -2,7 +2,7 @@
 
 Prediction markets price both individual Senate races and overall Senate control. This article tests whether those prices tell the same story. We combine individual race probabilities with Monte Carlo simulations and compare the resulting chance of Senate control with the overall market contract.
 
-As of **11.01.2026**, Kalshi's overall contract gives Democrats a **71%** chance of controlling the Senate, while our simulations using its individual race probabilities estimate roughly **76%–86%**. We'll walk through the inputs, compare independent and correlated simulations, and explore whether that gap suggests a potential market opportunity.
+As of **11.01.2026**, Kalshi's overall contract gives Democrats a **71%** chance of controlling the Senate, while our simulations using its individual race probabilities estimate roughly a **76%–86%** chance. We'll walk through the inputs, compare independent and correlated simulations, and explore whether that gap suggests a potential market opportunity.
 
 ## Background on the 2026 Senate Races
 
@@ -12,7 +12,7 @@ As of **11.01.2026**, Kalshi's overall contract gives Democrats a **71%** chance
 - **What Democrats need:** A **net gain of four seats** brings their bloc to 51 and gives them control. Holding all their current seats means flipping four Republican seats; each Democratic loss requires another pickup. ([Inside Elections](https://insideelections.com/ratings/senate/))
 - **What Republicans need:** **50 seats are enough to retain control**, because Republican Vice President J.D. Vance can break ties. Republicans can therefore lose three seats net and still control the chamber at 50-50. ([U.S. Senate](https://www.senate.gov/legislative/TieVotes.htm))
 
-In this article, we will demonstrate a forecast of the 35 US Senate race outcomes & combine the forecasts with the **65 existing US Senate seats not on the ballot**. This will determine the final 100 US Senate totals and each party's probability of controlling the Senate.
+In this article, we will demonstrate a forecast of the 35 US Senate race outcomes & combine the forecasts with the 65 existing US Senate seats not on the ballot. This will determine the final 100 US Senate totals and each party's probability of controlling the Senate.
 
 ## Background on Prediction Markets
 
