@@ -147,5 +147,5 @@ As of **11.01.2026**, the overall **Kalshi Senate-control market shows a 71% cha
 
 The simulations estimate roughly a **76%–86% chance that Democrats capture the Senate**, compared with the overall market's **71%**. That gap suggests a **potential opportunity in the market**: if the model inputs and assumptions hold, the overall contract may understate the chance of Democratic control.
 
-The 76%–86% range represents **two model estimates**, not a confidence interval. The gap is a reason to investigate possible mispricing; it does not by itself prove that the market is poorly calibrated or guarantee a profit.
+The 76%–86% range represents **two model estimates**, not a confidence interval. The gap is a reason to investigate possible mispricing; it does not by itself prove that the market is poorly calibrated or guarantee a profit. The simulations flag a potential pricing opportunity under our chosen assumptions. Confirming a trading edge requires checking the exact inputs, correlation setting, contract rules, and executable price after fees.
 
