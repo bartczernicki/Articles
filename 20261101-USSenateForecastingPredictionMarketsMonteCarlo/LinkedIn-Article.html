@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Comparing Kalshi Senate-control prices with independent and correlated Monte Carlo simulations using November 1, 2026 race probabilities.">
+  <title>Forecasting the U.S. Senate with Prediction Markets and Monte Carlo Simulations</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #fff; color: #202124; font-family: Arial, Helvetica, sans-serif; font-size: 18px; line-height: 1.65; }
+    article { width: min(100% - 40px, 860px); margin: 48px auto 72px; overflow-wrap: break-word; }
+    h1, h2, h3 { color: #111827; line-height: 1.25; }
+    h1 { margin: 0 0 28px; font-size: clamp(30px, 5vw, 42px); letter-spacing: -0.025em; }
+    h2 { margin: 42px 0 18px; font-size: 28px; }
+    h3 { margin: 30px 0 14px; font-size: 23px; }
+    p { margin: 0 0 20px; }
+    a { color: #0a66c2; text-decoration: underline; text-underline-offset: 2px; overflow-wrap: anywhere; }
+    ul, ol { padding-left: 28px; margin: 0 0 22px; }
+    li { margin-bottom: 12px; }
+    li p { margin-bottom: 12px; }
+    img { display: block; max-width: 100%; height: auto; margin: 0 auto 12px; }
+    p:has(> img), p:has(> a > img) { text-align: center; margin: 26px 0; }
+    em { color: #374151; }
+    table { width: 100%; border-collapse: collapse; margin: 24px 0; font-size: 16px; }
+    th, td { border: 1px solid #cbd5e1; padding: 10px 12px; text-align: left; }
+    th { background: #f1f5f9; font-weight: 700; }
+    tbody tr:nth-child(even) { background: #f8fafc; }
+    @media (max-width: 600px) {
+      body { font-size: 17px; }
+      article { width: calc(100% - 28px); margin-top: 28px; }
+      h2 { font-size: 25px; }
+      table { font-size: 14px; }
+      th, td { padding: 7px; }
+    }
+    @media print {
+      article { width: 100%; margin: 0; }
+      h1, h2, h3 { break-after: avoid; }
+      img, table { break-inside: avoid; }
+    }
+
+  </style>
+</head>
+<body>
+  <!-- Copy the heading into LinkedIn’s Title field and the remaining article into its body editor. Add images with LinkedIn’s media tools if they do not transfer. -->
+  <article>
+<h1 id="forecasting-the-u.s.senate-with-prediction-markets-and-monte-carlo-simulations">Forecasting the U.S. Senate with Prediction Markets and Monte Carlo Simulations</h1>
+<p>Prediction markets price both individual Senate races and overall Senate control. This article tests whether those prices tell the same story. We combine individual race probabilities with Monte Carlo simulations and compare the resulting chance of Senate control with the overall market contract.</p>
+<p>As of <strong>11.01.2026</strong>, Kalshi's overall contract gives Democrats a <strong>71%</strong> chance of controlling the Senate, while our simulations using its individual race probabilities estimate roughly a <strong>76%–86%</strong> chance. We'll walk through the inputs, compare independent and correlated simulations, and explore whether that gap suggests a potential market opportunity.</p>
+<h2 id="background-on-the-2026-senate-races">Background on the 2026 Senate Races</h2>
+<p><strong>Key Information:</strong></p>
+<ul>
+<li><strong>Current balance of power:</strong> There are a total of 100 U.S. senators (2 senators for every state in the U.S.). Republicans hold <strong>53 seats</strong>, compared with <strong>45 Democrats and two independents who caucus with them</strong>, giving the Democratic bloc 47 seats. (<a href="https://ballotpedia.org/United_States_Senate_elections,_2026">Ballotpedia</a>)</li>
+<li><strong>Senate Election map:</strong> On 11.03.2026, voters will decide <strong>35 of the Senate's 100 open seats</strong>: a total of 33 regular elections plus special Senate elections in Florida and Ohio. Republicans defend 22 seats and Democrats defend 13. (<a href="https://ballotpedia.org/United_States_Senate_elections,_2026">Ballotpedia</a>)</li>
+<li><strong>What Democrats need:</strong> A <strong>net gain of four seats</strong> brings their bloc to 51 and gives them control. Holding all their current seats means flipping four Republican seats; each Democratic loss requires another pickup. (<a href="https://insideelections.com/ratings/senate/">Inside Elections</a>)</li>
+<li><strong>What Republicans need:</strong> <strong>50 seats are enough to retain control</strong>, because Republican Vice President J.D. Vance can break ties. Republicans can therefore lose three seats net and still control the chamber at 50-50. (<a href="https://www.senate.gov/legislative/TieVotes.htm">U.S. Senate</a>)</li>
+</ul>
+<p>In this article, we will demonstrate a forecast of the 35 US Senate race outcomes &amp; combine the forecasts with the 65 existing US Senate seats not on the ballot. This will determine the final 100 US Senate totals and each party's probability of controlling the Senate.</p>
+<h2 id="background-on-prediction-markets">Background on Prediction Markets</h2>
+<p>Prediction markets such as Polymarket and Kalshi let people buy and sell contracts on questions like, &quot;Will this candidate win?&quot; Trading turns those competing views into a probability that changes as new information arrives. A market resolves when it confirms the outcome under its rules and settles the contracts.</p>
+<p><img src="https://www.tradetheoutcome.com/wp-content/uploads/2026/07/How-Kalshi-YES-NO-Contract-Payoffs-Work-768x512.jpg" alt="How Kalshi Contract Market Works" />
+<em>Workflow of Kalshi Market Contracts. Image credit: <a href="https://www.tradetheoutcome.com/wp-content/uploads/2026/07/How-Kalshi-YES-NO-Contract-Payoffs-Work-768x512.jpg">Trade the Outcome</a>.</em></p>
+<p><strong>Key Concepts:</strong></p>
+<ul>
+<li><p><strong>Prices represent probabilities:</strong> A &quot;YES&quot; contract priced at <strong>$0.65 implies about a 65% chance</strong> of the event happening. In a standard binary market, that contract pays $1 if the event happens and $0 if it does not. The percentage describes the chance of winning, rather than the candidate's expected share of the vote. (<a href="https://help.polymarket.com/en/articles/13364060-what-is-polymarket">Polymarket overview</a>)</p>
+</li>
+<li><p><strong>You can sell before the result:</strong> Like stocks, contract prices rise and fall. Buying at $0.65 and selling at $0.80 earns $0.15 per contract before fees; selling at $0.45 instead loses $0.20 ($0.65 - $0.45 = $0.20). Traders can take a profit or limit a loss before resolution, provided another trader will buy. (<a href="https://legacy-docs.polymarket.com/faq/trading">Polymarket trading guide</a>)</p>
+</li>
+<li><p><strong>Collective Intelligence:</strong> Traders bring different polls, news, expertise and local knowledge. Their buying and selling combines that information into one price: the <strong>wisdom of markets</strong>. Someone who thinks the price is wrong has an incentive to trade against it, helping the market update. (<a href="https://help.polymarket.com/en/articles/13364060-what-is-polymarket">Polymarket overview</a>)</p>
+<p><img src="https://raw.githubusercontent.com/bartczernicki/decision-intelligence-with-ai/refs/heads/main/Images/DecisionIntelligence-Quote-JamesSurowiecki-WisdomOfCrowds.png" alt="James Surowiecki on the wisdom of crowds" /></p>
+</li>
+<li><p><strong>People put money behind their beliefs:</strong> Financial stakes give a forecast more accountability than a casual opinion. This connects with the core them in Annie Duke's book <em>Thinking in Bets</em>. That makes prediction market prices useful evidence, as traders are materialy invested in their forecast beliefs. (<a href="https://www.annieduke.com/thinking-in-bets/">Annie Duke on thinking in bets</a>)</p>
+<p align="center">
+  <a href="https://www.penguinrandomhouseretail.com/book/?isbn=9780735216358"><img src="https://images.penguinrandomhouse.com/cover/9780735216358" alt="Thinking in Bets by Annie Duke — book cover" width="150"></a>
+</p>
+</li>
+<li><p><strong>Calibration means the percentages match reality:</strong> Across many comparable events assigned a <strong>70% chance</strong>, roughly <strong>70 out of 100 should happen</strong> (within statistical boundary) in a well-calibrated market. If the forecast is way over in its forecast versus the reality, it is considered overconfident. Conversely, a forecast that is way under its forecast is considered underconfident. (<a href="https://pubmed.ncbi.nlm.nih.gov/42896054/">Research on market calibration, 2026</a>)</p>
+<p><img src="https://raw.githubusercontent.com/bartczernicki/decision-intelligence-with-ai/refs/heads/main/Images/DecisionIntelligence-DecisionAssurance-Calibration.png" alt="Decision assurance and probability calibration" /></p>
+</li>
+<li><p><strong>Forecasts often improve closer to resolution:</strong> Kalshi's own August 2026 study of more than 2.2 million resolved markets found prices generally well calibrated near resolution, with forecast errors declining as markets approached their close. This supports using near-election prices as inputs, while calibration still needs to be checked against actual outcomes. (<a href="https://kalshi.com/research/publications/calibration">Kalshi Research, 2026</a>)</p>
+</li>
+</ul>
+<p><strong>U.S. Senate Races on Prediction Markets</strong></p>
+<p>Prediction markets offer both <strong>macro contracts</strong> for the overall election and <strong>detailed contracts</strong> for each individual Senate race:</p>
+<ul>
+<li><p><strong>Overall Senate control:</strong> This contract asks which party will control the U.S. Senate. The 11.01.2026 screenshot below shows a 71% chance for Democrats and 29% for Republicans.</p>
+<p align="center">
+  <a href="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/20261101-USSenate.png"><img src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/20261101-USSenate.png" alt="Kalshi Senate-control market showing Democrats at 71% and Republicans at 29%" width="500"></a>
+</p>
+</li>
+<li><p><strong>Individual Senate races:</strong> Separate contracts cover each state's race. For example, the 11.01.2026 Texas screenshot shows James Talarico at 69% and Ken Paxton at 31%.</p>
+<p align="center">
+  <a href="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/20261101-TexasSenate.png"><img src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/20261101-TexasSenate.png" alt="Kalshi Texas Senate market showing James Talarico at 69% and Ken Paxton at 31%" width="500"></a>
+</p>
+</li>
+</ul>
+<p>For our Senate forecast, individual race prices provide the starting estimates. We test whether combining those probabilities produces a Senate-control estimate consistent with the overall contract. A difference could point to potential value, depending on the model assumptions; proximity to Election Day alone does not establish that the prices are well calibrated.</p>
+<h2 id="monte-carlo-simulations-forecast-methodology">Monte Carlo Simulations &amp; Forecast Methodology</h2>
+<p>A <strong>Monte Carlo simulation</strong> runs a model thousands (or more) of times, using random draws to represent uncertainty. Each run produces one possible future. For our Senate forecast, one run represents an entire election: who wins each race, how many seats each party holds, and who controls the chamber.</p>
+<p><img src="https://raw.githubusercontent.com/bartczernicki/decision-intelligence-with-ai/refs/heads/main/Images/DecisionIntelligenceFramework/DecisionExecution-QuantMethods-LadderSimulation.png" alt="Simulation as a way to explore outcomes before acting, illustrated by a person checking a ladder" />
+<em>A Monte Carlo simulation lets us explore what could happen before the real event, much like checking a ladder's stability before climbing.</em></p>
+<p><strong>Monte Carlo Basics:</strong></p>
+<ul>
+<li><strong>Probabilities guide the random draws:</strong> In a simple independent simulation, a candidate with a 70% chance wins when a random number between 0 and 1 falls below 0.70. Across many runs, that candidate wins roughly seven times out of ten, while still losing in some simulated elections.</li>
+<li><strong>Many runs produce a range of outcomes:</strong> Some simulated elections produce a narrow majority; others produce a larger victory for either party. The result is a <strong>distribution of possible seat totals</strong>, showing both common and less likely outcomes.</li>
+<li><strong>Count how often an outcome happens:</strong> As an illustration, if Democrats control the Senate in 65,000 of 100,000 simulations, the model estimates a 65% chance of Democratic control. More runs reduce random variation in this estimate; the quality of the forecast still depends on its inputs and assumptions.</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/bartczernicki/decision-intelligence-with-ai/refs/heads/main/Images/DecisionIntelligence-MonteCarlo-SalesProbabilities.png" alt="Monte Carlo sales forecast showing a distribution of outcomes from 10,000 simulations" />
+<em>This sales example illustrates the same principle: repeated simulations produce a range of possible results.</em></p>
+<p><strong>U.S. Senate Forecast Methodology:</strong></p>
+<ol>
+<li><strong>Start with market probabilities:</strong> Use Kalshi's <strong>11.01.2026</strong> estimates for the 35 races as inputs. Hold the 65 Senate seats not on the ballot fixed.</li>
+<li><strong>Simulate a complete election:</strong> Generate winners for all 35 races. An independent baseline treats each race separately; a correlated version also includes shared influences that can move several races together.</li>
+<li><strong>Count seats and determine control:</strong> Add the simulated winners to the existing seats, counting independents according to their caucus alignment. Democrats need a bloc of 51; Republicans can retain control with 50 because they hold the vice presidency.</li>
+<li><strong>Repeat and compare:</strong> Summarize the seat distribution and control probabilities across many simulated elections. Compare the independent and correlated results with the overall Kalshi contract to see how the assumptions affect the estimated opportunity.</li>
+</ol>
+<p><strong>Correlated Outcomes: FLIPR and Shared National Influences</strong></p>
+<p>Senate races share influences such as national turnout and shifts in voter sentiment. If a forecast misses one of those influences, several races can surprise us together. Nate Silver's <strong>FLIPR</strong> model combines polls, other indicators such as incumbency and fundraising, and, in its default version, expert ratings. It runs <strong>many simulations per update</strong>, accounting for uncertainty shared nationally, across similar regions or demographic groups, within a state, and within individual races. (<a href="https://www.natesilver.net/p/flipr-midterms-model-methodology">Silver's FLIPR methodology</a>)</p>
+<p>Think of the national environment as a tide that can help or hurt candidates from the same party across several states. In our correlated model, <strong>we assume</strong> this shared tide accounts for <strong>12% of the variation in each race's simulated score</strong>, while the other <strong>88%</strong> comes from uncertainty specific to that race. This is our modeling assumption, not a parameter taken from FLIPR. It allows races in Michigan, Iowa and North Carolina to move together while still producing different results. The shared influence can favor either party; we do not assume a Democratic wave.</p>
+<h2 id="simulation-approach-and-results">Simulation Approach and Results</h2>
+<p>The <a href="https://github.com/bartczernicki/USSenateElectionsForecast">USSenateElectionsForecast console application</a> puts these ideas into practice.</p>
+<p><strong>Results setup:</strong> Both runs use the same <strong>11.01.2026 Kalshi probabilities for the 35 Senate races</strong>, plus the 65 seats not on the ballot. We compare an <strong>independent model</strong> with a <strong>correlated model that allows races to move together</strong>. The correlated model allows a national surprise benefiting either party; it does not assume a Democratic wave.</p>
+<p><strong>What the simulation checks:</strong> We combine the individual Senate race probabilities through repeated simulated elections, add the seats not on the ballot, and estimate each party's chance of Senate control. We then compare that estimate with the overall Senate contract. <strong>Do the individual race prices tell the same story as the overall market?</strong></p>
+<p><strong>Looking for potential value:</strong> A meaningful gap could suggest that a contract is priced too high or too low. The comparison should use probabilities from the same time and matching contract rules. A gap can also reflect assumptions about how races move together, so it signals possible mispricing to investigate. Establishing that a market is poorly calibrated requires checking many forecasts against their actual outcomes.</p>
+<p><strong>Independent Monte Carlo Simulation:</strong> This treats each individual race as 100% independent. For example, the Texas Senate race doesn't impact the Iowa Senate race and vice-versa.</p>
+<p>Using the <strong>Kalshi individual-race probabilities</strong>, the independent simulation produces the following seat distribution and probabilities:</p>
+<p align="center">
+  <a href="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Independent-Distributions.png"><img src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Independent-Distributions.png" alt="Independent simulation seat distributions for the Democratic and Republican caucuses" width="500"></a>
+</p>
+<p align="center">
+  <a href="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Independent-Probabilities.png"><img src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Independent-Probabilities.png" alt="Independent simulation probabilities of reaching Democratic seat thresholds, including an 86.02% chance of at least 51 seats" width="500"></a>
+</p>
+<ul>
+<li><strong>Democratic control:</strong> Democrats reach the required <strong>51 seats or more in 86.02%</strong> of simulations.</li>
+<li><strong>Most common result:</strong> <strong>52 Democratic-caucus seats</strong>, occurring in <strong>24.55%</strong> of simulations.</li>
+<li><strong>A larger majority:</strong> The chance of reaching <strong>at least 55 Democratic-caucus seats is 7.06%</strong>.</li>
+</ul>
+<p>This model suggests Democrats are favored to capture the Senate, with the most likely results concentrated around a small majority.</p>
+<p><strong>Correlated Monte Carlo Simulation:</strong> This uses the same Kalshi individual-race probabilities while allowing a shared national influence to move races together. A national surprise can help or hurt the same party across several states.</p>
+<p align="center">
+  <a href="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Correlated-Distribution.png"><img src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Correlated-Distribution.png" alt="Correlated simulation showing a wider distribution of Democratic-caucus seat totals" width="500"></a>
+</p>
+<p align="center">
+  <a href="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Correlated-Probabilities.png"><img src="https://raw.githubusercontent.com/bartczernicki/Articles/refs/heads/main/20261101-USSenateForecastingPredictionMarketsMonteCarlo/Images/Simulation-Correlated-Probabilities.png" alt="Correlated simulation probabilities of reaching Democratic seat thresholds, including a 76.30% chance of at least 51 seats" width="500"></a>
+</p>
+<ul>
+<li><strong>Democratic control:</strong> Democrats reach <strong>51 seats or more in 76.30%</strong> of simulations.</li>
+<li><strong>Most common results:</strong> <strong>53 Democratic-caucus seats (16.04%)</strong> and <strong>52 seats (15.97%)</strong> are nearly tied.</li>
+<li><strong>A wider range of outcomes:</strong> The chance of reaching <strong>at least 55 Democratic-caucus seats rises to 17.33%</strong>, compared with 7.06% in the independent model.</li>
+</ul>
+<p>The shared national influence increases the chances of both strong and disappointing Democratic results. This explains why a larger majority becomes more likely even as the probability of Democratic control falls. Correlation changes which races are won together while preserving each race's starting win probability.</p>
+<h2 id="conclusion-opportunity">Conclusion &amp; Opportunity</h2>
+<p>As of <strong>11.01.2026</strong>, the overall <strong>Kalshi Senate-control market shows a 71% chance of Democratic control</strong>. Simulating the individual Kalshi race probabilities produces higher estimates under both approaches:</p>
+<table>
+<thead>
+<tr>
+<th>Estimate</th>
+<th style="text-align: right;">Democratic control</th>
+<th style="text-align: right;">Difference from market</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Overall Kalshi contract</td>
+<td style="text-align: right;">71%</td>
+<td style="text-align: right;">—</td>
+</tr>
+<tr>
+<td>Independent simulation</td>
+<td style="text-align: right;">86.02%</td>
+<td style="text-align: right;">+15.02 percentage points</td>
+</tr>
+<tr>
+<td>Correlated simulation</td>
+<td style="text-align: right;">76.30%</td>
+<td style="text-align: right;">+5.30 percentage points</td>
+</tr>
+</tbody>
+</table>
+<p>The simulations estimate roughly a <strong>76%–86% chance that Democrats capture the Senate</strong>, compared with the 11.01.2026 overall market's <strong>71%</strong>. That gap suggests a <strong>potential opportunity in the market</strong>: if the model inputs and assumptions hold, the overall contract may understate the chance of Democratic control. The 76%–86% range represents <strong>two model estimates</strong>, not a confidence interval. The gap is a reason to investigate possible mispricing; it does not by itself prove that the market is poorly calibrated or guarantee a profit. The simulations flag a potential pricing opportunity under our chosen assumptions.</p>
+<p><strong>Opportunity</strong></p>
+<p>This article showed how overall prediction markets that are composed of smaller markets can be potentiallly mispriced. If all of the components are available/priced, we can use simulation techniques, like the Monte Carlo to understand where there is potential value. Breaking the problem down into smaller parts has always been a trick that management consultants used in the past to quantify value and make accurate forecasts. Now you have a path on howto do this yourself!</p>
+<p><strong>Resources</strong></p>
+<ul>
+<li><strong>Decision Intelligence with AI Book:</strong> <a href="https://www.decisionintelligencebook.ai/">https://www.decisionintelligencebook.ai/</a></li>
+<li><strong>US Senate Elections Forecast Console App:</strong> <a href="https://github.com/bartczernicki/USSenateElectionsForecast">https://github.com/bartczernicki/USSenateElectionsForecast</a></li>
+<li><strong>System One Decisions Console App:</strong> <a href="https://github.com/bartczernicki/SystemOneDecisionsConsole">https://github.com/bartczernicki/SystemOneDecisionsConsole</a></li>
+</ul>
+
+  </article>
+</body>
+</html>
